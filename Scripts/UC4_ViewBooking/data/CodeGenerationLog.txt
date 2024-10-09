@@ -1,0 +1,2416 @@
+****** Start Log Message ******
+Web Recorder version : 2020.0.0.793 
+Recording Mode: HTML-based script containing explicit URLs only
+Recording headers not in list:
+	accept
+	accept-charset
+	accept-encoding
+	accept-language
+	accept-ranges
+	age
+	allow
+	cache-control
+	content-base
+	content-disposition
+	content-encoding
+	content-language
+	content-location
+	content-md5
+	content-range
+	content-type
+	date
+	etag
+	expires
+	from
+	if-modified-since
+	if-match
+	if-none-match
+	if-range
+	if-unmodified-since
+	location
+	last-modified
+	max-forwards
+	pragma
+	public
+	range
+	retry-after
+	server
+	transfer-encoding
+	upgrade
+	user-agent
+	vary
+	via
+	warning
+	method
+	path
+	scheme
+Not excluding content types
+Do not record this content types as a resource:
+	text/html
+	text/xml
+	application/json
+Reset context between actions
+Record non-HTML elements in current HTML function
+Protocol Type: Multi-QTWeb
+
+$$$$$$ End Log Message $$$$$$
+
+Code generation version: 2020.0.0.793
+
+****** Analyze segments filter initialization ******
+[Traffic Filtering] Filtering 142.250.75.234
+[Traffic Filtering] Filtering 172.217.20.170
+[Traffic Filtering] Filtering 216.58.214.170
+[Traffic Filtering] Filtering 172.217.20.202
+[Traffic Filtering] Filtering 172.217.20.170
+[Traffic Filtering] Filtering 216.58.215.42
+[Traffic Filtering] Filtering 172.217.20.202
+[Traffic Filtering] Filtering 142.250.179.74
+[Traffic Filtering] Filtering 216.58.215.42
+[Traffic Filtering] Filtering 142.250.179.106
+[Traffic Filtering] Filtering 216.58.213.74
+[Traffic Filtering] Filtering 142.250.178.138
+[Traffic Filtering] Filtering 142.250.179.74
+[Traffic Filtering] Filtering 142.250.201.170
+[Traffic Filtering] Filtering 142.250.179.106
+[Traffic Filtering] Filtering 172.217.18.202
+[Traffic Filtering] Filtering 142.250.178.138
+[Traffic Filtering] Filtering 216.58.214.74
+[Traffic Filtering] Filtering 142.250.201.170
+[Traffic Filtering] Filtering 142.250.74.234
+[Traffic Filtering] Filtering 172.217.18.202
+[Traffic Filtering] Filtering 142.250.75.234
+[Traffic Filtering] Filtering 142.250.75.234
+[Traffic Filtering] Filtering 216.58.214.170
+[Traffic Filtering] Filtering 216.58.214.170
+[Traffic Filtering] Filtering 172.217.20.170
+[Traffic Filtering] Filtering 172.217.20.170
+[Traffic Filtering] Filtering 172.217.20.202
+[Traffic Filtering] Filtering 172.217.20.202
+[Traffic Filtering] Filtering 216.58.215.42
+[Traffic Filtering] Filtering 216.58.215.42
+[Traffic Filtering] Filtering 142.250.179.74
+[Traffic Filtering] Filtering 216.58.213.74
+[Traffic Filtering] Filtering 142.250.179.106
+[Traffic Filtering] Filtering 142.250.179.74
+[Traffic Filtering] Filtering 142.250.178.138
+[Traffic Filtering] Filtering 142.250.179.106
+[Traffic Filtering] Filtering 142.250.201.170
+[Traffic Filtering] Filtering 142.250.178.138
+[Traffic Filtering] Filtering 172.217.18.202
+[Traffic Filtering] Filtering 142.250.201.170
+[Traffic Filtering] Filtering 216.58.214.74
+[Traffic Filtering] Filtering 172.217.18.202
+[Traffic Filtering] Filtering 142.250.74.234
+[Traffic Filtering] Filtering 142.250.75.234
+[Traffic Filtering] Filtering 142.250.75.234
+[Traffic Filtering] Filtering 216.58.214.170
+[Traffic Filtering] Filtering 216.58.214.170
+[Traffic Filtering] Filtering 172.217.20.170
+[Traffic Filtering] Filtering 172.217.20.170
+[Traffic Filtering] Filtering 172.217.20.202
+[Traffic Filtering] Filtering 172.217.20.202
+[Traffic Filtering] Filtering 216.58.215.42
+[Traffic Filtering] Filtering 216.58.215.42
+[Traffic Filtering] Filtering 216.58.213.74
+[Traffic Filtering] Filtering 142.250.179.74
+[Traffic Filtering] Filtering 142.250.179.74
+[Traffic Filtering] Filtering 142.250.179.106
+[Traffic Filtering] Filtering 142.250.179.106
+[Traffic Filtering] Filtering 142.250.178.138
+[Traffic Filtering] Filtering 142.250.178.138
+[Traffic Filtering] Filtering 142.250.201.170
+[Traffic Filtering] Filtering 142.250.201.170
+[Traffic Filtering] Filtering 172.217.18.202
+[Traffic Filtering] Filtering 172.217.18.202
+[Traffic Filtering] Filtering 216.58.214.74
+[Traffic Filtering] Filtering 142.250.75.234
+[Traffic Filtering] Filtering 142.250.74.234
+[Traffic Filtering] Filtering 216.58.214.170
+[Traffic Filtering] Filtering 142.250.75.234
+[Traffic Filtering] Filtering 172.217.20.170
+[Traffic Filtering] Filtering 216.58.214.170
+[Traffic Filtering] Filtering 172.217.20.202
+[Traffic Filtering] Filtering 172.217.20.170
+[Traffic Filtering] Filtering 216.58.215.42
+[Traffic Filtering] Filtering 172.217.20.202
+[Traffic Filtering] Filtering 216.58.213.74
+[Traffic Filtering] Filtering 216.58.215.42
+[Traffic Filtering] Filtering 142.250.179.74
+[Traffic Filtering] Filtering 142.250.179.74
+[Traffic Filtering] Filtering 142.250.179.106
+[Traffic Filtering] Filtering 142.250.179.106
+[Traffic Filtering] Filtering 142.250.178.138
+[Traffic Filtering] Filtering 142.250.178.138
+[Traffic Filtering] Filtering 142.250.201.170
+[Traffic Filtering] Filtering 142.250.201.170
+[Traffic Filtering] Filtering 172.217.18.202
+[Traffic Filtering] Filtering 172.217.18.202
+[Traffic Filtering] Filtering 216.58.214.74
+[Traffic Filtering] Filtering 142.250.74.234
+[Traffic Filtering] Filtering 142.250.75.234
+[Traffic Filtering] Filtering 216.58.214.170
+[Traffic Filtering] Filtering 34.107.221.82
+[Traffic Filtering] Filtering 34.107.221.82
+[Traffic Filtering] Filtering 34.107.221.82
+[Traffic Filtering] Filtering 34.107.221.82
+[Traffic Filtering] Filtering 35.244.181.201
+[Traffic Filtering] Filtering 35.244.181.201
+[Traffic Filtering] Filtering 35.244.181.201
+[Traffic Filtering] Filtering 34.120.208.123
+[Traffic Filtering] Filtering 35.244.181.201
+[Traffic Filtering] Filtering 34.120.208.123
+[Traffic Filtering] Filtering 34.149.100.209
+[Traffic Filtering] Filtering 34.107.243.93
+[Traffic Filtering] Filtering 34.160.144.191
+[Traffic Filtering] Filtering 34.120.208.123
+[Traffic Filtering] Filtering 34.149.100.209
+[Traffic Filtering] Filtering 34.107.243.93
+[Traffic Filtering] Filtering 34.160.144.191
+[Traffic Filtering] Filtering 34.117.188.166
+[Traffic Filtering] Filtering 34.120.208.123
+[Traffic Filtering] Filtering 34.149.100.209
+[Traffic Filtering] Filtering 34.107.243.93
+[Traffic Filtering] Filtering 34.160.144.191
+[Traffic Filtering] Filtering 34.117.188.166
+[Traffic Filtering] Filtering 34.149.100.209
+[Traffic Filtering] Filtering 34.107.243.93
+[Traffic Filtering] Filtering 34.160.144.191
+[Traffic Filtering] Filtering 34.117.188.166
+[Traffic Filtering] Filtering 34.117.188.166
+[Traffic Filtering] Filtering detectportal.firefox.com
+****** Request Header For Transaction With Id 206 ******
+GET /canonical.html HTTP/1.1
+Host: detectportal.firefox.com
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0
+Accept: */*
+Accept-Language: ru,en-US;q=0.7,en;q=0.3
+Accept-Encoding: gzip, deflate
+Cache-Control: no-cache
+Pragma: no-cache
+Connection: keep-alive
+
+
+$$$$$$ Request Header For Transaction With Id 206 Ended $$$$$$
+
+****** Response Header For Transaction With Id 206 ******
+HTTP/1.1 200 OK
+Server: nginx
+Content-Length: 90
+Via: 1.1 google
+Date: Tue, 08 Oct 2024 22:05:15 GMT
+Age: 57687
+Content-Type: text/html
+Cache-Control: public,must-revalidate,max-age=0,s-maxage=3600
+
+
+$$$$$$ Response Header For Transaction With Id 206 Ended $$$$$$
+
+****** Response Body For Transaction With Id 206 ******
+<meta http-equiv="refresh" content="0;url=https://support.mozilla.org/kb/captive-portal"/>
+$$$$$$ Response Body For Transaction With Id 206 Ended $$$$$$
+
+[Traffic Filtering] Filtering detectportal.firefox.com
+****** Request Header For Transaction With Id 217 ******
+GET /success.txt?ipv4 HTTP/1.1
+Host: detectportal.firefox.com
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0
+Accept: */*
+Accept-Language: ru,en-US;q=0.7,en;q=0.3
+Accept-Encoding: gzip, deflate
+Connection: keep-alive
+Priority: u=4
+Pragma: no-cache
+Cache-Control: no-cache
+
+
+$$$$$$ Request Header For Transaction With Id 217 Ended $$$$$$
+
+****** Response Header For Transaction With Id 217 ******
+HTTP/1.1 200 OK
+Server: nginx
+Content-Length: 8
+Via: 1.1 google
+Date: Tue, 08 Oct 2024 23:06:15 GMT
+Age: 54027
+Content-Type: text/plain
+Cache-Control: public,must-revalidate,max-age=0,s-maxage=3600
+
+
+$$$$$$ Response Header For Transaction With Id 217 Ended $$$$$$
+
+****** Response Body For Transaction With Id 217 ******
+success
+
+$$$$$$ Response Body For Transaction With Id 217 Ended $$$$$$
+
+[Traffic Filtering] Filtering 142.250.75.234
+[Traffic Filtering] Filtering 172.217.20.170
+[Traffic Filtering] Filtering 216.58.214.170
+[Traffic Filtering] Filtering 172.217.20.202
+[Traffic Filtering] Filtering 172.217.20.170
+[Traffic Filtering] Filtering 216.58.215.42
+[Traffic Filtering] Filtering 172.217.20.202
+[Traffic Filtering] Filtering 142.250.179.74
+[Traffic Filtering] Filtering 216.58.215.42
+[Traffic Filtering] Filtering 142.250.179.106
+[Traffic Filtering] Filtering 216.58.213.74
+[Traffic Filtering] Filtering 142.250.178.138
+[Traffic Filtering] Filtering 142.250.179.74
+[Traffic Filtering] Filtering 142.250.201.170
+[Traffic Filtering] Filtering 142.250.179.106
+[Traffic Filtering] Filtering 172.217.18.202
+[Traffic Filtering] Filtering 142.250.178.138
+[Traffic Filtering] Filtering 216.58.214.74
+[Traffic Filtering] Filtering 142.250.201.170
+[Traffic Filtering] Filtering 142.250.74.234
+[Traffic Filtering] Filtering 172.217.18.202
+[Traffic Filtering] Filtering 142.250.75.234
+[Traffic Filtering] Filtering 142.250.75.234
+[Traffic Filtering] Filtering 216.58.214.170
+[Traffic Filtering] Filtering 216.58.214.170
+[Traffic Filtering] Filtering 172.217.20.170
+[Traffic Filtering] Filtering 172.217.20.170
+[Traffic Filtering] Filtering 172.217.20.202
+[Traffic Filtering] Filtering 172.217.20.202
+[Traffic Filtering] Filtering 216.58.215.42
+[Traffic Filtering] Filtering 216.58.215.42
+[Traffic Filtering] Filtering 142.250.179.74
+[Traffic Filtering] Filtering 216.58.213.74
+[Traffic Filtering] Filtering 142.250.179.106
+[Traffic Filtering] Filtering 142.250.179.74
+[Traffic Filtering] Filtering 142.250.178.138
+[Traffic Filtering] Filtering 142.250.179.106
+[Traffic Filtering] Filtering 142.250.201.170
+[Traffic Filtering] Filtering 142.250.178.138
+[Traffic Filtering] Filtering 172.217.18.202
+[Traffic Filtering] Filtering 142.250.201.170
+[Traffic Filtering] Filtering 216.58.214.74
+[Traffic Filtering] Filtering 172.217.18.202
+[Traffic Filtering] Filtering 142.250.74.234
+[Traffic Filtering] Filtering 142.250.75.234
+[Traffic Filtering] Filtering 142.250.75.234
+[Traffic Filtering] Filtering 216.58.214.170
+[Traffic Filtering] Filtering 216.58.214.170
+[Traffic Filtering] Filtering 172.217.20.170
+[Traffic Filtering] Filtering 172.217.20.170
+[Traffic Filtering] Filtering 172.217.20.202
+[Traffic Filtering] Filtering 172.217.20.202
+[Traffic Filtering] Filtering 216.58.215.42
+[Traffic Filtering] Filtering 216.58.215.42
+[Traffic Filtering] Filtering 216.58.213.74
+[Traffic Filtering] Filtering 142.250.179.74
+[Traffic Filtering] Filtering 142.250.179.74
+[Traffic Filtering] Filtering 142.250.179.106
+[Traffic Filtering] Filtering 142.250.179.106
+[Traffic Filtering] Filtering 142.250.178.138
+[Traffic Filtering] Filtering 142.250.178.138
+[Traffic Filtering] Filtering 142.250.201.170
+[Traffic Filtering] Filtering 142.250.201.170
+[Traffic Filtering] Filtering 172.217.18.202
+[Traffic Filtering] Filtering 172.217.18.202
+[Traffic Filtering] Filtering 216.58.214.74
+[Traffic Filtering] Filtering 142.250.75.234
+[Traffic Filtering] Filtering 142.250.74.234
+[Traffic Filtering] Filtering 216.58.214.170
+[Traffic Filtering] Filtering 142.250.75.234
+[Traffic Filtering] Filtering 172.217.20.170
+[Traffic Filtering] Filtering 216.58.214.170
+[Traffic Filtering] Filtering 172.217.20.202
+[Traffic Filtering] Filtering 172.217.20.170
+[Traffic Filtering] Filtering 216.58.215.42
+[Traffic Filtering] Filtering 172.217.20.202
+[Traffic Filtering] Filtering 216.58.213.74
+[Traffic Filtering] Filtering 216.58.215.42
+[Traffic Filtering] Filtering 142.250.179.74
+[Traffic Filtering] Filtering 142.250.179.74
+[Traffic Filtering] Filtering 142.250.179.106
+[Traffic Filtering] Filtering 142.250.179.106
+[Traffic Filtering] Filtering 142.250.178.138
+[Traffic Filtering] Filtering 142.250.178.138
+[Traffic Filtering] Filtering 142.250.201.170
+[Traffic Filtering] Filtering 142.250.201.170
+[Traffic Filtering] Filtering 172.217.18.202
+[Traffic Filtering] Filtering 172.217.18.202
+[Traffic Filtering] Filtering 216.58.214.74
+[Traffic Filtering] Filtering 142.250.74.234
+[Traffic Filtering] Filtering 142.250.75.234
+[Traffic Filtering] Filtering 216.58.214.170
+****** Request Header For Transaction With Id 383 ******
+GET /WebTours/ HTTP/1.1
+Host: localhost:1080
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/png,image/svg+xml,*/*;q=0.8
+Accept-Language: ru,en-US;q=0.7,en;q=0.3
+Accept-Encoding: gzip, deflate
+Connection: keep-alive
+Upgrade-Insecure-Requests: 1
+Priority: u=0, i
+
+
+$$$$$$ Request Header For Transaction With Id 383 Ended $$$$$$
+
+****** Response Header For Transaction With Id 383 ******
+HTTP/1.1 200 OK
+Date: Wed, 09 Oct 2024 14:07:03 GMT
+Server: Apache/2.2.21 (Win32)
+Last-Modified: Thu, 03 Oct 2024 17:04:47 GMT
+ETag: "10000000c00e0-16e-623958d46136a"
+Accept-Ranges: bytes
+Content-Length: 605
+Keep-Alive: timeout=5, max=100
+Connection: Keep-Alive
+Content-Type: text/html
+
+
+$$$$$$ Response Header For Transaction With Id 383 Ended $$$$$$
+
+****** Response Body For Transaction With Id 383 ******
+<HTML>
+<HEAD>
+<title>Web Tours</title>
+<script type="text/javascript" src="http://ff.kis.v2.scr.kaspersky-labs.com/FD126C42-EBFA-4E12-B309-BB3FDD723AC1/main.js?attr=QJPnnpDbMeO7WNeeWZDydtsBQlJrjmysqtQBMyCJCkKHFU9G75Uj0dmuiBreHVFC88rNgscFq4xmcADjxBxb2w" charset="UTF-8"></script><frameset rows = "65,*" border="1" bordercolor="#E0E7F1">
+<frame name="header" src="header.html" scrolling="no" noresize="noresize" marginheight="2" marginwidth="2"/>
+<frame name="body" src="/cgi-bin/welcome.pl?signOff=true" scrolling="auto" noresize="noresize" marginheight="2" marginwidth="2" />
+</frameset>
+</HEAD>
+</HTML>
+
+
+$$$$$$ Response Body For Transaction With Id 383 Ended $$$$$$
+
+****** Start Log Message ******
+
+Start Frames Hierarchy Tree Dump
+The Node has no URL
+End Frames Hierarchy Tree Dump
+
+$$$$$$ End Log Message $$$$$$
+
+****** Start Log Message ******
+Set SSL version to 'AUTO'
+$$$$$$ End Log Message $$$$$$
+
+****** Add Event For Transaction With Id 383 ****** (Location Flag : tFlagInsertEnd, Location ID : 383)
+	web_url("WebTours",
+		"URL=http://localhost:1080/WebTours/",
+		"TargetFrame=",
+		"Resource=0",
+		"RecContentType=text/html",
+		"Referer=",
+		"Snapshot=t1.inf",
+		"Mode=HTML",
+		LAST);
+
+
+$$$$$$ Add Event For Transaction With Id 383 Ended $$$$$$
+
+[Traffic Filtering] Filtering detectportal.firefox.com
+****** Request Header For Transaction With Id 413 ******
+GET /success.txt?ipv4 HTTP/1.1
+Host: detectportal.firefox.com
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0
+Accept: */*
+Accept-Language: ru,en-US;q=0.7,en;q=0.3
+Accept-Encoding: gzip, deflate
+Connection: keep-alive
+Priority: u=4
+Pragma: no-cache
+Cache-Control: no-cache
+
+
+$$$$$$ Request Header For Transaction With Id 413 Ended $$$$$$
+
+****** Response Header For Transaction With Id 413 ******
+HTTP/1.1 200 OK
+Server: nginx
+Content-Length: 8
+Via: 1.1 google
+Date: Tue, 08 Oct 2024 23:06:15 GMT
+Age: 54041
+Content-Type: text/plain
+Cache-Control: public,must-revalidate,max-age=0,s-maxage=3600
+
+
+$$$$$$ Response Header For Transaction With Id 413 Ended $$$$$$
+
+****** Response Body For Transaction With Id 413 ******
+success
+
+$$$$$$ Response Body For Transaction With Id 413 Ended $$$$$$
+
+[Traffic Filtering] Filtering firefox.settings.services.mozilla.com
+****** Request Header For Transaction With Id 417 ******
+GET /v1/buckets/main/collections/ms-language-packs/records/cfr-v1-en-US HTTP/1.1
+Host: firefox.settings.services.mozilla.com
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0
+Accept: application/json
+Accept-Language: ru,en-US;q=0.7,en;q=0.3
+Accept-Encoding: gzip, deflate, br, zstd
+Content-Type: application/json
+Connection: keep-alive
+Priority: u=4
+
+
+$$$$$$ Request Header For Transaction With Id 417 Ended $$$$$$
+
+****** Response Header For Transaction With Id 417 ******
+HTTP/1.1 200 OK
+Server: nginx
+Content-Length: 329
+Access-Control-Allow-Origin: *
+Access-Control-Expose-Headers: Pragma, Content-Length, Cache-Control, Alert, ETag, Expires, Retry-After, Last-Modified, Backoff, Content-Type
+X-Content-Type-Options: nosniff
+Content-Security-Policy: default-src 'none'; frame-ancestors 'none'; base-uri 'none';
+Strict-Transport-Security: max-age=31536000
+Via: 1.1 google
+Date: Wed, 09 Oct 2024 14:05:55 GMT
+Age: 61
+Last-Modified: Fri, 25 Mar 2022 17:45:46 GMT
+ETag: "1648230346554"
+Content-Type: application/json
+Cache-Control: public,max-age=3600
+Alt-Svc: clear
+
+
+$$$$$$ Response Header For Transaction With Id 417 Ended $$$$$$
+
+****** Response Body For Transaction With Id 417 ******
+{"permissions":{},"data":{"attachment":{"hash":"0ec0f16f92d876a9c1140d4c11e2b346a9292984d9a854360e54e99fdcd99cc0","size":7581,"filename":"asrouter.ftl","location":"main-workspace/ms-language-packs/4f1bcaa0-ddf9-43ef-aca3-8378c4d05582.ftl","mimetype":"application/octet-stream"},"id":"cfr-v1-en-US","last_modified":1648230346554}}
+$$$$$$ Response Body For Transaction With Id 417 Ended $$$$$$
+
+[Traffic Filtering] Filtering content-signature-2.cdn.mozilla.net
+****** Request Header For Transaction With Id 419 ******
+GET /chains/remote-settings.content-signature.mozilla.org-2024-10-28-16-16-00.chain HTTP/1.1
+Host: content-signature-2.cdn.mozilla.net
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0
+Accept: */*
+Accept-Language: ru,en-US;q=0.7,en;q=0.3
+Accept-Encoding: gzip, deflate, br, zstd
+Connection: keep-alive
+
+
+$$$$$$ Request Header For Transaction With Id 419 Ended $$$$$$
+
+****** Response Header For Transaction With Id 419 ******
+HTTP/1.1 200 OK
+X-Amz-Id-2: l8RI7zDD697RZuDPXkAJJRrmIqutWgCiFG9SpxzOb8uGE6yQ1SujQQxsS08vtAh32WMPTGDKZ2Cw7uYmRNdORQ==
+X-Amz-Request-Id: H088WQC47TT7T5JK
+X-Amz-Server-Side-Encryption: AES256
+Content-Disposition: attachment
+Accept-Ranges: bytes
+Server: AmazonS3
+Content-Length: 5352
+Via: 1.1 google
+Date: Wed, 09 Oct 2024 13:33:42 GMT
+Age: 1994
+Last-Modified: Sun, 08 Sep 2024 16:16:01 GMT
+ETag: "8ac4ad6a30aefbf5c27f40661532547a"
+Content-Type: binary/octet-stream
+Cache-Control: public,max-age=3600
+Alt-Svc: clear
+
+
+$$$$$$ Response Header For Transaction With Id 419 Ended $$$$$$
+
+****** Response Body For Transaction With Id 419 ******
+-----BEGIN CERTIFICATE-----
+MIIDBjCCAougAwIBAgIIF/NRBCKmTV8wCgYIKoZIzj0EAwMwgaMxCzAJBgNVBAYT
+AlVTMRwwGgYDVQQKExNNb3ppbGxhIENvcnBvcmF0aW9uMS8wLQYDVQQLEyZNb3pp
+bGxhIEFNTyBQcm9kdWN0aW9uIFNpZ25pbmcgU2VydmljZTFFMEMGA1UEAww8Q29u
+dGVudCBTaWduaW5nIEludGVybWVkaWF0ZS9lbWFpbEFkZHJlc3M9Zm94c2VjQG1v
+emlsbGEuY29tMB4XDTI0MDgwOTE2MTYwMFoXDTI0MTAyODE2MTYwMFowgakxCzAJ
+BgNVBAYTAlVTMRMwEQYDVQQIEwpDYWxpZm9ybmlhMRYwFAYDVQQHEw1Nb3VudGFp
+biBWaWV3MRwwGgYDVQQKExNNb3ppbGxhIENvcnBvcmF0aW9uMRcwFQYDVQQLEw5D
+bG91ZCBTZXJ2aWNlczE2MDQGA1UEAxMtcmVtb3RlLXNldHRpbmdzLmNvbnRlbnQt
+c2lnbmF0dXJlLm1vemlsbGEub3JnMHYwEAYHKoZIzj0CAQYFK4EEACIDYgAEj5E9
+6Tlp5cgX5+MYw1GyFEZ1vDNSy3BrYJ84a9YKGgtehohbWDePrdh8WsVoA7m5/Cbp
+LAYzXGHrnC/InK1J26OPP+XC52QyG4n/ilAIVtefHIaIrx4ixS1mlCFiELuao4GD
+MIGAMA4GA1UdDwEB/wQEAwIHgDATBgNVHSUEDDAKBggrBgEFBQcDAzAfBgNVHSME
+GDAWgBSgHUoXT4zCKzVF8WPx2nBwp8744TA4BgNVHREEMTAvgi1yZW1vdGUtc2V0
+dGluZ3MuY29udGVudC1zaWduYXR1cmUubW96aWxsYS5vcmcwCgYIKoZIzj0EAwMD
+aQAwZgIxAOhiGkJMOyUY+tCEjhs77EFfqeJH++Da8JaEln44WKDxWCL9htpXiVrM
+rYyFkHvVaAIxAMa5xmasZ0IUzenjdnWpt4skXp4qvFQMvUp3wsfyu39mqdYrwqcv
+MX6JjW18V9p/CQ==
+-----END CERTIFICATE-----
+-----BEGIN CERTIFICATE-----
+MIIFfzCCA2egAwIBAgIDEAAJMA0GCSqGSIb3DQEBDAUAMH0xCzAJBgNVBAYTAlVT
+MRwwGgYDVQQKExNNb3ppbGxhIENvcnBvcmF0aW9uMS8wLQYDVQQLEyZNb3ppbGxh
+IEFNTyBQcm9kdWN0aW9uIFNpZ25pbmcgU2VydmljZTEfMB0GA1UEAxMWcm9vdC1j
+YS1wcm9kdWN0aW9uLWFtbzAiGA8yMDIwMTIzMTAwMDAwMFoYDzIwMjUwMzE0MjI1
+MzU3WjCBozELMAkGA1UEBhMCVVMxHDAaBgNVBAoTE01vemlsbGEgQ29ycG9yYXRp
+b24xLzAtBgNVBAsTJk1vemlsbGEgQU1PIFByb2R1Y3Rpb24gU2lnbmluZyBTZXJ2
+aWNlMUUwQwYDVQQDDDxDb250ZW50IFNpZ25pbmcgSW50ZXJtZWRpYXRlL2VtYWls
+QWRkcmVzcz1mb3hzZWNAbW96aWxsYS5jb20wdjAQBgcqhkjOPQIBBgUrgQQAIgNi
+AAQklaclq89BKPcYIfUdVS4JF/pZxjTVOlYVdj4QJ5xopHAngXkUggYkkHj0tmZV
+EcrXrCVq1qEtB/k7wXXkU4HN9rX7WcUkksClDJmUQ2qabzP7i20q3epGNq57RE2p
+3hKjggGJMIIBhTAMBgNVHRMEBTADAQH/MA4GA1UdDwEB/wQEAwIBBjAWBgNVHSUB
+Af8EDDAKBggrBgEFBQcDAzAdBgNVHQ4EFgQUoB1KF0+Mwis1RfFj8dpwcKfO+OEw
+gagGA1UdIwSBoDCBnYAUs7zqWHSr4W54KrKrnCMeqGMsl7ehgYGkfzB9MQswCQYD
+VQQGEwJVUzEcMBoGA1UEChMTTW96aWxsYSBDb3Jwb3JhdGlvbjEvMC0GA1UECxMm
+TW96aWxsYSBBTU8gUHJvZHVjdGlvbiBTaWduaW5nIFNlcnZpY2UxHzAdBgNVBAMT
+FnJvb3QtY2EtcHJvZHVjdGlvbi1hbW+CAQEwMwYJYIZIAYb4QgEEBCYWJGh0dHA6
+Ly9hZGRvbnMuYWxsaXpvbS5vcmcvY2EvY3JsLnBlbTBOBgNVHR4ERzBFoEMwIIIe
+LmNvbnRlbnQtc2lnbmF0dXJlLm1vemlsbGEub3JnMB+CHWNvbnRlbnQtc2lnbmF0
+dXJlLm1vemlsbGEub3JnMA0GCSqGSIb3DQEBDAUAA4ICAQALeUuF/7hcmM/LFnK6
+6a5lBQk5z5JBr2bNNvKVs/mtdIcVKcxjWxOBM5rorZiM5UWE7BmAm8E7gFCCq30y
+ZnNn6BO04z5LtDRHxa3IGhgECloyOJUSi9xxFxe5p5wJzFdArl7happSOUwOi+z2
+aDqS6uTJWubIY4Uz7h7S2UkUm52CTYnvpioS7eQoovvrlUsgIhkkIwDQnu7RWSej
+6nkc5o5SNwAJWsQvxIko32AxhvPmmtv1T/mtXY488TJ0VoBZ6lRkJJIxIJ48pGHJ
++YRt1tzO2aqCEs9pNPGWfhrpcDc2mu4fvlSX1elWYiGrpQBVbdEJlDkGAD0AC8on
+/7ybD2pEdh7pViVLV78Md+DNNquqqNhRJpn65k4lhvgDLHYvLNOrrtAmcmQonNdU
+OSumIuqcGk7dm/7gr9lrwAm8V8/GwDyzTgi4wNA4vwln3c7iMFGLL/b2piEQCSl+
+mqL1LeWJV+8rkbi8l2T0QIBwjDgR97ZxpLPwmUdDNiGAWeEFxn0jU9CQtQKjOj84
+VPZUM7aSHhVQ0bQpnjua7IWvLKK7F2fOo3PmuLacnnfyrzr2C/Le5k6EK/0q2cKf
+P6JzDWwt8werc6E3C6z3jbUdAwgNpv/fGz8gQBPf7NeiYkqMUNB2Z3aF8He8Jg15
+Abv+2+rSOLpBsTU67AHzMKJ8hw==
+-----END CERTIFICATE-----
+-----BEGIN CERTIFICATE-----
+MIIGYTCCBEmgAwIBAgIBATANBgkqhkiG9w0BAQwFADB9MQswCQYDVQQGEwJVUzEc
+MBoGA1UEChMTTW96aWxsYSBDb3Jwb3JhdGlvbjEvMC0GA1UECxMmTW96aWxsYSBB
+TU8gUHJvZHVjdGlvbiBTaWduaW5nIFNlcnZpY2UxHzAdBgNVBAMTFnJvb3QtY2Et
+cHJvZHVjdGlvbi1hbW8wHhcNMTUwMzE3MjI1MzU3WhcNMjUwMzE0MjI1MzU3WjB9
+MQswCQYDVQQGEwJVUzEcMBoGA1UEChMTTW96aWxsYSBDb3Jwb3JhdGlvbjEvMC0G
+A1UECxMmTW96aWxsYSBBTU8gUHJvZHVjdGlvbiBTaWduaW5nIFNlcnZpY2UxHzAd
+BgNVBAMTFnJvb3QtY2EtcHJvZHVjdGlvbi1hbW8wggIgMA0GCSqGSIb3DQEBAQUA
+A4ICDQAwggIIAoICAQC0u2HXXbrwy36+MPeKf5jgoASMfMNz7mJWBecJgvlTf4hH
+JbLzMPsIUauzI9GEpLfHdZ6wzSyFOb4AM+D1mxAWhuZJ3MDAJOf3B1Rs6QorHrl8
+qqlNtPGqepnpNJcLo7JsSqqE3NUm72MgqIHRgTRsqUs+7LIPGe7262U+N/T0LPYV
+Le4rZ2RDHoaZhYY7a9+49mHOI/g2YFB+9yZjE+XdplT2kBgA4P8db7i7I0tIi4b0
+B0N6y9MhL+CRZJyxdFe2wBykJX14LsheKsM1azHjZO56SKNrW8VAJTLkpRxCmsiT
+r08fnPyDKmaeZ0BtsugicdipcZpXriIGmsZbI12q5yuwjSELdkDV6Uajo2n+2ws5
+uXrP342X71WiWhC/dF5dz1LKtjBdmUkxaQMOP/uhtXEKBrZo1ounDRQx1j7+SkQ4
+BEwjB3SEtr7XDWGOcOIkoJZWPACfBLC3PJCBWjTAyBlud0C5n3Cy9regAAnOIqI1
+t16GU2laRh7elJ7gPRNgQgwLXeZcFxw6wvyiEcmCjOEQ6PM8UQjthOsKlszMhlKw
+vjyOGDoztkqSBy/v+Asx7OW2Q7rlVfKarL0mREZdSMfoy3zTgtMVCM0vhNl6zcvf
+5HNNopoEdg5yuXo2chZ1p1J+q86b0G5yJRMeT2+iOVY2EQ37tHrqUURncCy4uwIB
+A6OB7TCB6jAMBgNVHRMEBTADAQH/MA4GA1UdDwEB/wQEAwIBBjAWBgNVHSUBAf8E
+DDAKBggrBgEFBQcDAzCBkgYDVR0jBIGKMIGHoYGBpH8wfTELMAkGA1UEBhMCVVMx
+HDAaBgNVBAoTE01vemlsbGEgQ29ycG9yYXRpb24xLzAtBgNVBAsTJk1vemlsbGEg
+QU1PIFByb2R1Y3Rpb24gU2lnbmluZyBTZXJ2aWNlMR8wHQYDVQQDExZyb290LWNh
+LXByb2R1Y3Rpb24tYW1vggEBMB0GA1UdDgQWBBSzvOpYdKvhbngqsqucIx6oYyyX
+tzANBgkqhkiG9w0BAQwFAAOCAgEAaNSRYAaECAePQFyfk12kl8UPLh8hBNidP2H6
+KT6O0vCVBjxmMrwr8Aqz6NL+TgdPmGRPDDLPDpDJTdWzdj7khAjxqWYhutACTew5
+eWEaAzyErbKQl+duKvtThhV2p6F6YHJ2vutu4KIciOMKB8dslIqIQr90IX2Usljq
+8Ttdyf+GhUmazqLtoB0GOuESEqT4unX6X7vSGu1oLV20t7t5eCnMMYD67ZBn0YIU
+/cm/+pan66hHrja+NeDGF8wabJxdqKItCS3p3GN1zUGuJKrLykxqbOp/21byAGog
+Z1amhz6NHUcfE6jki7sM7LHjPostU5ZWs3PEfVVgha9fZUhOrIDsyXEpCWVa3481
+LlAq3GiUMKZ5DVRh9/Nvm4NwrTfB3QkQQJCwfXvO9pwnPKtISYkZUqhEqvXk5nBg
+QCkDSLDjXTx39naBBGIVIqBtKKuVTla9enngdq692xX/CgO6QJVrwpqdGjebj5P8
+5fNZPABzTezG3Uls5Vp+4iIWVAEDkK23cUj3c/HhE+Oo7kxfUeu5Y1ZV3qr61+6t
+ZARKjbu1TuYQHf0fs+GwID8zeLc2zJL7UzcHFwwQ6Nda9OJN4uPAuC/BKaIpxCLL
+26b24/tRam4SJjqpiq20lynhUrmTtt6hbG3E1Hpy3bmkt2DYnuMFwEx2gfXNcnbT
+wNuvFqc=
+-----END CERTIFICATE-----
+
+$$$$$$ Response Body For Transaction With Id 419 Ended $$$$$$
+
+[Traffic Filtering] Filtering firefox.settings.services.mozilla.com
+****** Request Header For Transaction With Id 422 ******
+GET /v1/ HTTP/1.1
+Host: firefox.settings.services.mozilla.com
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0
+Accept: */*
+Accept-Language: ru,en-US;q=0.7,en;q=0.3
+Accept-Encoding: gzip, deflate, br, zstd
+Connection: keep-alive
+Priority: u=4
+
+
+$$$$$$ Request Header For Transaction With Id 422 Ended $$$$$$
+
+****** Response Header For Transaction With Id 422 ******
+HTTP/1.1 200 OK
+Server: nginx
+Content-Length: 939
+Access-Control-Allow-Origin: *
+Access-Control-Expose-Headers: Retry-After, Backoff, Alert, Content-Length, Content-Type
+X-Content-Type-Options: nosniff
+Content-Security-Policy: default-src 'none'; frame-ancestors 'none'; base-uri 'none';
+Strict-Transport-Security: max-age=31536000
+Via: 1.1 google
+Date: Wed, 09 Oct 2024 13:28:50 GMT
+Age: 2286
+Content-Type: application/json
+Cache-Control: public,max-age=3600
+Alt-Svc: clear
+
+
+$$$$$$ Response Header For Transaction With Id 422 Ended $$$$$$
+
+****** Response Body For Transaction With Id 422 ******
+{"project_name":"Remote Settings PROD","project_version":"18.1.1","http_api_version":"1.22","project_docs":"https://remote-settings.readthedocs.io","url":"https://firefox.settings.services.mozilla.com/v1/","settings":{"batch_max_requests":25,"readonly":true,"explicit_permissions":false},"capabilities":{"changes":{"description":"Track modifications of records in Kinto and store the collection timestamps into a specific bucket and collection.","url":"http://kinto.readthedocs.io/en/latest/tutorials/synchronisation.html#polling-for-remote-changes","version":"32.4.3","collections":["/buckets/blocklists","/buckets/blocklists-preview","/buckets/main","/buckets/main-preview","/buckets/security-state","/buckets/security-state-preview"]},"attachments":{"description":"Add file attachments to records","url":"https://github.com/Kinto/kinto-attachment/","version":"6.4.0","base_url":"https://firefox-settings-attachments.cdn.mozilla.net/"}}}
+$$$$$$ Response Body For Transaction With Id 422 Ended $$$$$$
+
+[Traffic Filtering] Filtering push.services.mozilla.com
+****** Request Header For Transaction With Id 427 ******
+GET / HTTP/1.1
+Host: push.services.mozilla.com
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0
+Accept: */*
+Accept-Language: ru,en-US;q=0.7,en;q=0.3
+Accept-Encoding: gzip, deflate, br, zstd
+Sec-WebSocket-Version: 13
+Origin: wss://push.services.mozilla.com/
+Sec-WebSocket-Protocol: push-notification
+Sec-WebSocket-Extensions: permessage-deflate
+Sec-WebSocket-Key: j1g649O43eOyLtJK6onrgg==
+Connection: keep-alive, Upgrade
+Sec-Fetch-Dest: empty
+Sec-Fetch-Mode: websocket
+Sec-Fetch-Site: cross-site
+Pragma: no-cache
+Cache-Control: no-cache
+Upgrade: websocket
+
+
+$$$$$$ Request Header For Transaction With Id 427 Ended $$$$$$
+
+****** Response Header For Transaction With Id 427 ******
+HTTP/1.1 101 Switching Protocols
+sec-websocket-accept: QKSuha09PH8afZ2Is42glEUYlSQ=
+date: Wed, 09 Oct 2024 14:06:56 GMT
+Via: 1.1 google
+Upgrade: websocket
+Connection: Upgrade
+Alt-Svc: h3=":443"; ma=2592000,h3-29=":443"; ma=2592000
+
+
+$$$$$$ Response Header For Transaction With Id 427 Ended $$$$$$
+
+****** Response Body For Transaction With Id 427 ******
+
+$$$$$$ Response Body For Transaction With Id 427 Ended $$$$$$
+
+[Traffic Filtering] Filtering contile.services.mozilla.com
+****** Request Header For Transaction With Id 429 ******
+GET /v1/tiles HTTP/1.1
+Host: contile.services.mozilla.com
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0
+Accept: */*
+Accept-Language: ru,en-US;q=0.7,en;q=0.3
+Accept-Encoding: gzip, deflate, br, zstd
+Connection: keep-alive
+Priority: u=4
+
+
+$$$$$$ Request Header For Transaction With Id 429 Ended $$$$$$
+
+****** Response Header For Transaction With Id 429 ******
+HTTP/1.1 204 No Content
+date: Wed, 09 Oct 2024 14:06:56 GMT
+via: 1.1 google
+Alt-Svc: h3=":443"; ma=2592000,h3-29=":443"; ma=2592000
+
+
+$$$$$$ Response Header For Transaction With Id 429 Ended $$$$$$
+
+[Traffic Filtering] Filtering aus5.mozilla.org
+****** Request Header For Transaction With Id 431 ******
+GET /update/6/Firefox/130.0.1/20240913135723/WINNT_x86_64-msvc-x64/en-US/release/Windows_NT%252010.0.0.0.22631.4169%2520(x64)/ISET%3ASSE4_2%2CMEM%3A16219/portableapps/1.0/update.xml?force=1 HTTP/1.1
+Host: aus5.mozilla.org
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0
+Accept: */*
+Accept-Language: ru,en-US;q=0.7,en;q=0.3
+Accept-Encoding: gzip, deflate, br, zstd
+Cache-Control: no-cache
+Pragma: no-cache
+Connection: keep-alive
+
+
+$$$$$$ Request Header For Transaction With Id 431 Ended $$$$$$
+
+****** Response Header For Transaction With Id 431 ******
+HTTP/1.1 200 OK
+Server: nginx
+Date: Wed, 09 Oct 2024 14:06:56 GMT
+Content-Type: text/xml; charset=utf-8
+Vary: Accept-Encoding
+Rule-ID: 145
+Rule-Data-Version: 611
+Strict-Transport-Security: max-age=31536000;
+X-Content-Type-Options: nosniff
+Content-Security-Policy: default-src 'none'; frame-ancestors 'none'
+X-Proxy-Cache-Status: MISS
+Content-Encoding: gzip
+Via: 1.1 google
+Cache-Control: public,max-age=90
+Alt-Svc: clear
+Transfer-Encoding: chunked
+
+
+$$$$$$ Response Header For Transaction With Id 431 Ended $$$$$$
+
+****** Response Body For Transaction With Id 431 ******
+<?xml version="1.0"?>
+<updates>
+    <update actions="showURL" appVersion="131.0.2" buildID="20241008210941" detailsURL="https://www.mozilla.org/en-US/firefox/131.0.2/releasenotes/" displayVersion="131.0.2" openURL="https://www.mozilla.org/firefox/131.0.2/whatsnew/?oldversion=%OLD_VERSION%&amp;utm_medium=firefox-desktop&amp;utm_source=update&amp;utm_campaign=131" type="minor">
+        <patch type="complete" URL="https://download.mozilla.org/?product=firefox-131.0.2-complete&amp;os=win64&amp;lang=en-US" hashFunction="sha512" hashValue="980ca138022b06a867898e86950688d99a386fc0685392905a11b5291e5d28445c71c7d11c84c36cb85f83f25482ffbd026f2c170245fa238fbb5f06b0f59400" size="71912784"/>
+        <patch type="partial" URL="https://download.mozilla.org/?product=firefox-131.0.2-partial-130.0.1&amp;os=win64&amp;lang=en-US" hashFunction="sha512" hashValue="f62987a2654fb87177ad80426565db1ee0dbcf4bed1a24ba958905ca7d2ee0649c2e4eda1ba3fd66e6cac90777cec0f7a40f4cf02eac0ccf7f254678efc6186b" size="14194778"/>
+    </update>
+</updates>
+$$$$$$ Response Body For Transaction With Id 431 Ended $$$$$$
+
+[Traffic Filtering] Filtering incoming.telemetry.mozilla.org
+****** Request Header For Transaction With Id 434 ******
+POST /submit/firefox-desktop/newtab/1/d8c69af4-6135-488d-90eb-b0141b61cadf HTTP/1.1
+Host: incoming.telemetry.mozilla.org
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0
+Accept: */*
+Accept-Language: ru,en-US;q=0.7,en;q=0.3
+Accept-Encoding: gzip, deflate, br, zstd
+content-encoding: gzip
+x-telemetry-agent: Glean/60.4.0 (Rust on Windows)
+date: Wed, 09 Oct 2024 14:06:55 GMT
+content-type: application/json; charset=utf-8
+content-length: 1116
+Connection: keep-alive
+Sec-Fetch-Dest: empty
+Sec-Fetch-Mode: no-cors
+Sec-Fetch-Site: none
+Priority: u=4
+Pragma: no-cache
+Cache-Control: no-cache
+
+
+$$$$$$ Request Header For Transaction With Id 434 Ended $$$$$$
+
+****** Request Body For Transaction With Id 434 ******
+{"ping_info":{"seq":55,"start_time":"2024-10-09T18:10:44.000+05:00","end_time":"2024-10-09T19:02:58.601+05:00","reason":"newtab_session_end","experiments":{"backgroundupdate-enable-unelevated-installations-rollout-3-release":{"branch":"enabled","extra":{"type":"nimbus-rollout"}},"consolidated-search-configuration-row-desktop-relaunch":{"branch":"rollout","extra":{"type":"nimbus-rollout"}},"disable-redirects-for-authretries":{"branch":"control","extra":{"type":"nimbus-rollout"}},"disable-ads-startup-cache":{"branch":"control","extra":{"type":"nimbus-rollout"}},"encrypted-client-hello-fallback-mechanism":{"branch":"control","extra":{"type":"nimbus-rollout"}},"fx-view-discoverability-rollout":{"branch":"treatment-b","extra":{"type":"nimbus-rollout"}},"fx-accounts-ping-release-rollout-2":{"branch":"control","extra":{"type":"nimbus-rollout"}},"launch-firefox-on-os-restart-treatment-a-rollout":{"branch":"treatment-a","extra":{"type":"nimbus-rollout"}},"long-term-holdback-2024-h2-velocity-desktop":{"branch":"deliver
+$$$$$$ Request Body For Transaction With Id 434 Ended $$$$$$
+
+****** Response Header For Transaction With Id 434 ******
+HTTP/1.1 200 OK
+Server: openresty
+Date: Wed, 09 Oct 2024 14:06:56 GMT
+Content-Type: text/plain; charset=utf-8
+Vary: Accept-Encoding
+Strict-Transport-Security: max-age=31536000
+X-Frame-Options: DENY
+Access-Control-Allow-Methods: GET, POST, PUT, OPTIONS
+Access-Control-Max-Age: 1728000
+Access-Control-Allow-Headers: Accept-Encoding,Connection,Content-Encoding,Content-Length,Content-Type,DNT,Date,Sec-Fetch-Dest,Sec-Fetch-Mode,Sec-Fetch-Site,User-Agent,X-Client-Type,X-Client-Version,X-Debug-ID,X-Forwarded-For,X-Pingsender-Version,X-Pipeline-Proxy,X-Source-Tags,X-Telemetry-Agent
+Content-Encoding: gzip
+Via: 1.1 google
+Alt-Svc: clear
+Transfer-Encoding: chunked
+
+
+$$$$$$ Response Header For Transaction With Id 434 Ended $$$$$$
+
+****** Response Body For Transaction With Id 434 ******
+
+$$$$$$ Response Body For Transaction With Id 434 Ended $$$$$$
+
+[Traffic Filtering] Filtering 34.117.121.53
+[Traffic Filtering] Filtering 34.117.121.53
+[Traffic Filtering] Filtering 34.117.121.53
+[Traffic Filtering] Filtering 34.117.121.53
+****** Request Header For Transaction With Id 461 ******
+GET /WebTours/header.html HTTP/1.1
+Host: localhost:1080
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/png,image/svg+xml,*/*;q=0.8
+Accept-Language: ru,en-US;q=0.7,en;q=0.3
+Accept-Encoding: gzip, deflate
+Connection: keep-alive
+Referer: http://localhost:1080/WebTours/
+Upgrade-Insecure-Requests: 1
+If-Modified-Since: Thu, 03 Oct 2024 17:04:47 GMT
+If-None-Match: "10000000c00de-2c6-623958d44f898"
+Priority: u=4
+
+
+$$$$$$ Request Header For Transaction With Id 461 Ended $$$$$$
+
+****** Response Header For Transaction With Id 461 ******
+HTTP/1.1 304 Not Modified
+Date: Wed, 09 Oct 2024 14:07:11 GMT
+Server: Apache/2.2.21 (Win32)
+Connection: Keep-Alive
+Keep-Alive: timeout=5, max=100
+ETag: "10000000c00de-2c6-623958d44f898"
+
+
+$$$$$$ Response Header For Transaction With Id 461 Ended $$$$$$
+
+****** Start Log Message ******
+
+Start Frames Hierarchy Tree Dump
+/WebTours/
+End Frames Hierarchy Tree Dump
+
+$$$$$$ End Log Message $$$$$$
+
+****** Add Event For Transaction With Id 0 ****** (Location Flag : tFlagInsertBefore, Location ID : 383)
+	web_add_auto_header("Priority",
+		"u=0, i");
+
+
+$$$$$$ Add Event For Transaction With Id 0 Ended $$$$$$
+
+****** Request Header For Transaction With Id 475 ******
+GET /cgi-bin/welcome.pl?signOff=true HTTP/1.1
+Host: localhost:1080
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/png,image/svg+xml,*/*;q=0.8
+Accept-Language: ru,en-US;q=0.7,en;q=0.3
+Accept-Encoding: gzip, deflate
+Connection: keep-alive
+Referer: http://localhost:1080/WebTours/
+Upgrade-Insecure-Requests: 1
+Priority: u=4
+
+
+$$$$$$ Request Header For Transaction With Id 475 Ended $$$$$$
+
+****** Response Header For Transaction With Id 475 ******
+HTTP/1.1 200 OK
+Date: Wed, 09 Oct 2024 14:07:11 GMT
+Server: Apache/2.2.21 (Win32)
+Set-Cookie: MSO=SID&1728482831; path=/
+Set-Cookie: MTUserInfo=; path=/; expires=Tue, 08-Oct-2024 14:07:11 GMT
+Keep-Alive: timeout=5, max=99
+Connection: Keep-Alive
+Transfer-Encoding: chunked
+Content-Type: text/html; charset=ISO-8859-1
+
+
+$$$$$$ Response Header For Transaction With Id 475 Ended $$$$$$
+
+****** Response Body For Transaction With Id 475 ******
+<!-- 
+ A Session ID has been created and loaded into a cookie called MSO.
+ Also, the server options have been loaded into the cookie called
+ MSO as well.  The server options can be set via the Admin page.
+ --->
+
+<html>
+<title>Web Tours</title>
+   <!-- Frame Set -->
+   <script type="text/javascript" src="http://ff.kis.v2.scr.kaspersky-labs.com/FD126C42-EBFA-4E12-B309-BB3FDD723AC1/main.js?attr=MHLbEKSL26seO1GJwZTCWnF9EusH9BevQwVWF8zgZvT9UNNgbCsw55rFF9sAQDa-TbtAbmdXqnMkgs3FxtoamKhNP8NnRRbNozNMF9oGwfg" charset="UTF-8"></script><frameset cols="160,*" border="1" frameborder="1">
+      <!-- Navigation Frame -->
+      <frame src="nav.pl?in=home" name="navbar" marginheight="2" marginwidth="2" 
+            noresize="noresize" scrolling="auto"/>
+      <!-- Home Frame -->
+      <frame src="/WebTours/home.html" name="info" marginheight="2" marginwidth="2" 
+            noresize="noresize" scrolling="auto"/>
+   </frameset>
+</html>
+
+</body>
+</html>
+$$$$$$ Response Body For Transaction With Id 475 Ended $$$$$$
+
+****** Start Log Message ******
+
+Start Frames Hierarchy Tree Dump
+/WebTours/
+	/WebTours/header.html
+End Frames Hierarchy Tree Dump
+
+$$$$$$ End Log Message $$$$$$
+
+****** Request Header For Transaction With Id 492 ******
+GET /WebTours/home.html HTTP/1.1
+Host: localhost:1080
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/png,image/svg+xml,*/*;q=0.8
+Accept-Language: ru,en-US;q=0.7,en;q=0.3
+Accept-Encoding: gzip, deflate
+Connection: keep-alive
+Referer: http://localhost:1080/cgi-bin/welcome.pl?signOff=true
+Cookie: MSO=SID&1728482831
+Upgrade-Insecure-Requests: 1
+If-Modified-Since: Thu, 03 Oct 2024 17:04:47 GMT
+If-None-Match: "10000000c00df-551-623958d452d56"
+Priority: u=4
+
+
+$$$$$$ Request Header For Transaction With Id 492 Ended $$$$$$
+
+****** Response Header For Transaction With Id 492 ******
+HTTP/1.1 304 Not Modified
+Date: Wed, 09 Oct 2024 14:07:12 GMT
+Server: Apache/2.2.21 (Win32)
+Connection: Keep-Alive
+Keep-Alive: timeout=5, max=100
+ETag: "10000000c00df-551-623958d452d56"
+
+
+$$$$$$ Response Header For Transaction With Id 492 Ended $$$$$$
+
+****** Start Log Message ******
+
+Start Frames Hierarchy Tree Dump
+/WebTours/
+	/WebTours/header.html
+	/cgi-bin/welcome.pl?signOff=true
+End Frames Hierarchy Tree Dump
+
+$$$$$$ End Log Message $$$$$$
+
+[Traffic Filtering] Filtering incoming.telemetry.mozilla.org
+****** Request Header For Transaction With Id 497 ******
+POST /submit/firefox-desktop/use-counters/1/2f12d887-2d8b-4f0f-9442-43b22586003b HTTP/1.1
+Host: incoming.telemetry.mozilla.org
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0
+Accept: */*
+Accept-Language: ru,en-US;q=0.7,en;q=0.3
+Accept-Encoding: gzip, deflate, br, zstd
+content-encoding: gzip
+x-telemetry-agent: Glean/60.4.0 (Rust on Windows)
+date: Wed, 09 Oct 2024 14:07:06 GMT
+content-type: application/json; charset=utf-8
+content-length: 881
+Connection: keep-alive
+Sec-Fetch-Dest: empty
+Sec-Fetch-Mode: no-cors
+Sec-Fetch-Site: none
+Priority: u=4
+Pragma: no-cache
+Cache-Control: no-cache
+
+
+$$$$$$ Request Header For Transaction With Id 497 Ended $$$$$$
+
+****** Request Body For Transaction With Id 497 ******
+{"ping_info":{"seq":15,"start_time":"2024-10-09T18:10:33.000+05:00","end_time":"2024-10-09T19:02:58.679+05:00","reason":"app_shutdown_confirmed","experiments":{"tab-hover-preview-release-rollout":{"branch":"control","extra":{"type":"nimbus-rollout"}},"backgroundupdate-enable-unelevated-installations-rollout-3-release":{"branch":"enabled","extra":{"type":"nimbus-rollout"}},"extensions-migration-in-import-wizard-116-rollout":{"branch":"control","extra":{"type":"nimbus-rollout"}},"consolidated-search-configuration-row-desktop-relaunch":{"branch":"rollout","extra":{"type":"nimbus-rollout"}},"encrypted-client-hello-fallback-mechanism":{"branch":"control","extra":{"type":"nimbus-rollout"}},"launch-firefox-on-os-restart-treatment-a-rollout":{"branch":"treatment-a","extra":{"type":"nimbus-rollout"}},"long-term-holdback-2024-h2-velocity-desktop":{"branch":"delivery","extra":{"type":"nimbus-nimbus"}},"disable-ads-startup-cache":{"branch":"control","extra":{"type":"nimbus-rollout"}},"fx-accounts-ping-release-rollout-2":
+$$$$$$ Request Body For Transaction With Id 497 Ended $$$$$$
+
+****** Response Header For Transaction With Id 497 ******
+HTTP/1.1 200 OK
+Server: openresty
+Date: Wed, 09 Oct 2024 14:07:04 GMT
+Content-Type: text/plain; charset=utf-8
+Vary: Accept-Encoding
+Strict-Transport-Security: max-age=31536000
+X-Frame-Options: DENY
+Access-Control-Allow-Methods: GET, POST, PUT, OPTIONS
+Access-Control-Max-Age: 1728000
+Access-Control-Allow-Headers: Accept-Encoding,Connection,Content-Encoding,Content-Length,Content-Type,DNT,Date,Sec-Fetch-Dest,Sec-Fetch-Mode,Sec-Fetch-Site,User-Agent,X-Client-Type,X-Client-Version,X-Debug-ID,X-Forwarded-For,X-Pingsender-Version,X-Pipeline-Proxy,X-Source-Tags,X-Telemetry-Agent
+Content-Encoding: gzip
+Via: 1.1 google
+Alt-Svc: clear
+Transfer-Encoding: chunked
+
+
+$$$$$$ Response Header For Transaction With Id 497 Ended $$$$$$
+
+****** Response Body For Transaction With Id 497 ******
+
+$$$$$$ Response Body For Transaction With Id 497 Ended $$$$$$
+
+****** Request Header For Transaction With Id 500 ******
+GET /cgi-bin/nav.pl?in=home HTTP/1.1
+Host: localhost:1080
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/png,image/svg+xml,*/*;q=0.8
+Accept-Language: ru,en-US;q=0.7,en;q=0.3
+Accept-Encoding: gzip, deflate
+Connection: keep-alive
+Referer: http://localhost:1080/cgi-bin/welcome.pl?signOff=true
+Cookie: MSO=SID&1728482831
+Upgrade-Insecure-Requests: 1
+Priority: u=4
+
+
+$$$$$$ Request Header For Transaction With Id 500 Ended $$$$$$
+
+****** Response Header For Transaction With Id 500 ******
+HTTP/1.1 200 OK
+Date: Wed, 09 Oct 2024 14:07:12 GMT
+Server: Apache/2.2.21 (Win32)
+Expires: Tue, 08 Oct 2024 14:07:12 GMT
+Keep-Alive: timeout=5, max=98
+Connection: Keep-Alive
+Transfer-Encoding: chunked
+Content-Type: text/html; charset=ISO-8859-1
+
+
+$$$$$$ Response Header For Transaction With Id 500 Ended $$$$$$
+
+****** Response Body For Transaction With Id 500 ******
+<!DOCTYPE html
+	PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+	 "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en-US" xml:lang="en-US">
+<head>
+<title>Web Tours Navigation Bar</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<script type="text/javascript" src="http://ff.kis.v2.scr.kaspersky-labs.com/FD126C42-EBFA-4E12-B309-BB3FDD723AC1/main.js?attr=BluxmGOahqpwBtmASFtmVFbVowP5_4sIDtqrHyJrctZ68Y_6vtRwnugCYl9snUgb6mmxZYxHKkQl2pdjTvW4Kw" charset="UTF-8"></script></head>
+<body bgcolor="#E0E7F1">
+<style>
+blockquote {font-family: tahoma; font-size : 10pt}
+H1 {font-family: tahoma; font-size : 22pt; color: #993333}
+H3 {font-family: tahoma; font-size : 10pt; color: black}
+small {font-family: tahoma; font-size : 8pt}
+</style>
+<form method="post" action="/cgi-bin/login.pl" target="body">
+<input type="hidden" name="userSession" value="140014.810125557HcAcAVVpHQfiDDDDtDcVcpAHAHHf"/>
+<table border="0"><tr><td>&nbsp;</td>
+<td>&nbsp;</td></tr>
+<tr><td>&nbsp;</td>
+<td>&nbsp;</td></tr>
+<tr><td>&nbsp;</td>
+<td><small>&nbsp;Username</small></td></tr>
+<tr><td>&nbsp;</td>
+<td><input type="text" name="username" value="" size="14" maxlength="14"/></td></tr>
+<tr><td>&nbsp;</td>
+<td><small>&nbsp;Password</small></td>
+<tr><td>&nbsp;</td>
+<td><input type="password" name="password" value="" size="14" maxlength="14"/></td></tr>
+<tr><td>&nbsp;</td>
+<td>&nbsp;</td></tr>
+<tr><td>&nbsp;</td>
+<td><input type="image" name="login" value="Login" alt="Login" border="1" 
+src="/WebTours/images/mer_login.gif"/></td></tr>
+<tr><td>&nbsp;</td><td>&nbsp;</td></tr>
+</table><input type="hidden" name="JSFormSubmit" value="off"/>
+</form>
+
+</body>
+</html>
+
+$$$$$$ Response Body For Transaction With Id 500 Ended $$$$$$
+
+****** Start Log Message ******
+
+Start Frames Hierarchy Tree Dump
+/WebTours/
+	/WebTours/header.html
+	/cgi-bin/welcome.pl?signOff=true
+		The Node is NULL
+		/WebTours/home.html
+End Frames Hierarchy Tree Dump
+
+$$$$$$ End Log Message $$$$$$
+
+[Traffic Filtering] Filtering incoming.telemetry.mozilla.org
+****** Request Header For Transaction With Id 503 ******
+POST /submit/firefox-desktop/pageload/1/08e2edfe-b651-4651-8263-e1467d38c683 HTTP/1.1
+Host: incoming.telemetry.mozilla.org
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0
+Accept: */*
+Accept-Language: ru,en-US;q=0.7,en;q=0.3
+Accept-Encoding: gzip, deflate, br, zstd
+content-encoding: gzip
+x-telemetry-agent: Glean/60.4.0 (Rust on Windows)
+date: Wed, 09 Oct 2024 14:07:12 GMT
+content-type: application/json; charset=utf-8
+content-length: 436
+Connection: keep-alive
+Sec-Fetch-Dest: empty
+Sec-Fetch-Mode: no-cors
+Sec-Fetch-Site: none
+Priority: u=4
+Pragma: no-cache
+Cache-Control: no-cache
+
+
+$$$$$$ Request Header For Transaction With Id 503 Ended $$$$$$
+
+****** Request Body For Transaction With Id 503 ******
+{"ping_info":{"seq":15,"start_time":"2024-10-09T18:10:44.000+05:00","end_time":"2024-10-09T19:06:45.902+05:00","reason":"startup"},"client_info":{"telemetry_sdk_build":"60.4.0","locale":"en-US","os_version":"10.0","os":"Windows","architecture":"x86_64","app_build":"20240913135723","app_channel":"release","app_display_version":"130.0.1","windows_build_number":22631,"build_date":"1970-01-01T00:00:00+00:00","first_run_date":"2024-09-22+05:00"},"events":[{"timestamp":0,"category":"perf","name":"page_load","extra":{"using_webdriver":"false","response_time":"19882","js_exec_time":"10","load_time":"27761","http_ver":"1","glean_timestamp":"1728479470788","load_type":"NORMAL","dns_lookup_time":"28"}}]}
+$$$$$$ Request Body For Transaction With Id 503 Ended $$$$$$
+
+****** Response Header For Transaction With Id 503 ******
+HTTP/1.1 200 OK
+Server: openresty
+Date: Wed, 09 Oct 2024 14:07:04 GMT
+Content-Type: text/plain; charset=utf-8
+Vary: Accept-Encoding
+Strict-Transport-Security: max-age=31536000
+X-Frame-Options: DENY
+Access-Control-Allow-Methods: GET, POST, PUT, OPTIONS
+Access-Control-Max-Age: 1728000
+Access-Control-Allow-Headers: Accept-Encoding,Connection,Content-Encoding,Content-Length,Content-Type,DNT,Date,Sec-Fetch-Dest,Sec-Fetch-Mode,Sec-Fetch-Site,User-Agent,X-Client-Type,X-Client-Version,X-Debug-ID,X-Forwarded-For,X-Pingsender-Version,X-Pipeline-Proxy,X-Source-Tags,X-Telemetry-Agent
+Content-Encoding: gzip
+Via: 1.1 google
+Alt-Svc: clear
+Transfer-Encoding: chunked
+
+
+$$$$$$ Response Header For Transaction With Id 503 Ended $$$$$$
+
+****** Response Body For Transaction With Id 503 ******
+
+$$$$$$ Response Body For Transaction With Id 503 Ended $$$$$$
+
+[Traffic Filtering] Filtering 173.194.221.95
+[Traffic Filtering] Filtering 173.194.221.95
+[Traffic Filtering] Filtering 173.194.221.95
+[Traffic Filtering] Filtering 173.194.221.95
+[Traffic Filtering] Filtering incoming.telemetry.mozilla.org
+****** Request Header For Transaction With Id 516 ******
+POST /submit/firefox-desktop/newtab/1/b9f5c70d-fb3e-451a-90a0-99e3c00ea35b HTTP/1.1
+Host: incoming.telemetry.mozilla.org
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0
+Accept: */*
+Accept-Language: ru,en-US;q=0.7,en;q=0.3
+Accept-Encoding: gzip, deflate, br, zstd
+content-encoding: gzip
+date: Wed, 09 Oct 2024 14:07:12 GMT
+x-telemetry-agent: Glean/60.4.0 (Rust on Windows)
+content-type: application/json; charset=utf-8
+content-length: 481
+Connection: keep-alive
+Sec-Fetch-Dest: empty
+Sec-Fetch-Mode: no-cors
+Sec-Fetch-Site: none
+Priority: u=4
+Pragma: no-cache
+Cache-Control: no-cache
+
+
+$$$$$$ Request Header For Transaction With Id 516 Ended $$$$$$
+
+****** Request Body For Transaction With Id 516 ******
+{"ping_info":{"seq":56,"start_time":"2024-10-09T19:02:58.000+05:00","end_time":"2024-10-09T19:06:46.002+05:00","reason":"component_init"},"client_info":{"telemetry_sdk_build":"60.4.0","windows_build_number":22631,"client_id":"52e31b37-8dc2-4b9b-9d86-878bad61c4c0","os_version":"10.0","os":"Windows","app_build":"20240913135723","app_display_version":"130.0.1","app_channel":"release","locale":"en-US","architecture":"x86_64","build_date":"1970-01-01T00:00:00+00:00","first_run_date":"2024-09-22+05:00"},"metrics":{"string_list":{"newtab.blocked_sponsors":[]},"string":{"newtab.newtab_category":"enabled","newtab.locale":"en-US","newtab.homepage_category":"enabled"},"quantity":{"topsites.rows":1},"boolean":{"topsites.sponsored_enabled":true,"pocket.is_signed_in":false,"pocket.enabled":true,"topsites.enabled":true,"newtab.search.enabled":true,"pocket.sponsored_stories_enabled":true,"newtab.weather_enabled":true}}}
+$$$$$$ Request Body For Transaction With Id 516 Ended $$$$$$
+
+****** Response Header For Transaction With Id 516 ******
+HTTP/1.1 200 OK
+Server: openresty
+Date: Wed, 09 Oct 2024 14:07:04 GMT
+Content-Type: text/plain; charset=utf-8
+Vary: Accept-Encoding
+Strict-Transport-Security: max-age=31536000
+X-Frame-Options: DENY
+Access-Control-Allow-Methods: GET, POST, PUT, OPTIONS
+Access-Control-Max-Age: 1728000
+Access-Control-Allow-Headers: Accept-Encoding,Connection,Content-Encoding,Content-Length,Content-Type,DNT,Date,Sec-Fetch-Dest,Sec-Fetch-Mode,Sec-Fetch-Site,User-Agent,X-Client-Type,X-Client-Version,X-Debug-ID,X-Forwarded-For,X-Pingsender-Version,X-Pipeline-Proxy,X-Source-Tags,X-Telemetry-Agent
+Content-Encoding: gzip
+Via: 1.1 google
+Alt-Svc: clear
+Transfer-Encoding: chunked
+
+
+$$$$$$ Response Header For Transaction With Id 516 Ended $$$$$$
+
+****** Response Body For Transaction With Id 516 ******
+
+$$$$$$ Response Body For Transaction With Id 516 Ended $$$$$$
+
+[Traffic Filtering] Filtering safebrowsing.googleapis.com
+****** Request Header For Transaction With Id 521 ******
+GET /v4/fullHashes:find?$ct=application/x-protobuf&key=AIzaSyC7jsptDS3am4tPx4r3nxis7IMjBc5Dovo&$httpMethod=POST&$req=ChUKE25hdmNsaWVudC1hdXRvLWZmb3gSGwoNCAUQBhgBIgMwMDEwARD99hgaAhgLBXdsTRouCAUQARoGCgTo5bBsGgYKBAesLloaBgoEekK9uxoGCgSeqA5QGgYKBKfA6iwgAQ== HTTP/1.1
+Host: safebrowsing.googleapis.com
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0
+Accept: */*
+Accept-Language: ru,en-US;q=0.7,en;q=0.3
+Accept-Encoding: gzip, deflate, br, zstd
+Connection: close
+X-HTTP-Method-Override: POST
+Sec-Fetch-Dest: empty
+Sec-Fetch-Mode: no-cors
+Sec-Fetch-Site: none
+Priority: u=4
+Pragma: no-cache
+Cache-Control: no-cache
+
+
+$$$$$$ Request Header For Transaction With Id 521 Ended $$$$$$
+
+****** Response Header For Transaction With Id 521 ******
+HTTP/1.1 200 OK
+Content-Type: application/x-protobuf
+Content-Disposition: attachment
+Date: Wed, 09 Oct 2024 14:07:04 GMT
+Server: scaffolding on HTTPServer2
+Content-Length: 260
+X-XSS-Protection: 0
+X-Frame-Options: SAMEORIGIN
+X-Content-Type-Options: nosniff
+Connection: close
+
+
+$$$$$$ Response Header For Transaction With Id 521 Ended $$$$$$
+
+****** Response Body For Transaction With Id 521 ******
+
+1\x08\x05\x10\x01\x1A"
+ \xE8\xE5\xB0l4fb\x11;]\xE1\x97\xB4\xA6\xBA\xA3ExZ\x91\xC7\x14L\xE1\xC2$;\xBC\xDE\xAC-"\x00*\x03\x08\xAC\x020\x01
+1\x08\x05\x10\x01\x1A"
+ \x07\xAC.Z\xA7t\x89c\x18\xB1\xA2\xF7\xF9,\xD5B\x9F\xB8<yP\xEA\x80M\xA9
+\x03\x8F+M\xDF\xED"\x00*\x03\x08\xAC\x020\x01
+1\x08\x05\x10\x01\x1A"
+ zB\xBD\xBB
+\\\x95\x19\x99(\x1BJ\x12\xD9\x03\xAC\xAD4\x9FnF\xAC\xE7	\xA3G\xB0\x8B\xFF\x11Y\x9D"\x00*\x03\x08\xAC\x020\x01
+1\x08\x05\x10\x01\x1A"
+ \x9E\xA8\x0EP2\xC2\xFD\xB4\x8D\x8A\xA9\x0FT \xCA$:\x9D\xF1/@$\xB2m\xB1+\xC5\xA0\xC9q\xC8\x03"\x00*\x03\x08\xAC\x020\x01
+1\x08\x05\x10\x01\x1A"
+ \xA7\xC0\xEA,2\xD53\xC8\x7F`\xD5M\x8C3\xE6-OG\x8Dp{\x1Fyn\x04\xF2\xDCu\xE1\xCAo\x85"\x00*\x03\x08\xAC\x020\x01\x1A\x03\x08\xAC\x02
+$$$$$$ Response Body For Transaction With Id 521 Ended $$$$$$
+
+[Traffic Filtering] Filtering incoming.telemetry.mozilla.org
+****** Request Header For Transaction With Id 524 ******
+POST /submit/firefox-desktop/baseline/1/2f4d65d1-c24b-45e9-a15a-84abff554d76 HTTP/1.1
+Host: incoming.telemetry.mozilla.org
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0
+Accept: */*
+Accept-Language: ru,en-US;q=0.7,en;q=0.3
+Accept-Encoding: gzip, deflate, br, zstd
+content-encoding: gzip
+x-telemetry-agent: Glean/60.4.0 (Rust on Windows)
+date: Wed, 09 Oct 2024 14:07:12 GMT
+content-type: application/json; charset=utf-8
+content-length: 903
+Connection: keep-alive
+Sec-Fetch-Dest: empty
+Sec-Fetch-Mode: no-cors
+Sec-Fetch-Site: none
+Priority: u=4
+Pragma: no-cache
+Cache-Control: no-cache
+
+
+$$$$$$ Request Header For Transaction With Id 524 Ended $$$$$$
+
+****** Request Body For Transaction With Id 524 ******
+{"ping_info":{"seq":32,"start_time":"2024-10-09T18:58:51.000+05:00","end_time":"2024-10-09T19:06:46.112+05:00","reason":"active","experiments":{"disable-ads-startup-cache":{"branch":"control","extra":{"type":"nimbus-rollout"}},"launch-firefox-on-os-restart-treatment-a-rollout":{"branch":"treatment-a","extra":{"type":"nimbus-rollout"}},"phc-rollout":{"branch":"rollout","extra":{"type":"nimbus-rollout"}},"upgrade-spotlight-rollout":{"branch":"treatment","extra":{"type":"nimbus-rollout"}},"highlighting-in-pdfs-rollout":{"branch":"treatment","extra":{"type":"nimbus-rollout"}},"disable-redirects-for-authretries":{"branch":"control","extra":{"type":"nimbus-rollout"}},"backgroundupdate-enable-unelevated-installations-rollout-3-release":{"branch":"enabled","extra":{"type":"nimbus-rollout"}},"fx-accounts-ping-release-rollout-2":{"branch":"control","extra":{"type":"nimbus-rollout"}},"encrypted-client-hello-fallback-mechanism":{"branch":"control","extra":{"type":"nimbus-rollout"}},"fx-view-discoverability-rollout":{"bra
+$$$$$$ Request Body For Transaction With Id 524 Ended $$$$$$
+
+****** Response Header For Transaction With Id 524 ******
+HTTP/1.1 200 OK
+Server: openresty
+Date: Wed, 09 Oct 2024 14:07:04 GMT
+Content-Type: text/plain; charset=utf-8
+Vary: Accept-Encoding
+Strict-Transport-Security: max-age=31536000
+X-Frame-Options: DENY
+Access-Control-Allow-Methods: GET, POST, PUT, OPTIONS
+Access-Control-Max-Age: 1728000
+Access-Control-Allow-Headers: Accept-Encoding,Connection,Content-Encoding,Content-Length,Content-Type,DNT,Date,Sec-Fetch-Dest,Sec-Fetch-Mode,Sec-Fetch-Site,User-Agent,X-Client-Type,X-Client-Version,X-Debug-ID,X-Forwarded-For,X-Pingsender-Version,X-Pipeline-Proxy,X-Source-Tags,X-Telemetry-Agent
+Content-Encoding: gzip
+Via: 1.1 google
+Alt-Svc: clear
+Transfer-Encoding: chunked
+
+
+$$$$$$ Response Header For Transaction With Id 524 Ended $$$$$$
+
+****** Response Body For Transaction With Id 524 ******
+
+$$$$$$ Response Body For Transaction With Id 524 Ended $$$$$$
+
+[Traffic Filtering] Filtering safebrowsing.googleapis.com
+****** Request Header For Transaction With Id 531 ******
+GET /v4/fullHashes:find?$ct=application/x-protobuf&key=AIzaSyC7jsptDS3am4tPx4r3nxis7IMjBc5Dovo&$httpMethod=POST&$req=ChUKE25hdmNsaWVudC1hdXRvLWZmb3gSGwoNCAUQBhgBIgMwMDEwARD99hgaAhgLBXdsTRouCAUQARoGCgT6R4L6GgYKBGgQjpMaBgoEaZ65qhoGCgSaIh7KGgYKBKac6i0gAQ== HTTP/1.1
+Host: safebrowsing.googleapis.com
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0
+Accept: */*
+Accept-Language: ru,en-US;q=0.7,en;q=0.3
+Accept-Encoding: gzip, deflate, br, zstd
+Connection: close
+X-HTTP-Method-Override: POST
+Sec-Fetch-Dest: empty
+Sec-Fetch-Mode: no-cors
+Sec-Fetch-Site: none
+Priority: u=4
+Pragma: no-cache
+Cache-Control: no-cache
+
+
+$$$$$$ Request Header For Transaction With Id 531 Ended $$$$$$
+
+****** Response Header For Transaction With Id 531 ******
+HTTP/1.1 200 OK
+Content-Type: application/x-protobuf
+Content-Disposition: attachment
+Date: Wed, 09 Oct 2024 14:07:05 GMT
+Server: scaffolding on HTTPServer2
+Content-Length: 260
+X-XSS-Protection: 0
+X-Frame-Options: SAMEORIGIN
+X-Content-Type-Options: nosniff
+Connection: close
+
+
+$$$$$$ Response Header For Transaction With Id 531 Ended $$$$$$
+
+****** Response Body For Transaction With Id 531 ******
+
+1\x08\x05\x10\x01\x1A"
+ \xFAG\x82\xFA[\x19\xD7\x8F:>\xEB\xD53;S\xAE\x99\xD6\xD0\xE5\xB3h\x1E\xE7Q\xC8\x06T\x80Cs\x1D"\x00*\x03\x08\xAC\x020\x01
+1\x08\x05\x10\x01\x1A"
+ h\x10\x8E\x93C]r\xEB\xC6\xAAD\xE2\x8A\x83\x8D\xD8\xFD0\x10EI\xF9\xF1y\x1D\x08b\xD5\xB4w\x17^"\x00*\x03\x08\xAC\x020\x01
+1\x08\x05\x10\x01\x1A"
+ i\x9E\xB9\xAA7\x1E\xBB\xDBN-\xD82K\x84\xF3\x16[-a\xE1\x11Io\x11S\xC7\xFF\x94-	\xABI"\x00*\x03\x08\xAC\x020\x01
+1\x08\x05\x10\x01\x1A"
+ \x9A"\x1E\xCA\x98"\x01\x9FQ\xA6\xA6.m3\xF8u\xE0[\xB7\xDE*\x8C\xC1x\xD1\\\xB5U\x9F\xF8T\xB2"\x00*\x03\x08\xAC\x020\x01
+1\x08\x05\x10\x01\x1A"
+ \xA6\x9C\xEA-\xC5\xE5\\\xED\x12Zw\xA6[w\xD0\xE54\xAFT\x10\x90	\x05\xD5z\xC7\x8A\xF6\xBDa$\xE8"\x00*\x03\x08\xAC\x020\x01\x1A\x03\x08\xAC\x02
+$$$$$$ Response Body For Transaction With Id 531 Ended $$$$$$
+
+[Traffic Filtering] Filtering incoming.telemetry.mozilla.org
+****** Request Header For Transaction With Id 534 ******
+POST /submit/firefox-desktop/events/1/fcdf22df-65a1-4b94-b9e3-37767cada9db HTTP/1.1
+Host: incoming.telemetry.mozilla.org
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0
+Accept: */*
+Accept-Language: ru,en-US;q=0.7,en;q=0.3
+Accept-Encoding: gzip, deflate, br, zstd
+content-encoding: gzip
+x-telemetry-agent: Glean/60.4.0 (Rust on Windows)
+date: Wed, 09 Oct 2024 14:07:13 GMT
+content-type: application/json; charset=utf-8
+content-length: 1118
+Connection: keep-alive
+Sec-Fetch-Dest: empty
+Sec-Fetch-Mode: no-cors
+Sec-Fetch-Site: none
+Priority: u=4
+Pragma: no-cache
+Cache-Control: no-cache
+
+
+$$$$$$ Request Header For Transaction With Id 534 Ended $$$$$$
+
+****** Request Body For Transaction With Id 534 ******
+{"ping_info":{"seq":18,"start_time":"2024-10-09T17:00:05.000+05:00","end_time":"2024-10-09T19:06:45.854+05:00","reason":"startup","experiments":{"tab-hover-preview-release-rollout":{"branch":"control","extra":{"type":"nimbus-rollout"}},"extensions-migration-in-import-wizard-116-rollout":{"branch":"control","extra":{"type":"nimbus-rollout"}},"encrypted-client-hello-fallback-mechanism":{"branch":"control","extra":{"type":"nimbus-rollout"}},"upgrade-spotlight-rollout":{"branch":"treatment","extra":{"type":"nimbus-rollout"}},"consolidated-search-configuration-row-desktop-relaunch":{"branch":"rollout","extra":{"type":"nimbus-rollout"}},"backgroundupdate-enable-unelevated-installations-rollout-3-release":{"branch":"enabled","extra":{"type":"nimbus-rollout"}},"disable-redirects-for-authretries":{"branch":"control","extra":{"type":"nimbus-rollout"}},"disable-ads-startup-cache":{"branch":"control","extra":{"type":"nimbus-rollout"}},"fx-view-discoverability-rollout":{"branch":"treatment-b","extra":{"type":"nimbus-rollo
+$$$$$$ Request Body For Transaction With Id 534 Ended $$$$$$
+
+****** Response Header For Transaction With Id 534 ******
+HTTP/1.1 200 OK
+Server: openresty
+Date: Wed, 09 Oct 2024 14:07:05 GMT
+Content-Type: text/plain; charset=utf-8
+Vary: Accept-Encoding
+Strict-Transport-Security: max-age=31536000
+X-Frame-Options: DENY
+Access-Control-Allow-Methods: GET, POST, PUT, OPTIONS
+Access-Control-Max-Age: 1728000
+Access-Control-Allow-Headers: Accept-Encoding,Connection,Content-Encoding,Content-Length,Content-Type,DNT,Date,Sec-Fetch-Dest,Sec-Fetch-Mode,Sec-Fetch-Site,User-Agent,X-Client-Type,X-Client-Version,X-Debug-ID,X-Forwarded-For,X-Pingsender-Version,X-Pipeline-Proxy,X-Source-Tags,X-Telemetry-Agent
+Content-Encoding: gzip
+Via: 1.1 google
+Alt-Svc: clear
+Transfer-Encoding: chunked
+
+
+$$$$$$ Response Header For Transaction With Id 534 Ended $$$$$$
+
+****** Response Body For Transaction With Id 534 ******
+
+$$$$$$ Response Body For Transaction With Id 534 Ended $$$$$$
+
+[Traffic Filtering] Filtering incoming.telemetry.mozilla.org
+****** Request Header For Transaction With Id 537 ******
+POST /submit/firefox-desktop/newtab/1/d8c69af4-6135-488d-90eb-b0141b61cadf HTTP/1.1
+Host: incoming.telemetry.mozilla.org
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0
+Accept: */*
+Accept-Language: ru,en-US;q=0.7,en;q=0.3
+Accept-Encoding: gzip, deflate, br, zstd
+content-encoding: gzip
+date: Wed, 09 Oct 2024 14:07:13 GMT
+x-telemetry-agent: Glean/60.4.0 (Rust on Windows)
+content-type: application/json; charset=utf-8
+content-length: 1116
+Connection: keep-alive
+Sec-Fetch-Dest: empty
+Sec-Fetch-Mode: no-cors
+Sec-Fetch-Site: none
+Priority: u=4
+Pragma: no-cache
+Cache-Control: no-cache
+
+
+$$$$$$ Request Header For Transaction With Id 537 Ended $$$$$$
+
+****** Request Body For Transaction With Id 537 ******
+{"ping_info":{"seq":55,"start_time":"2024-10-09T18:10:44.000+05:00","end_time":"2024-10-09T19:02:58.601+05:00","reason":"newtab_session_end","experiments":{"backgroundupdate-enable-unelevated-installations-rollout-3-release":{"branch":"enabled","extra":{"type":"nimbus-rollout"}},"consolidated-search-configuration-row-desktop-relaunch":{"branch":"rollout","extra":{"type":"nimbus-rollout"}},"disable-redirects-for-authretries":{"branch":"control","extra":{"type":"nimbus-rollout"}},"disable-ads-startup-cache":{"branch":"control","extra":{"type":"nimbus-rollout"}},"encrypted-client-hello-fallback-mechanism":{"branch":"control","extra":{"type":"nimbus-rollout"}},"fx-view-discoverability-rollout":{"branch":"treatment-b","extra":{"type":"nimbus-rollout"}},"fx-accounts-ping-release-rollout-2":{"branch":"control","extra":{"type":"nimbus-rollout"}},"launch-firefox-on-os-restart-treatment-a-rollout":{"branch":"treatment-a","extra":{"type":"nimbus-rollout"}},"long-term-holdback-2024-h2-velocity-desktop":{"branch":"deliver
+$$$$$$ Request Body For Transaction With Id 537 Ended $$$$$$
+
+****** Response Header For Transaction With Id 537 ******
+HTTP/1.1 200 OK
+Server: openresty
+Date: Wed, 09 Oct 2024 14:07:05 GMT
+Content-Type: text/plain; charset=utf-8
+Vary: Accept-Encoding
+Strict-Transport-Security: max-age=31536000
+X-Frame-Options: DENY
+Access-Control-Allow-Methods: GET, POST, PUT, OPTIONS
+Access-Control-Max-Age: 1728000
+Access-Control-Allow-Headers: Accept-Encoding,Connection,Content-Encoding,Content-Length,Content-Type,DNT,Date,Sec-Fetch-Dest,Sec-Fetch-Mode,Sec-Fetch-Site,User-Agent,X-Client-Type,X-Client-Version,X-Debug-ID,X-Forwarded-For,X-Pingsender-Version,X-Pipeline-Proxy,X-Source-Tags,X-Telemetry-Agent
+Content-Encoding: gzip
+Via: 1.1 google
+Alt-Svc: clear
+Transfer-Encoding: chunked
+
+
+$$$$$$ Response Header For Transaction With Id 537 Ended $$$$$$
+
+****** Response Body For Transaction With Id 537 ******
+
+$$$$$$ Response Body For Transaction With Id 537 Ended $$$$$$
+
+[Traffic Filtering] Filtering safebrowsing.googleapis.com
+****** Request Header For Transaction With Id 554 ******
+GET /v4/fullHashes:find?$ct=application/x-protobuf&key=AIzaSyC7jsptDS3am4tPx4r3nxis7IMjBc5Dovo&$httpMethod=POST&$req=ChUKE25hdmNsaWVudC1hdXRvLWZmb3gSGwoNCAUQBhgBIgMwMDEwARD99hgaAhgLBXdsTRouCAUQARoGCgTQOmffGgYKBPQK0Q8aBgoEFzzHDBoGCgRAv25EGgYKBH0Mdo0gAQ== HTTP/1.1
+Host: safebrowsing.googleapis.com
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0
+Accept: */*
+Accept-Language: ru,en-US;q=0.7,en;q=0.3
+Accept-Encoding: gzip, deflate, br, zstd
+Connection: close
+X-HTTP-Method-Override: POST
+Sec-Fetch-Dest: empty
+Sec-Fetch-Mode: no-cors
+Sec-Fetch-Site: none
+Priority: u=4
+Pragma: no-cache
+Cache-Control: no-cache
+
+
+$$$$$$ Request Header For Transaction With Id 554 Ended $$$$$$
+
+****** Response Header For Transaction With Id 554 ******
+HTTP/1.1 200 OK
+Content-Type: application/x-protobuf
+Content-Disposition: attachment
+Date: Wed, 09 Oct 2024 14:07:07 GMT
+Server: scaffolding on HTTPServer2
+Content-Length: 260
+X-XSS-Protection: 0
+X-Frame-Options: SAMEORIGIN
+X-Content-Type-Options: nosniff
+Connection: close
+
+
+$$$$$$ Response Header For Transaction With Id 554 Ended $$$$$$
+
+****** Response Body For Transaction With Id 554 ******
+
+1\x08\x05\x10\x01\x1A"
+ \xD0:g\xDF\xAE{ \xAArJ;x<R\xD6\xD3\xA2`Z\x82\xD0\x83\x1A\xE6\xCF\x9E?\xCFsz\xA1&"\x00*\x03\x08\xAC\x020\x01
+1\x08\x05\x10\x01\x1A"
+ \xF4
+\xD1\x0Fi\x18\x11NbT;\x12\x03\xDB\xA5\x99%\x0FY>\x0B\x84wV\xB3\xB0\x0E\x92Q\xBE\xEC\x87"\x00*\x03\x08\xAC\x020\x01
+1\x08\x05\x10\x01\x1A"
+ \x17<\xC7\x0C\xDE\xAB\xB7\xD7\xBE\xF7\x12n\xC4\xDE\x1D$vtD\xE5l;#\xFE\xFA\xD3\x88\xDB\x1A\xEE\x0F\xD4"\x00*\x03\x08\xAC\x020\x01
+1\x08\x05\x10\x01\x1A"
+ @\xBFnD\xF3\x1C\xB5<~n\xDD\x15x\xAC\x85]\x81\xCFn\xE2\x14\xB3\xC2\x19\xA6ck\xDA\xA9\x958O"\x00*\x03\x08\xAC\x020\x01
+1\x08\x05\x10\x01\x1A"
+ }\x0Cv\x8D\xAB\x83\xAE\xD6E\x94\x12u\xD2\xA7\x12VI\x02\x8B\xA9\x19[Q\xA9\x1F\x1F\xF2\xAB\x8B\xC9\xAFu"\x00*\x03\x08\xAC\x020\x01\x1A\x03\x08\xAC\x02
+$$$$$$ Response Body For Transaction With Id 554 Ended $$$$$$
+
+[Traffic Filtering] Filtering push.services.mozilla.com
+****** Request Header For Transaction With Id 557 ******
+GET / HTTP/1.1
+Host: push.services.mozilla.com
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0
+Accept: */*
+Accept-Language: ru,en-US;q=0.7,en;q=0.3
+Accept-Encoding: gzip, deflate, br, zstd
+Sec-WebSocket-Version: 13
+Origin: wss://push.services.mozilla.com/
+Sec-WebSocket-Protocol: push-notification
+Sec-WebSocket-Extensions: permessage-deflate
+Sec-WebSocket-Key: J0qDuBYbxGPpukACIpzklw==
+Connection: keep-alive, Upgrade
+Sec-Fetch-Dest: empty
+Sec-Fetch-Mode: websocket
+Sec-Fetch-Site: cross-site
+Pragma: no-cache
+Cache-Control: no-cache
+Upgrade: websocket
+
+
+$$$$$$ Request Header For Transaction With Id 557 Ended $$$$$$
+
+****** Response Header For Transaction With Id 557 ******
+HTTP/1.1 101 Switching Protocols
+sec-websocket-accept: IvSp3hQIOa8A0CbtsmlwGOsaIw4=
+date: Wed, 09 Oct 2024 14:07:07 GMT
+Via: 1.1 google
+Upgrade: websocket
+Connection: Upgrade
+Alt-Svc: h3=":443"; ma=2592000,h3-29=":443"; ma=2592000
+
+
+$$$$$$ Response Header For Transaction With Id 557 Ended $$$$$$
+
+****** Response Body For Transaction With Id 557 ******
+
+$$$$$$ Response Body For Transaction With Id 557 Ended $$$$$$
+
+****** Request Header For Transaction With Id 573 ******
+POST /cgi-bin/login.pl HTTP/1.1
+Host: localhost:1080
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/png,image/svg+xml,*/*;q=0.8
+Accept-Language: ru,en-US;q=0.7,en;q=0.3
+Accept-Encoding: gzip, deflate
+Content-Type: application/x-www-form-urlencoded
+Content-Length: 135
+Origin: http://localhost:1080
+Connection: keep-alive
+Referer: http://localhost:1080/cgi-bin/nav.pl?in=home
+Cookie: MSO=SID&1728482831
+Upgrade-Insecure-Requests: 1
+Priority: u=4
+
+
+$$$$$$ Request Header For Transaction With Id 573 Ended $$$$$$
+
+****** Request Body For Transaction With Id 573 ******
+userSession=140014.810125557HcAcAVVpHQfiDDDDtDcVcpAHAHHf&username=mickeyMouse&password=cheese123&login.x=72&login.y=12&JSFormSubmit=off
+$$$$$$ Request Body For Transaction With Id 573 Ended $$$$$$
+
+****** Response Header For Transaction With Id 573 ******
+HTTP/1.1 200 OK
+Date: Wed, 09 Oct 2024 14:07:32 GMT
+Server: Apache/2.2.21 (Win32)
+Expires: 5s
+Set-Cookie: MTUserInfo=firstName&Mickey&address2&Anaheim&username&mickeyMouse&hash&5&lastName&Mouse%0A&address1&123%20Disney%20St&creditCard&&expDate&%0A; path=/
+Keep-Alive: timeout=5, max=100
+Connection: Keep-Alive
+Transfer-Encoding: chunked
+Content-Type: text/html; charset=ISO-8859-1
+
+
+$$$$$$ Response Header For Transaction With Id 573 Ended $$$$$$
+
+****** Response Body For Transaction With Id 573 ******
+<!--
+User password was correct - added a cookie with the user's default
+information.  Set the user up to make reservations...
+
+--->
+
+<html>
+<title>Web Tours</title>
+<script type="text/javascript" src="http://ff.kis.v2.scr.kaspersky-labs.com/FD126C42-EBFA-4E12-B309-BB3FDD723AC1/main.js?attr=Jq2ucBuQhUSasrzhRf28lHQoQXOKXydbtVL_ee3m1WQYKic9DCco_clfhE43m-84uUZTN8kgqgqqUrD07rbCKg" charset="UTF-8"></script><frameset cols="160,*" border=1 frameborder=1>
+<frame src="nav.pl?page=menu&in=home" name="navbar" marginheight="2" marginwidth="2" noresize="noresize" scrolling="auto"/>
+<frame src="login.pl?intro=true" name="info" marginheight="2" marginwidth="2" noresize="noresize" scrolling="auto"/>
+</frameset>
+
+</body>
+</html>
+$$$$$$ Response Body For Transaction With Id 573 Ended $$$$$$
+
+****** Start Log Message ******
+
+Start Frames Hierarchy Tree Dump
+/WebTours/
+	/WebTours/header.html
+	/cgi-bin/welcome.pl?signOff=true
+		/cgi-bin/nav.pl?in=home
+		Form: name= action=/cgi-bin/login.pl
+		/WebTours/home.html
+End Frames Hierarchy Tree Dump
+
+$$$$$$ End Log Message $$$$$$
+
+****** Add Event For Transaction With Id 573 ****** (Location Flag : tFlagInsertEnd, Location ID : 573)
+	web_submit_data("login.pl",
+		"Action=http://localhost:1080/cgi-bin/login.pl",
+		"Method=POST",
+		"TargetFrame=body",
+		"RecContentType=text/html",
+		"Referer=http://localhost:1080/cgi-bin/nav.pl?in=home",
+		"Snapshot=t2.inf",
+		"Mode=HTML",
+		ITEMDATA,
+		"Name=userSession", "Value=140014.810125557HcAcAVVpHQfiDDDDtDcVcpAHAHHf", ENDITEM,
+		"Name=username", "Value=mickeyMouse", ENDITEM,
+		"Name=password", "Value=cheese123", ENDITEM,
+		"Name=login.x", "Value=72", ENDITEM,
+		"Name=login.y", "Value=12", ENDITEM,
+		"Name=JSFormSubmit", "Value=off", ENDITEM,
+		LAST);
+
+
+$$$$$$ Add Event For Transaction With Id 573 Ended $$$$$$
+
+****** Add Event For Transaction With Id 0 ****** (Location Flag : tFlagInsertBefore, Location ID : 383)
+	web_add_auto_header("Upgrade-Insecure-Requests",
+		"1");
+
+
+$$$$$$ Add Event For Transaction With Id 0 Ended $$$$$$
+
+****** Request Header For Transaction With Id 589 ******
+GET /cgi-bin/nav.pl?page=menu&in=home HTTP/1.1
+Host: localhost:1080
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/png,image/svg+xml,*/*;q=0.8
+Accept-Language: ru,en-US;q=0.7,en;q=0.3
+Accept-Encoding: gzip, deflate
+Connection: keep-alive
+Referer: http://localhost:1080/cgi-bin/login.pl
+Cookie: MSO=SID&1728482831; MTUserInfo=firstName&Mickey&address2&Anaheim&username&mickeyMouse&hash&5&lastName&Mouse%0A&address1&123%20Disney%20St&creditCard&&expDate&%0A
+Upgrade-Insecure-Requests: 1
+Priority: u=4
+
+
+$$$$$$ Request Header For Transaction With Id 589 Ended $$$$$$
+
+****** Response Header For Transaction With Id 589 ******
+HTTP/1.1 200 OK
+Date: Wed, 09 Oct 2024 14:07:32 GMT
+Server: Apache/2.2.21 (Win32)
+Expires: Tue, 08 Oct 2024 14:07:33 GMT
+Keep-Alive: timeout=5, max=99
+Connection: Keep-Alive
+Transfer-Encoding: chunked
+Content-Type: text/html; charset=ISO-8859-1
+
+
+$$$$$$ Response Header For Transaction With Id 589 Ended $$$$$$
+
+****** Response Body For Transaction With Id 589 ******
+<!DOCTYPE html
+	PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+	 "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en-US" xml:lang="en-US">
+<head>
+<title>Web Tours Navigation Bar</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<script type="text/javascript" src="http://ff.kis.v2.scr.kaspersky-labs.com/FD126C42-EBFA-4E12-B309-BB3FDD723AC1/main.js?attr=6XhJzAXSOI6LsD-WFbQ7YqgFWN1YpE3nUvB7frlO0Qnax2qclL2IlWCwniIkTtFRkbrVvr3dVWVQMLS9oZ7xyI3w4PTT_hvn8bytPivJZAg" charset="UTF-8"></script></head>
+<body bgcolor="#E0E7F1">
+
+<style>
+	blockquote {font-family: tahoma; font-size : 10pt}
+	H1 {font-family: tahoma; font-size : 22pt; color: #993333}
+	small {font-family: tahoma; font-size : 8pt}
+	H3{font-family: tahoma; font-size : 10pt; color: black}
+	A {FONT-WEIGHT: bold; FONT-SIZE: 10pt; COLOR: black; FONT-FAMILY: Tahoma; TEXT-DECORATION: none}
+	A:hover{ FONT-WEIGHT: bold; FONT-SIZE: 10pt; COLOR: #993333; FONT-FAMILY: Tahoma;TEXT-DECORATION: underline}
+	TD {font-family: tahoma; font-size : 10pt; color: black}
+</style>
+
+<BR><BR><center>
+
+<br clear="both"/><center><A HREF="welcome.pl?page=search" TARGET="body"><IMG BORDER="0" SRC="/WebTours/images/flights.gif" 
+ALT="Search Flights Button"/></A>
+<br clear="both"/><A HREF="welcome.pl?page=itinerary" TARGET="body"><IMG BORDER="0" SRC="/WebTours/images/itinerary.gif" 
+ALT="Itinerary Button"/></A>
+<br clear="both"/><A HREF="welcome.pl?page=menus" TARGET="body"><IMG BORDER="0" SRC="/WebTours/images/in_home.gif" 
+ALT="Home Button"/></A>
+<br clear><A HREF="welcome.pl?signOff=1" TARGET="body"><IMG BORDER="0" SRC="/WebTours/images/signoff.gif" 
+ALT="SignOff Button"/></A></center>
+
+</body>
+</html>
+
+$$$$$$ Response Body For Transaction With Id 589 Ended $$$$$$
+
+****** Start Log Message ******
+
+Start Frames Hierarchy Tree Dump
+/WebTours/
+	/WebTours/header.html
+	/cgi-bin/login.pl
+End Frames Hierarchy Tree Dump
+
+$$$$$$ End Log Message $$$$$$
+
+[Traffic Filtering] Filtering safebrowsing.googleapis.com
+****** Request Header For Transaction With Id 591 ******
+GET /v4/fullHashes:find?$ct=application/x-protobuf&key=AIzaSyC7jsptDS3am4tPx4r3nxis7IMjBc5Dovo&$httpMethod=POST&$req=ChUKE25hdmNsaWVudC1hdXRvLWZmb3gSGwoNCAUQBhgBIgMwMDEwARD99hgaAhgLBXdsTRouCAUQARoGCgTerfJQGgYKBOd--m4aBgoEd7S2wBoGCgSOHRz8GgYKBJ4HLRsgAQ== HTTP/1.1
+Host: safebrowsing.googleapis.com
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0
+Accept: */*
+Accept-Language: ru,en-US;q=0.7,en;q=0.3
+Accept-Encoding: gzip, deflate, br, zstd
+Connection: close
+X-HTTP-Method-Override: POST
+Sec-Fetch-Dest: empty
+Sec-Fetch-Mode: no-cors
+Sec-Fetch-Site: none
+Priority: u=4
+Pragma: no-cache
+Cache-Control: no-cache
+
+
+$$$$$$ Request Header For Transaction With Id 591 Ended $$$$$$
+
+****** Response Header For Transaction With Id 591 ******
+HTTP/1.1 200 OK
+Content-Type: application/x-protobuf
+Content-Disposition: attachment
+Date: Wed, 09 Oct 2024 14:07:25 GMT
+Server: scaffolding on HTTPServer2
+Content-Length: 260
+X-XSS-Protection: 0
+X-Frame-Options: SAMEORIGIN
+X-Content-Type-Options: nosniff
+Connection: close
+
+
+$$$$$$ Response Header For Transaction With Id 591 Ended $$$$$$
+
+****** Response Body For Transaction With Id 591 ******
+
+1\x08\x05\x10\x01\x1A"
+ \xDE\xAD\xF2P{\xE7\x0Cz\xE4\xD8\xB12\xF7}\xC8\x11\x1F\xA0\x91`\x81B\xB9\x91X\xB2\x16\xCA\x10\xF4Z\x94"\x00*\x03\x08\xAC\x020\x01
+1\x08\x05\x10\x01\x1A"
+ \xE7~\xFAn%K\xD1L#\xEC\xAC\x0C\xB1\xD9,\xD2\x98\x003Q
+70\x82&f3\x84\x01\xBF\x11X"\x00*\x03\x08\xAC\x020\x01
+1\x08\x05\x10\x01\x1A"
+ w\xB4\xB6\xC0\x1B\x8B\x8A#m\xC5\x87>\x82(\x0FXb7\x16\x0B^,De\x0C\x80\x83\x87L^3\xB6"\x00*\x03\x08\xAC\x020\x01
+1\x08\x05\x10\x01\x1A"
+ \x8E\x1D\x1C\xFC;+\xB2\x10,Hk\xBD\x98\xF2A\x1F\x9F*\xB1\x91U\xD6\x10\xA0?\xBA\x12\xD1h\x90\xA7"\x00*\x03\x08\xAC\x020\x01
+1\x08\x05\x10\x01\x1A"
+ \x9E\x07-\x1B\xE5G\x0Cws\xDC\xBF\xC6\xC9\xE8\xD6mo\x0E\x99'\x19\xEF\xA4\x17\x12\xA8\xB5\xC689\x06\x9E"\x00*\x03\x08\xAC\x020\x01\x1A\x03\x08\xAC\x02
+$$$$$$ Response Body For Transaction With Id 591 Ended $$$$$$
+
+****** Request Header For Transaction With Id 594 ******
+GET /cgi-bin/login.pl?intro=true HTTP/1.1
+Host: localhost:1080
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/png,image/svg+xml,*/*;q=0.8
+Accept-Language: ru,en-US;q=0.7,en;q=0.3
+Accept-Encoding: gzip, deflate
+Connection: keep-alive
+Referer: http://localhost:1080/cgi-bin/login.pl
+Cookie: MSO=SID&1728482831; MTUserInfo=firstName&Mickey&address2&Anaheim&username&mickeyMouse&hash&5&lastName&Mouse%0A&address1&123%20Disney%20St&creditCard&&expDate&%0A
+Upgrade-Insecure-Requests: 1
+Priority: u=4
+
+
+$$$$$$ Request Header For Transaction With Id 594 Ended $$$$$$
+
+****** Response Header For Transaction With Id 594 ******
+HTTP/1.1 200 OK
+Date: Wed, 09 Oct 2024 14:07:33 GMT
+Server: Apache/2.2.21 (Win32)
+Expires: 5s
+Keep-Alive: timeout=5, max=100
+Connection: Keep-Alive
+Transfer-Encoding: chunked
+Content-Type: text/html; charset=ISO-8859-1
+
+
+$$$$$$ Response Header For Transaction With Id 594 Ended $$$$$$
+
+****** Response Body For Transaction With Id 594 ******
+<!DOCTYPE html
+	PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+	 "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en-US" xml:lang="en-US">
+<head>
+<title>Welcome to Web Tours</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<script type="text/javascript" src="http://ff.kis.v2.scr.kaspersky-labs.com/FD126C42-EBFA-4E12-B309-BB3FDD723AC1/main.js?attr=6XhJzAXSOI6LsD-WFbQ7YuN-w4Vz1t2zkqyrbUobCuaCpg69JKzNjfL7bIFvjQsNLNEygnzu2zJJvViW8c5T9g6BFp8zZi4BgmrsUhLfSds" charset="UTF-8"></script></head>
+<body bgcolor="#E0E7F1">
+<p /><style>blockquote {font-family: tahoma; font-size : 10pt}H1 {font-family: tahoma; font-size : 22pt; color: #993333}small {font-family: tahoma; font-size : 8pt}H3 {font-family: tahoma; font-size : 10pt; color: black}TD {font-family: tahoma; font-size : 10pt; color: black}</style><BR/><BR/><BR/><BR/><BR/><blockquote>Welcome, <b>mickeyMouse</b>, to the Web Tours reservation pages.<BR/>Using the menu to the left, you can search for new flights to book, 
+or review/edit the flights already booked.  Don't forget to sign off when
+you're done!
+</blockquote>
+</body>
+</html>
+$$$$$$ Response Body For Transaction With Id 594 Ended $$$$$$
+
+****** Start Log Message ******
+
+Start Frames Hierarchy Tree Dump
+/WebTours/
+	/WebTours/header.html
+	/cgi-bin/login.pl
+		/cgi-bin/nav.pl?page=menu&in=home
+End Frames Hierarchy Tree Dump
+
+$$$$$$ End Log Message $$$$$$
+
+[Traffic Filtering] Filtering detectportal.firefox.com
+****** Request Header For Transaction With Id 604 ******
+GET /canonical.html HTTP/1.1
+Host: detectportal.firefox.com
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0
+Accept: */*
+Accept-Language: ru,en-US;q=0.7,en;q=0.3
+Accept-Encoding: gzip, deflate
+Cache-Control: no-cache
+Pragma: no-cache
+Connection: keep-alive
+
+
+$$$$$$ Request Header For Transaction With Id 604 Ended $$$$$$
+
+****** Response Header For Transaction With Id 604 ******
+HTTP/1.1 200 OK
+Server: nginx
+Content-Length: 90
+Via: 1.1 google
+Date: Tue, 08 Oct 2024 22:05:15 GMT
+Age: 57741
+Content-Type: text/html
+Cache-Control: public,must-revalidate,max-age=0,s-maxage=3600
+
+
+$$$$$$ Response Header For Transaction With Id 604 Ended $$$$$$
+
+****** Response Body For Transaction With Id 604 ******
+<meta http-equiv="refresh" content="0;url=https://support.mozilla.org/kb/captive-portal"/>
+$$$$$$ Response Body For Transaction With Id 604 Ended $$$$$$
+
+[Traffic Filtering] Filtering detectportal.firefox.com
+****** Request Header For Transaction With Id 612 ******
+GET /success.txt?ipv4 HTTP/1.1
+Host: detectportal.firefox.com
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0
+Accept: */*
+Accept-Language: ru,en-US;q=0.7,en;q=0.3
+Accept-Encoding: gzip, deflate
+Connection: keep-alive
+Priority: u=4
+Pragma: no-cache
+Cache-Control: no-cache
+
+
+$$$$$$ Request Header For Transaction With Id 612 Ended $$$$$$
+
+****** Response Header For Transaction With Id 612 ******
+HTTP/1.1 200 OK
+Server: nginx
+Content-Length: 8
+Via: 1.1 google
+Date: Tue, 08 Oct 2024 23:06:15 GMT
+Age: 54081
+Content-Type: text/plain
+Cache-Control: public,must-revalidate,max-age=0,s-maxage=3600
+
+
+$$$$$$ Response Header For Transaction With Id 612 Ended $$$$$$
+
+****** Response Body For Transaction With Id 612 ******
+success
+
+$$$$$$ Response Body For Transaction With Id 612 Ended $$$$$$
+
+****** Request Header For Transaction With Id 626 ******
+GET /cgi-bin/welcome.pl?page=itinerary HTTP/1.1
+Host: localhost:1080
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/png,image/svg+xml,*/*;q=0.8
+Accept-Language: ru,en-US;q=0.7,en;q=0.3
+Accept-Encoding: gzip, deflate
+Connection: keep-alive
+Referer: http://localhost:1080/cgi-bin/nav.pl?page=menu&in=home
+Cookie: MSO=SID&1728482831; MTUserInfo=firstName&Mickey&address2&Anaheim&username&mickeyMouse&hash&5&lastName&Mouse%0A&address1&123%20Disney%20St&creditCard&&expDate&%0A
+Upgrade-Insecure-Requests: 1
+Priority: u=4
+
+
+$$$$$$ Request Header For Transaction With Id 626 Ended $$$$$$
+
+****** Response Header For Transaction With Id 626 ******
+HTTP/1.1 200 OK
+Date: Wed, 09 Oct 2024 14:07:48 GMT
+Server: Apache/2.2.21 (Win32)
+Keep-Alive: timeout=5, max=100
+Connection: Keep-Alive
+Transfer-Encoding: chunked
+Content-Type: text/html; charset=ISO-8859-1
+
+
+$$$$$$ Response Header For Transaction With Id 626 Ended $$$$$$
+
+****** Response Body For Transaction With Id 626 ******
+<!-- 
+ User wants the intineraries.  Since user has already logged on,
+ we can give them the menu in the navbar.
+ --->
+
+<html>
+<title>Web Tours</title>
+   <!-- Frame Set -->
+   <script type="text/javascript" src="http://ff.kis.v2.scr.kaspersky-labs.com/FD126C42-EBFA-4E12-B309-BB3FDD723AC1/main.js?attr=craBAYk8_OkUlr-64w3JX4PuekfctjMYvS2BvUnkvZQNkz2xR4OCHtnl5cbtBKPMLeOCBGCKwvUa2VExjM5LAxoQgKx_V_KjxpReDJzFYEk" charset="UTF-8"></script><frameset cols="160,*" border="1" frameborder="1">
+      <!-- Navigation Frame -->
+      <frame src="nav.pl?page=menu&in=itinerary" name="navbar" 
+            marginheight="2" marginwidth="2" noresize="noresize" scrolling="auto"/>
+      <!-- Itinerary Frame -->
+      <frame src="itinerary.pl" name="info" 
+            marginheight="2" marginwidth="2" noresize="noresize" scrolling="auto"/>
+   </frameset>
+</html>
+
+$$$$$$ Response Body For Transaction With Id 626 Ended $$$$$$
+
+****** Start Log Message ******
+
+Start Frames Hierarchy Tree Dump
+/WebTours/
+	/WebTours/header.html
+	/cgi-bin/login.pl
+		/cgi-bin/nav.pl?page=menu&in=home
+		/cgi-bin/login.pl?intro=true
+End Frames Hierarchy Tree Dump
+
+$$$$$$ End Log Message $$$$$$
+
+****** Add Event For Transaction With Id 626 ****** (Location Flag : tFlagInsertEnd, Location ID : 626)
+	web_url("Itinerary Button",
+		"URL=http://localhost:1080/cgi-bin/welcome.pl?page=itinerary",
+		"TargetFrame=body",
+		"Resource=0",
+		"RecContentType=text/html",
+		"Referer=http://localhost:1080/cgi-bin/nav.pl?page=menu&in=home",
+		"Snapshot=t3.inf",
+		"Mode=HTML",
+		LAST);
+
+
+$$$$$$ Add Event For Transaction With Id 626 Ended $$$$$$
+
+****** Add Event For Transaction With Id 0 ****** (Location Flag : tFlagInsertBefore, Location ID : 573)
+	web_add_header("Origin",
+		"http://localhost:1080");
+
+
+$$$$$$ Add Event For Transaction With Id 0 Ended $$$$$$
+
+****** Add Event For Transaction With Id 0 ****** (Location Flag : tFlagInsertBefore, Location ID : 573)
+	web_add_auto_header("Priority",
+		"u=4");
+
+
+$$$$$$ Add Event For Transaction With Id 0 Ended $$$$$$
+
+****** Request Header For Transaction With Id 640 ******
+GET /cgi-bin/nav.pl?page=menu&in=itinerary HTTP/1.1
+Host: localhost:1080
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/png,image/svg+xml,*/*;q=0.8
+Accept-Language: ru,en-US;q=0.7,en;q=0.3
+Accept-Encoding: gzip, deflate
+Connection: keep-alive
+Referer: http://localhost:1080/cgi-bin/welcome.pl?page=itinerary
+Cookie: MSO=SID&1728482831; MTUserInfo=firstName&Mickey&address2&Anaheim&username&mickeyMouse&hash&5&lastName&Mouse%0A&address1&123%20Disney%20St&creditCard&&expDate&%0A
+Upgrade-Insecure-Requests: 1
+Priority: u=4
+
+
+$$$$$$ Request Header For Transaction With Id 640 Ended $$$$$$
+
+****** Response Header For Transaction With Id 640 ******
+HTTP/1.1 200 OK
+Date: Wed, 09 Oct 2024 14:07:48 GMT
+Server: Apache/2.2.21 (Win32)
+Expires: Tue, 08 Oct 2024 14:07:48 GMT
+Keep-Alive: timeout=5, max=99
+Connection: Keep-Alive
+Transfer-Encoding: chunked
+Content-Type: text/html; charset=ISO-8859-1
+
+
+$$$$$$ Response Header For Transaction With Id 640 Ended $$$$$$
+
+****** Response Body For Transaction With Id 640 ******
+<!DOCTYPE html
+	PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+	 "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en-US" xml:lang="en-US">
+<head>
+<title>Web Tours Navigation Bar</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<script type="text/javascript" src="http://ff.kis.v2.scr.kaspersky-labs.com/FD126C42-EBFA-4E12-B309-BB3FDD723AC1/main.js?attr=craBAYk8_OkUlr-64w3JX5qAMZ8RGXBxyZj7k5frgI2_YpuUAeDvP57unEQ6Hyjv2Xrm_8AoMzFUTPPYfKX2vsUACpgOdoM4683p6oZRj48" charset="UTF-8"></script></head>
+<body bgcolor="#E0E7F1">
+
+<style>
+	blockquote {font-family: tahoma; font-size : 10pt}
+	H1 {font-family: tahoma; font-size : 22pt; color: #993333}
+	small {font-family: tahoma; font-size : 8pt}
+	H3{font-family: tahoma; font-size : 10pt; color: black}
+	A {FONT-WEIGHT: bold; FONT-SIZE: 10pt; COLOR: black; FONT-FAMILY: Tahoma; TEXT-DECORATION: none}
+	A:hover{ FONT-WEIGHT: bold; FONT-SIZE: 10pt; COLOR: #993333; FONT-FAMILY: Tahoma;TEXT-DECORATION: underline}
+	TD {font-family: tahoma; font-size : 10pt; color: black}
+</style>
+
+<BR><BR><center>
+
+<br clear="both"/><center><A HREF="welcome.pl?page=search" TARGET="body"><IMG BORDER="0" SRC="/WebTours/images/flights.gif" 
+ALT="Search Flights Button"/></A>
+<br clear="both"/><A HREF="welcome.pl?page=itinerary" TARGET="body"><IMG BORDER="0" SRC="/WebTours/images/in_itinerary.gif" 
+ALT="Itinerary Button"/></A>
+<br clear="both"/><A HREF="welcome.pl?page=menus" TARGET="body"><IMG BORDER="0" SRC="/WebTours/images/home.gif" 
+ALT="Home Button"/></A>
+<br clear><A HREF="welcome.pl?signOff=1" TARGET="body"><IMG BORDER="0" SRC="/WebTours/images/signoff.gif" 
+ALT="SignOff Button"/></A></center>
+
+</body>
+</html>
+
+$$$$$$ Response Body For Transaction With Id 640 Ended $$$$$$
+
+****** Start Log Message ******
+
+Start Frames Hierarchy Tree Dump
+/WebTours/
+	/WebTours/header.html
+	/cgi-bin/welcome.pl?page=itinerary
+End Frames Hierarchy Tree Dump
+
+$$$$$$ End Log Message $$$$$$
+
+****** Request Header For Transaction With Id 642 ******
+GET /cgi-bin/itinerary.pl HTTP/1.1
+Host: localhost:1080
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/png,image/svg+xml,*/*;q=0.8
+Accept-Language: ru,en-US;q=0.7,en;q=0.3
+Accept-Encoding: gzip, deflate
+Connection: keep-alive
+Referer: http://localhost:1080/cgi-bin/welcome.pl?page=itinerary
+Cookie: MSO=SID&1728482831; MTUserInfo=firstName&Mickey&address2&Anaheim&username&mickeyMouse&hash&5&lastName&Mouse%0A&address1&123%20Disney%20St&creditCard&&expDate&%0A
+Upgrade-Insecure-Requests: 1
+Priority: u=4
+
+
+$$$$$$ Request Header For Transaction With Id 642 Ended $$$$$$
+
+****** Response Header For Transaction With Id 642 ******
+HTTP/1.1 200 OK
+Date: Wed, 09 Oct 2024 14:07:48 GMT
+Server: Apache/2.2.21 (Win32)
+Expires: Tue, 08 Oct 2024 14:07:48 GMT
+Keep-Alive: timeout=5, max=100
+Connection: Keep-Alive
+Transfer-Encoding: chunked
+Content-Type: text/html; charset=ISO-8859-1
+
+
+$$$$$$ Response Header For Transaction With Id 642 Ended $$$$$$
+
+****** Response Body For Transaction With Id 642 ******
+<!DOCTYPE html
+	PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+	 "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en-US" xml:lang="en-US">
+<head>
+<title>Flights List</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<script type="text/javascript" src="http://ff.kis.v2.scr.kaspersky-labs.com/FD126C42-EBFA-4E12-B309-BB3FDD723AC1/main.js?attr=craBAYk8_OkUlr-64w3JXxTvRWAFdGxVoTrrTDp2f6DNBmhxy8cAvunJTaAqDbrcg4euwxodCZXRHtXYZmtI0w" charset="UTF-8"></script></head>
+<body bgcolor="#E0E7F1">
+<style>blockquote {font-family: tahoma; font-size : 10pt}H1 {font-family: tahoma; font-size : 22pt; color: #993333}small {font-family: tahoma; font-size : 8pt}H3 {font-family: tahoma; font-size : 10pt; color: black}TD {font-family: tahoma; font-size : 8pt; color: black}</style><BR/><BR/><h1><font color="#003366">&nbsp;&nbsp;<b>Itinerary</font></b></h1><blockquote><form method="post" action="itinerary.pl" enctype="application/x-www-form-urlencoded">
+<center>
+<TABLE BORDER="0" WIDTH="85%" CELLSPACING="0">
+<TR bgcolor="#5E7884">
+  <TD colspan="4" align="center"><font color="white"><B>Mickey Mouse
+ 's Flight Transaction Summary</B></color></TD></TR>
+
+<!-- Flight #1 -->
+<TR bgcolor="#EFF2F7">
+  <TD width="5%" rowspan="2" align="left" valign="top">
+<b>
+<label><input type="checkbox" name="1" value="on" /></label></font></b>
+<input type="hidden" name="flightID" value="1280178236-7875-MM"  />
+  </TD>
+  <TD width="45%" valign="top">
+      <b>&nbsp;&nbsp;A First class ticket for :</b><br/>
+      <center><table border="0" width="85%"><tr><td>
+      <li><i>Mickey Mouse
+      <li><i></i>
+      </td></tr></table></center>
+  </TD>
+  <TD width="5%" >.<br/>.<br/>.<br/>.</TD>
+  <TD width="45%" valign=top><b>Invoice sent to:</b><br/>
+      <center>
+      <Table width="80%" cellspacing="0" > <tr> <td>
+          Mickey Mouse
+<br/>
+          123 Disney St<br/>
+          Anaheim<br/>
+          <br/>
+          Total Charge: $ 2386 <BR/> (CC: x-3456)
+      </td> </tr> </table>
+      </center>
+  </TD>
+</TR>
+<TR bgcolor="#EFF2F7">
+  <TD COLSPAN="3">
+  <b>Flight Details:</b><BR/>  <center>
+  10/10/2024
+ :  1pm : Flight 481 leaves Paris  for Sydney.<br>  </center>
+  </TD>
+</TR>
+
+<TR bgcolor="#EFF2F7">
+  <TD COLSPAN="4">
+  <hr/>
+  </TD>
+</TR>
+
+<!-- Flight #1 -->
+<TR bgcolor="#EFF2F7">
+  <TD width="5%" rowspan="2" align="left" valign="top">
+<b>
+<label><input type="checkbox" name="2" value="on" /></label></font></b>
+<input type="hidden" name="flightID" value="128021511-1600-MM"  />
+  </TD>
+  <TD width="45%" valign="top">
+      <b>&nbsp;&nbsp;A Coach class ticket for :</b><br/>
+      <center><table border="0" width="85%"><tr><td>
+      <li><i>Mickey Mouse
+      <li><i></i>
+      </td></tr></table></center>
+  </TD>
+  <TD width="5%" >.<br/>.<br/>.<br/>.</TD>
+  <TD width="45%" valign=top><b>Invoice sent to:</b><br/>
+      <center>
+      <Table width="80%" cellspacing="0" > <tr> <td>
+          Mickey Mouse
+<br/>
+          123 Disney St<br/>
+          Anaheim<br/>
+          <br/>
+          Total Charge: $ 805 <BR/> (CC: x-3456)
+      </td> </tr> </table>
+      </center>
+  </TD>
+</TR>
+<TR bgcolor="#EFF2F7">
+  <TD COLSPAN="3">
+  <b>Flight Details:</b><BR/>  <center>
+  10/10/2024
+ :  8am : Flight 580 leaves Portland  for Sydney.<br>  </center>
+  </TD>
+</TR>
+
+<TR bgcolor="#EFF2F7">
+  <TD COLSPAN="4">
+  <hr/>
+  </TD>
+</TR>
+<TR>
+   <TD align="center" COLSPAN="4">
+   <b>A total of 2 scheduled flights.</font></b>
+   </TD>
+</TR>
+</TABLE>
+
+<TABLE WIDTH="87%" BORDER="0" CELLSPACING="0">
+<TR>
+<TD align="left" width="50%" >
+<input type="image" name="removeFlights" src="/WebTours/images/cancelreservation.gif" border="0" /></TD>
+<TD align="right" width="50%" >
+<input type="image" name="removeAllFlights" src="/WebTours/images/cancelallreservations.gif" border="0" /></TD>
+</TABLE>
+
+<div><input type="hidden" name=".cgifields" value="1"  /><input type="hidden" name=".cgifields" value="2"  /></div></form>
+
+</center>
+
+</body>
+</html>
+$$$$$$ Response Body For Transaction With Id 642 Ended $$$$$$
+
+****** Start Log Message ******
+
+Start Frames Hierarchy Tree Dump
+/WebTours/
+	/WebTours/header.html
+	/cgi-bin/welcome.pl?page=itinerary
+		/cgi-bin/nav.pl?page=menu&in=itinerary
+End Frames Hierarchy Tree Dump
+
+$$$$$$ End Log Message $$$$$$
+
+****** Request Header For Transaction With Id 666 ******
+GET /cgi-bin/welcome.pl?signOff=1 HTTP/1.1
+Host: localhost:1080
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/png,image/svg+xml,*/*;q=0.8
+Accept-Language: ru,en-US;q=0.7,en;q=0.3
+Accept-Encoding: gzip, deflate
+Connection: keep-alive
+Referer: http://localhost:1080/cgi-bin/nav.pl?page=menu&in=itinerary
+Cookie: MSO=SID&1728482831; MTUserInfo=firstName&Mickey&address2&Anaheim&username&mickeyMouse&hash&5&lastName&Mouse%0A&address1&123%20Disney%20St&creditCard&&expDate&%0A
+Upgrade-Insecure-Requests: 1
+Priority: u=4
+
+
+$$$$$$ Request Header For Transaction With Id 666 Ended $$$$$$
+
+****** Response Header For Transaction With Id 666 ******
+HTTP/1.1 200 OK
+Date: Wed, 09 Oct 2024 14:07:58 GMT
+Server: Apache/2.2.21 (Win32)
+Set-Cookie: MSO=SID&1728482878; path=/
+Set-Cookie: MTUserInfo=; path=/; expires=Tue, 08-Oct-2024 14:07:58 GMT
+Keep-Alive: timeout=5, max=100
+Connection: Keep-Alive
+Transfer-Encoding: chunked
+Content-Type: text/html; charset=ISO-8859-1
+
+
+$$$$$$ Response Header For Transaction With Id 666 Ended $$$$$$
+
+****** Response Body For Transaction With Id 666 ******
+<!-- 
+ A Session ID has been created and loaded into a cookie called MSO.
+ Also, the server options have been loaded into the cookie called
+ MSO as well.  The server options can be set via the Admin page.
+ --->
+
+<html>
+<title>Web Tours</title>
+   <!-- Frame Set -->
+   <script type="text/javascript" src="http://ff.kis.v2.scr.kaspersky-labs.com/FD126C42-EBFA-4E12-B309-BB3FDD723AC1/main.js?attr=1DVkEEvkJcE_RgFkehV72XOvsLXpDqQrZqlTbN-CzwloApXJYM_zYFePhNwxfYflJhlfHkLOfpLi0e8bLM3MxRr4_UY99LSkyDeH9busT9Y" charset="UTF-8"></script><frameset cols="160,*" border="1" frameborder="1">
+      <!-- Navigation Frame -->
+      <frame src="nav.pl?in=home" name="navbar" marginheight="2" marginwidth="2" 
+            noresize="noresize" scrolling="auto"/>
+      <!-- Home Frame -->
+      <frame src="/WebTours/home.html" name="info" marginheight="2" marginwidth="2" 
+            noresize="noresize" scrolling="auto"/>
+   </frameset>
+</html>
+
+</body>
+</html>
+$$$$$$ Response Body For Transaction With Id 666 Ended $$$$$$
+
+****** Start Log Message ******
+
+Start Frames Hierarchy Tree Dump
+/WebTours/
+	/WebTours/header.html
+	/cgi-bin/welcome.pl?page=itinerary
+		/cgi-bin/nav.pl?page=menu&in=itinerary
+		/cgi-bin/itinerary.pl
+		Form: name= action=itinerary.pl
+End Frames Hierarchy Tree Dump
+
+$$$$$$ End Log Message $$$$$$
+
+****** Add Event For Transaction With Id 666 ****** (Location Flag : tFlagInsertEnd, Location ID : 666)
+	web_url("SignOff Button",
+		"URL=http://localhost:1080/cgi-bin/welcome.pl?signOff=1",
+		"TargetFrame=body",
+		"Resource=0",
+		"RecContentType=text/html",
+		"Referer=http://localhost:1080/cgi-bin/nav.pl?page=menu&in=itinerary",
+		"Snapshot=t4.inf",
+		"Mode=HTML",
+		LAST);
+
+
+$$$$$$ Add Event For Transaction With Id 666 Ended $$$$$$
+
+****** Request Header For Transaction With Id 676 ******
+GET /WebTours/home.html HTTP/1.1
+Host: localhost:1080
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/png,image/svg+xml,*/*;q=0.8
+Accept-Language: ru,en-US;q=0.7,en;q=0.3
+Accept-Encoding: gzip, deflate
+Connection: keep-alive
+Referer: http://localhost:1080/cgi-bin/welcome.pl?signOff=1
+Cookie: MSO=SID&1728482878
+Upgrade-Insecure-Requests: 1
+If-Modified-Since: Thu, 03 Oct 2024 17:04:47 GMT
+If-None-Match: "10000000c00df-551-623958d452d56"
+Priority: u=4
+
+
+$$$$$$ Request Header For Transaction With Id 676 Ended $$$$$$
+
+****** Response Header For Transaction With Id 676 ******
+HTTP/1.1 304 Not Modified
+Date: Wed, 09 Oct 2024 14:07:59 GMT
+Server: Apache/2.2.21 (Win32)
+Connection: Keep-Alive
+Keep-Alive: timeout=5, max=100
+ETag: "10000000c00df-551-623958d452d56"
+
+
+$$$$$$ Response Header For Transaction With Id 676 Ended $$$$$$
+
+****** Start Log Message ******
+
+Start Frames Hierarchy Tree Dump
+/WebTours/
+	/WebTours/header.html
+	/cgi-bin/welcome.pl?signOff=1
+End Frames Hierarchy Tree Dump
+
+$$$$$$ End Log Message $$$$$$
+
+****** Request Header For Transaction With Id 678 ******
+GET /cgi-bin/nav.pl?in=home HTTP/1.1
+Host: localhost:1080
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/png,image/svg+xml,*/*;q=0.8
+Accept-Language: ru,en-US;q=0.7,en;q=0.3
+Accept-Encoding: gzip, deflate
+Connection: keep-alive
+Referer: http://localhost:1080/cgi-bin/welcome.pl?signOff=1
+Cookie: MSO=SID&1728482878
+Upgrade-Insecure-Requests: 1
+Priority: u=4
+
+
+$$$$$$ Request Header For Transaction With Id 678 Ended $$$$$$
+
+****** Response Header For Transaction With Id 678 ******
+HTTP/1.1 200 OK
+Date: Wed, 09 Oct 2024 14:07:59 GMT
+Server: Apache/2.2.21 (Win32)
+Expires: Tue, 08 Oct 2024 14:07:59 GMT
+Keep-Alive: timeout=5, max=99
+Connection: Keep-Alive
+Transfer-Encoding: chunked
+Content-Type: text/html; charset=ISO-8859-1
+
+
+$$$$$$ Response Header For Transaction With Id 678 Ended $$$$$$
+
+****** Response Body For Transaction With Id 678 ******
+<!DOCTYPE html
+	PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+	 "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en-US" xml:lang="en-US">
+<head>
+<title>Web Tours Navigation Bar</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<script type="text/javascript" src="http://ff.kis.v2.scr.kaspersky-labs.com/FD126C42-EBFA-4E12-B309-BB3FDD723AC1/main.js?attr=2hTqlwD9lzM5YfjuLgWkRGqvLMTBwVG_bUWbA4Ovk6gjiQLbDjLAOIO0pkbtSbMvwtJctG324LCmcq7AkCHXbQ" charset="UTF-8"></script></head>
+<body bgcolor="#E0E7F1">
+<style>
+blockquote {font-family: tahoma; font-size : 10pt}
+H1 {font-family: tahoma; font-size : 22pt; color: #993333}
+H3 {font-family: tahoma; font-size : 10pt; color: black}
+small {font-family: tahoma; font-size : 8pt}
+</style>
+<form method="post" action="/cgi-bin/login.pl" target="body">
+<input type="hidden" name="userSession" value="140014.813932766HcAcAVVpQQVzzzzHtDcVcpAHVQf"/>
+<table border="0"><tr><td>&nbsp;</td>
+<td>&nbsp;</td></tr>
+<tr><td>&nbsp;</td>
+<td>&nbsp;</td></tr>
+<tr><td>&nbsp;</td>
+<td><small>&nbsp;Username</small></td></tr>
+<tr><td>&nbsp;</td>
+<td><input type="text" name="username" value="" size="14" maxlength="14"/></td></tr>
+<tr><td>&nbsp;</td>
+<td><small>&nbsp;Password</small></td>
+<tr><td>&nbsp;</td>
+<td><input type="password" name="password" value="" size="14" maxlength="14"/></td></tr>
+<tr><td>&nbsp;</td>
+<td>&nbsp;</td></tr>
+<tr><td>&nbsp;</td>
+<td><input type="image" name="login" value="Login" alt="Login" border="1" 
+src="/WebTours/images/mer_login.gif"/></td></tr>
+<tr><td>&nbsp;</td><td>&nbsp;</td></tr>
+</table><input type="hidden" name="JSFormSubmit" value="off"/>
+</form>
+
+</body>
+</html>
+
+$$$$$$ Response Body For Transaction With Id 678 Ended $$$$$$
+
+****** Start Log Message ******
+
+Start Frames Hierarchy Tree Dump
+/WebTours/
+	/WebTours/header.html
+	/cgi-bin/welcome.pl?signOff=1
+		The Node is NULL
+		/WebTours/home.html
+End Frames Hierarchy Tree Dump
+
+$$$$$$ End Log Message $$$$$$
+

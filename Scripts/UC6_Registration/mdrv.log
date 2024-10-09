@@ -1,0 +1,1534 @@
+Virtual User Script started at: 09.10.2024 21:53:58
+Starting action vuser_init.
+Web Turbo Replay of LoadRunner 2020.0.0 for Windows 10; build 793 (ноя 27 2019 19:51:20)  	[MsgId: MMSG-26983]
+Run mode: HTML  	[MsgId: MMSG-26993]
+Replay user agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0  	[MsgId: MMSG-26988]
+Runtime Settings file: "C:\Users\obori\Personal\VuGen\Scripts\UC6_Registration\\default.cfg"  	[MsgId: MMSG-27141]
+Vuser directory: "C:\Users\obori\Personal\VuGen\Scripts\UC6_Registration"  	[MsgId: MMSG-27052]
+Vuser output directory: "C:\Users\obori\Personal\VuGen\Scripts\UC6_Registration"  	[MsgId: MMSG-27050]
+Operating system's current working directory: "C:\Users\obori\Personal\VuGen\Scripts\UC6_Registration"  	[MsgId: MMSG-27048]
+UTC (GMT) start date/time   : 2024-10-09 16:53:58  	[MsgId: MMSG-26992]
+LOCAL start date/time       : 2024-10-09 21:53:58  	[MsgId: MMSG-26991]
+Local daylight-Savings-Time : No  	[MsgId: MMSG-26990]
+Some of the Runtime Settings:  	[MsgId: MMSG-27142]
+    Download non-HTML resources: Yes  	[MsgId: MMSG-27018]
+    Verification checks: No  	[MsgId: MMSG-27017]
+    Convert from/to UTF-8: No  	[MsgId: MMSG-27016]
+    Simulate a new user each iteration: Yes  	[MsgId: MMSG-27009]
+    Non-critical item errors as warnings: Yes  	[MsgId: MMSG-27008]
+    HTTP errors as warnings: No  	[MsgId: MMSG-27007]
+    WinInet replay instead of Sockets: No  	[MsgId: MMSG-27006]
+    HTTP version: 1.1  	[MsgId: MMSG-27005]
+    Keep-Alive HTTP connections: Yes  	[MsgId: MMSG-27004]
+    Max self Meta refresh updates: 2  	[MsgId: MMSG-27003]
+    No proxy is used (direct connection to the Internet)  	[MsgId: MMSG-27171]
+    DNS caching: Yes  	[MsgId: MMSG-27035]
+    Simulate browser cache: Yes  	[MsgId: MMSG-27034]
+        Cache URLs requiring content (e.g., HTMLs): Yes  	[MsgId: MMSG-27033]
+            Additional URLs requiring content: None  	[MsgId: MMSG-27032]
+        Check for newer versions every visit to the page: No  	[MsgId: MMSG-27031]
+    Page download timeout (sec): 120  	[MsgId: MMSG-27030]
+    Resource Page Timeout is a Warning: No  	[MsgId: MMSG-27029]
+    ContentCheck enabled: Yes  	[MsgId: MMSG-27028]
+    ContentCheck script-level file: "C:\Users\obori\Personal\VuGen\Scripts\UC6_Registration\LrwiAedScript.xml"  	[MsgId: MMSG-27027]
+    Enable Web Page Breakdown: No  	[MsgId: MMSG-27026]
+    Enable connection data points: Yes  	[MsgId: MMSG-27023]
+    Process socket after reschedule: Yes  	[MsgId: MMSG-27022]
+    Snapshot on error: No  	[MsgId: MMSG-27021]
+    Define each step as a transaction: No  	[MsgId: MMSG-27020]
+    Read beyond Content-Length: No  	[MsgId: MMSG-26994]
+    Parse HTML Content-Type: TEXT  	[MsgId: MMSG-26999]
+    Graph hits per second and HTTP status codes: Yes  	[MsgId: MMSG-26998]
+    Graph response bytes per second: Yes  	[MsgId: MMSG-26997]
+    Graph pages per second: No  	[MsgId: MMSG-26996]
+    Web recorder version ID: 10  	[MsgId: MMSG-26995]
+Ending action vuser_init.
+Running Vuser...
+Starting iteration 1.
+Maximum number of concurrent connections per server: 6  	[MsgId: MMSG-26989]
+Starting action Action.
+Action.c(18): Notify: Saving Parameter "login = eTRkx9IQm".
+Action.c(19): Notify: Saving Parameter "password = Hk3bCqrjW".
+Action.c(20): Notify: Saving Parameter "Firstname = mp4Mm3X3F".
+Action.c(21): Notify: Saving Parameter "LastName = k0jvJ7942".
+Action.c(22): Notify: Saving Parameter "Street = Vdnc7LweVMjb6jjr".
+Action.c(23): Notify: Saving Parameter "City = uYUa7LK0vF115hOG".
+Action.c(25): Notify: Transaction "UC6_Register" started.
+Action.c(27): web_set_sockets_option started  	[MsgId: MMSG-26355]
+Action.c(27): web_set_sockets_option was successful  	[MsgId: MMSG-26392]
+Action.c(29): web_add_header("Priority") started  	[MsgId: MMSG-26355]
+Action.c(29): An unrecognized header ("Priority") is being added  	[MsgId: MMSG-26595]
+Action.c(29): "Priority: u=2" header registered for adding to requests from the immediately following Action function  	[MsgId: MMSG-26506]
+Action.c(29): web_add_header("Priority") was successful  	[MsgId: MMSG-26392]
+Action.c(31): Notify: Transaction "open_web_tours" started.
+Action.c(33): web_set_sockets_option started  	[MsgId: MMSG-26355]
+Action.c(33): web_set_sockets_option was successful  	[MsgId: MMSG-26392]
+Action.c(35): web_add_auto_header("Priority") started  	[MsgId: MMSG-26355]
+Action.c(35): An unrecognized header ("Priority") is being added  	[MsgId: MMSG-26595]
+Action.c(35): "Priority: u=0, i" header registered for adding to requests from all following Action functions  	[MsgId: MMSG-26505]
+Action.c(35): web_add_auto_header("Priority") was successful  	[MsgId: MMSG-26392]
+Action.c(38): web_add_auto_header("Upgrade-Insecure-Requests") started  	[MsgId: MMSG-26355]
+Action.c(38): An unrecognized header ("Upgrade-Insecure-Requests") is being added  	[MsgId: MMSG-26595]
+Action.c(38): "Upgrade-Insecure-Requests: 1" header registered for adding to requests from all following Action functions  	[MsgId: MMSG-26505]
+Action.c(38): web_add_auto_header("Upgrade-Insecure-Requests") was successful  	[MsgId: MMSG-26392]
+Action.c(41): web_reg_save_param_ex started  	[MsgId: MMSG-26355]
+Action.c(41): Registering web_reg_save_param_ex was successful  	[MsgId: MMSG-26390]
+Action.c(42): web_reg_find started  	[MsgId: MMSG-26355]
+Action.c(42): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+Action.c(44): web_url("WebTours") started  	[MsgId: MMSG-26355]
+Action.c(44): t=589ms: Connecting [0] to host 127.0.0.1:1080  	[MsgId: MMSG-26000]
+Action.c(44): t=590ms: Connected socket [0] from 127.0.0.1:56474 to 127.0.0.1:1080 in 1 ms  	[MsgId: MMSG-26000]
+Action.c(44): t=590ms: 299-byte request headers for "http://localhost:1080/WebTours/" (RelFrameId=1, Internal ID=1)
+Action.c(44):     GET /WebTours/ HTTP/1.1\r\n
+Action.c(44):     Priority: u=2\r\n
+Action.c(44):     Upgrade-Insecure-Requests: 1\r\n
+Action.c(44):     User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130
+Action.c(44):     .0\r\n
+Action.c(44):     Accept-Encoding: gzip, deflate\r\n
+Action.c(44):     Accept-Language: ru,en-US;q=0.7,en;q=0.3\r\n
+Action.c(44):     Accept: */*\r\n
+Action.c(44):     Connection: Keep-Alive\r\n
+Action.c(44):     Host: localhost:1080\r\n
+Action.c(44):     \r\n
+Action.c(44): t=602ms: 298-byte response headers for "http://localhost:1080/WebTours/" (RelFrameId=1, Internal ID=1)
+Action.c(44):     HTTP/1.1 200 OK\r\n
+Action.c(44):     Date: Wed, 09 Oct 2024 16:53:59 GMT\r\n
+Action.c(44):     Server: Apache/2.2.21 (Win32)\r\n
+Action.c(44):     Last-Modified: Thu, 03 Oct 2024 17:04:47 GMT\r\n
+Action.c(44):     ETag: "10000000c00e0-16e-623958d46136a"\r\n
+Action.c(44):     Accept-Ranges: bytes\r\n
+Action.c(44):     Content-Length: 366\r\n
+Action.c(44):     Keep-Alive: timeout=5, max=100\r\n
+Action.c(44):     Connection: Keep-Alive\r\n
+Action.c(44):     Content-Type: text/html\r\n
+Action.c(44):     \r\n
+Action.c(44): t=610ms: 366-byte response body for "http://localhost:1080/WebTours/" (RelFrameId=1, Internal ID=1)
+Action.c(44):     <HTML>\n
+Action.c(44):     <HEAD>\n
+Action.c(44):     <title>Web Tours</title>\n
+Action.c(44):     <frameset rows = "65,*" border="1" bordercolor="#E0E7F1">\n
+Action.c(44):     <frame name="header" src="header.html" scrolling="no" noresize="noresize" marginheight="2"
+Action.c(44):      marginwidth="2"/>\n
+Action.c(44):     <frame name="body" src="/cgi-bin/welcome.pl?signOff=true" scrolling="auto" noresize="nores
+Action.c(44):     ize" marginheight="2" marginwidth="2" />\n
+Action.c(44):     </frameset>\n
+Action.c(44):     </HEAD>\n
+Action.c(44):     </HTML>\n
+Action.c(44):     \n
+Action.c(44): Detected non-resource "http://localhost:1080/WebTours/header.html" in "http://localhost:1080/WebTours/"  	[MsgId: MMSG-26574]
+Action.c(44): Detected non-resource "http://localhost:1080/cgi-bin/welcome.pl?signOff=true" in "http://localhost:1080/WebTours/"  	[MsgId: MMSG-26574]
+Action.c(44): t=615ms: Request done "http://localhost:1080/WebTours/"  	[MsgId: MMSG-26000]
+Action.c(44): t=619ms: Connecting [1] to host 127.0.0.1:1080  	[MsgId: MMSG-26000]
+Action.c(44): t=619ms: Connecting [2] to host 127.0.0.1:1080  	[MsgId: MMSG-26000]
+Action.c(44): t=620ms: Connected socket [1] from 127.0.0.1:56475 to 127.0.0.1:1080 in 1 ms  	[MsgId: MMSG-26000]
+Action.c(44): t=620ms: 352-byte request headers for "http://localhost:1080/WebTours/header.html" (RelFrameId=1.1, Internal ID=2)
+Action.c(44):     GET /WebTours/header.html HTTP/1.1\r\n
+Action.c(44):     Referer: http://localhost:1080/WebTours/\r\n
+Action.c(44):     Priority: u=2\r\n
+Action.c(44):     Upgrade-Insecure-Requests: 1\r\n
+Action.c(44):     User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130
+Action.c(44):     .0\r\n
+Action.c(44):     Accept-Encoding: gzip, deflate\r\n
+Action.c(44):     Accept-Language: ru,en-US;q=0.7,en;q=0.3\r\n
+Action.c(44):     Accept: */*\r\n
+Action.c(44):     Connection: Keep-Alive\r\n
+Action.c(44):     Host: localhost:1080\r\n
+Action.c(44):     \r\n
+Action.c(44): t=621ms: Connected socket [2] from 127.0.0.1:56476 to 127.0.0.1:1080 in 1 ms  	[MsgId: MMSG-26000]
+Action.c(44): t=621ms: 363-byte request headers for "http://localhost:1080/cgi-bin/welcome.pl?signOff=true" (RelFrameId=1.2, Internal ID=3)
+Action.c(44):     GET /cgi-bin/welcome.pl?signOff=true HTTP/1.1\r\n
+Action.c(44):     Referer: http://localhost:1080/WebTours/\r\n
+Action.c(44):     Priority: u=2\r\n
+Action.c(44):     Upgrade-Insecure-Requests: 1\r\n
+Action.c(44):     User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130
+Action.c(44):     .0\r\n
+Action.c(44):     Accept-Encoding: gzip, deflate\r\n
+Action.c(44):     Accept-Language: ru,en-US;q=0.7,en;q=0.3\r\n
+Action.c(44):     Accept: */*\r\n
+Action.c(44):     Connection: Keep-Alive\r\n
+Action.c(44):     Host: localhost:1080\r\n
+Action.c(44):     \r\n
+Action.c(44): t=629ms: 298-byte response headers for "http://localhost:1080/WebTours/header.html" (RelFrameId=1.1, Internal ID=2)
+Action.c(44):     HTTP/1.1 200 OK\r\n
+Action.c(44):     Date: Wed, 09 Oct 2024 16:53:59 GMT\r\n
+Action.c(44):     Server: Apache/2.2.21 (Win32)\r\n
+Action.c(44):     Last-Modified: Thu, 03 Oct 2024 17:04:47 GMT\r\n
+Action.c(44):     ETag: "10000000c00de-2c6-623958d44f898"\r\n
+Action.c(44):     Accept-Ranges: bytes\r\n
+Action.c(44):     Content-Length: 710\r\n
+Action.c(44):     Keep-Alive: timeout=5, max=100\r\n
+Action.c(44):     Connection: Keep-Alive\r\n
+Action.c(44):     Content-Type: text/html\r\n
+Action.c(44):     \r\n
+Action.c(44): t=631ms: 710-byte response body for "http://localhost:1080/WebTours/header.html" (RelFrameId=1.1, Internal ID=2)
+Action.c(44):     <!DOCTYPE html>\n
+Action.c(44):     <HTML xmlns="http://www.w3.org/1999/xhtml">\n
+Action.c(44):     <HEAD></HEAD>\n
+Action.c(44):     <BODY bgcolor="#003366" leftmargin="0" marginheight="0" marginwidth="0" topmargin="0">\n
+Action.c(44):     \t\t&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&n
+Action.c(44):     bsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; \n
+Action.c(44):     \t\t<table width="100%" border="0" cellspacing="0" cellpadding="0">\n
+Action.c(44):     \t\t\t<tr>\n
+Action.c(44):     \t\t\t\t<td align="left" valign="middle" width="50%"><img src="images/hp_logo.png" alt="" 
+Action.c(44):     height="45" width="69" align="absmiddle" border="0"/><img src="images/webtours.png" alt=""
+Action.c(44):      height="45" width="130" align="absmiddle" border="0"/></td>\n
+Action.c(44):     \t\t\t\t<td align="right"></td>\n
+Action.c(44):     \t\t\t\t<td></td>\n
+Action.c(44):     \t\t\t</tr>\n
+Action.c(44):     \t\t</table>\n
+Action.c(44):     \t</BODY>\n
+Action.c(44):     </HTML>
+Action.c(44): Found resource "http://localhost:1080/WebTours/images/hp_logo.png" in HTML "http://localhost:1080/WebTours/header.html"  	[MsgId: MMSG-26659]
+Action.c(44): Found resource "http://localhost:1080/WebTours/images/webtours.png" in HTML "http://localhost:1080/WebTours/header.html"  	[MsgId: MMSG-26659]
+Action.c(44): t=633ms: Request done "http://localhost:1080/WebTours/header.html"  	[MsgId: MMSG-26000]
+Action.c(44): t=633ms: Already connected [0] to localhost:1080  	[MsgId: MMSG-26000]
+Action.c(44): t=634ms: 370-byte request headers for "http://localhost:1080/WebTours/images/hp_logo.png" (RelFrameId=, Internal ID=4)
+Action.c(44):     GET /WebTours/images/hp_logo.png HTTP/1.1\r\n
+Action.c(44):     Referer: http://localhost:1080/WebTours/header.html\r\n
+Action.c(44):     Priority: u=2\r\n
+Action.c(44):     Upgrade-Insecure-Requests: 1\r\n
+Action.c(44):     User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130
+Action.c(44):     .0\r\n
+Action.c(44):     Accept-Encoding: gzip, deflate\r\n
+Action.c(44):     Accept-Language: ru,en-US;q=0.7,en;q=0.3\r\n
+Action.c(44):     Accept: */*\r\n
+Action.c(44):     Connection: Keep-Alive\r\n
+Action.c(44):     Host: localhost:1080\r\n
+Action.c(44):     \r\n
+Action.c(44): t=635ms: Connecting [3] to host 127.0.0.1:1080  	[MsgId: MMSG-26000]
+Action.c(44): t=636ms: Connected socket [3] from 127.0.0.1:56477 to 127.0.0.1:1080 in 1 ms  	[MsgId: MMSG-26000]
+Action.c(44): t=636ms: 371-byte request headers for "http://localhost:1080/WebTours/images/webtours.png" (RelFrameId=, Internal ID=5)
+Action.c(44):     GET /WebTours/images/webtours.png HTTP/1.1\r\n
+Action.c(44):     Referer: http://localhost:1080/WebTours/header.html\r\n
+Action.c(44):     Priority: u=2\r\n
+Action.c(44):     Upgrade-Insecure-Requests: 1\r\n
+Action.c(44):     User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130
+Action.c(44):     .0\r\n
+Action.c(44):     Accept-Encoding: gzip, deflate\r\n
+Action.c(44):     Accept-Language: ru,en-US;q=0.7,en;q=0.3\r\n
+Action.c(44):     Accept: */*\r\n
+Action.c(44):     Connection: Keep-Alive\r\n
+Action.c(44):     Host: localhost:1080\r\n
+Action.c(44):     \r\n
+Action.c(44): t=638ms: 297-byte response headers for "http://localhost:1080/WebTours/images/hp_logo.png" (RelFrameId=, Internal ID=4)
+Action.c(44):     HTTP/1.1 200 OK\r\n
+Action.c(44):     Date: Wed, 09 Oct 2024 16:53:59 GMT\r\n
+Action.c(44):     Server: Apache/2.2.21 (Win32)\r\n
+Action.c(44):     Last-Modified: Thu, 03 Oct 2024 17:04:48 GMT\r\n
+Action.c(44):     ETag: "10000000c00f7-259-623958d4e5080"\r\n
+Action.c(44):     Accept-Ranges: bytes\r\n
+Action.c(44):     Content-Length: 601\r\n
+Action.c(44):     Keep-Alive: timeout=5, max=99\r\n
+Action.c(44):     Connection: Keep-Alive\r\n
+Action.c(44):     Content-Type: image/png\r\n
+Action.c(44):     \r\n
+Action.c(44): t=639ms: 601-byte response body for "http://localhost:1080/WebTours/images/hp_logo.png" (RelFrameId=, Internal ID=4)
+Action.c(44): t=640ms: Request done "http://localhost:1080/WebTours/images/hp_logo.png"  	[MsgId: MMSG-26000]
+Action.c(44): t=640ms: 300-byte response headers for "http://localhost:1080/WebTours/images/webtours.png" (RelFrameId=, Internal ID=5)
+Action.c(44):     HTTP/1.1 200 OK\r\n
+Action.c(44):     Date: Wed, 09 Oct 2024 16:53:59 GMT\r\n
+Action.c(44):     Server: Apache/2.2.21 (Win32)\r\n
+Action.c(44):     Last-Modified: Thu, 03 Oct 2024 17:04:48 GMT\r\n
+Action.c(44):     ETag: "10000000c0103-105b-623958d536174"\r\n
+Action.c(44):     Accept-Ranges: bytes\r\n
+Action.c(44):     Content-Length: 4187\r\n
+Action.c(44):     Keep-Alive: timeout=5, max=100\r\n
+Action.c(44):     Connection: Keep-Alive\r\n
+Action.c(44):     Content-Type: image/png\r\n
+Action.c(44):     \r\n
+Action.c(44): t=642ms: 4187-byte response body for "http://localhost:1080/WebTours/images/webtours.png" (RelFrameId=, Internal ID=5)
+Action.c(44): t=642ms: Request done "http://localhost:1080/WebTours/images/webtours.png"  	[MsgId: MMSG-26000]
+Action.c(44): t=690ms: 328-byte response headers for "http://localhost:1080/cgi-bin/welcome.pl?signOff=true" (RelFrameId=1.2, Internal ID=3)
+Action.c(44):     HTTP/1.1 200 OK\r\n
+Action.c(44):     Date: Wed, 09 Oct 2024 16:53:59 GMT\r\n
+Action.c(44):     Server: Apache/2.2.21 (Win32)\r\n
+Action.c(44):     Set-Cookie: MSO=SID&1728492839; path=/\r\n
+Action.c(44):     Set-Cookie: MTUserInfo=; path=/; expires=Tue, 08-Oct-2024 16:53:59 GMT\r\n
+Action.c(44):     Keep-Alive: timeout=5, max=100\r\n
+Action.c(44):     Connection: Keep-Alive\r\n
+Action.c(44):     Transfer-Encoding: chunked\r\n
+Action.c(44):     Content-Type: text/html; charset=ISO-8859-1\r\n
+Action.c(44):     \r\n
+Action.c(44): t=691ms: 5-byte chunked response overhead for "http://localhost:1080/cgi-bin/welcome.pl?signOff=true" (RelFrameId=1.2, Internal ID=3)
+Action.c(44):     2ae\r\n
+Action.c(44): t=691ms: 7-byte chunked response overhead for "http://localhost:1080/cgi-bin/welcome.pl?signOff=true" (RelFrameId=1.2, Internal ID=3)
+Action.c(44):     \r\n
+Action.c(44):     0\r\n
+Action.c(44):     \r\n
+Action.c(44): t=692ms: 686-byte chunked response body for "http://localhost:1080/cgi-bin/welcome.pl?signOff=true" (RelFrameId=1.2, Internal ID=3)
+Action.c(44):     <!-- \n
+Action.c(44):      A Session ID has been created and loaded into a cookie called MSO.\n
+Action.c(44):      Also, the server options have been loaded into the cookie called\n
+Action.c(44):      MSO as well.  The server options can be set via the Admin page.\n
+Action.c(44):      --->\n
+Action.c(44):     \n
+Action.c(44):     <html>\n
+Action.c(44):     <title>Web Tours</title>\n
+Action.c(44):        <!-- Frame Set -->\n
+Action.c(44):        <frameset cols="160,*" border="1" frameborder="1">\n
+Action.c(44):           <!-- Navigation Frame -->\n
+Action.c(44):           <frame src="nav.pl?in=home" name="navbar" marginheight="2" marginwidth="2" \n
+Action.c(44):                 noresize="noresize" scrolling="auto"/>\n
+Action.c(44):           <!-- Home Frame -->\n
+Action.c(44):           <frame src="/WebTours/home.html" name="info" marginheight="2" marginwidth="2" \n
+Action.c(44):                 noresize="noresize" scrolling="auto"/>\n
+Action.c(44):        </frameset>\n
+Action.c(44):     </html>\n
+Action.c(44):     \n
+Action.c(44):     </body>\n
+Action.c(44):     </html>
+Action.c(44): Detected non-resource "http://localhost:1080/cgi-bin/nav.pl?in=home" in "http://localhost:1080/cgi-bin/welcome.pl?signOff=true"  	[MsgId: MMSG-26574]
+Action.c(44): Detected non-resource "http://localhost:1080/WebTours/home.html" in "http://localhost:1080/cgi-bin/welcome.pl?signOff=true"  	[MsgId: MMSG-26574]
+Action.c(44): t=694ms: Request done "http://localhost:1080/cgi-bin/welcome.pl?signOff=true"  	[MsgId: MMSG-26000]
+Action.c(44): t=700ms: Already connected [0] to localhost:1080  	[MsgId: MMSG-26000]
+Action.c(44): t=700ms: 404-byte request headers for "http://localhost:1080/cgi-bin/nav.pl?in=home" (RelFrameId=1.2.1, Internal ID=6)
+Action.c(44):     GET /cgi-bin/nav.pl?in=home HTTP/1.1\r\n
+Action.c(44):     Referer: http://localhost:1080/cgi-bin/welcome.pl?signOff=true\r\n
+Action.c(44):     Priority: u=2\r\n
+Action.c(44):     Upgrade-Insecure-Requests: 1\r\n
+Action.c(44):     User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130
+Action.c(44):     .0\r\n
+Action.c(44):     Accept-Encoding: gzip, deflate\r\n
+Action.c(44):     Accept-Language: ru,en-US;q=0.7,en;q=0.3\r\n
+Action.c(44):     Accept: */*\r\n
+Action.c(44):     Connection: Keep-Alive\r\n
+Action.c(44):     Host: localhost:1080\r\n
+Action.c(44):     Cookie: MSO=SID&1728492839\r\n
+Action.c(44):     \r\n
+Action.c(44): t=701ms: Already connected [1] to localhost:1080  	[MsgId: MMSG-26000]
+Action.c(44): t=701ms: 400-byte request headers for "http://localhost:1080/WebTours/home.html" (RelFrameId=1.2.2, Internal ID=7)
+Action.c(44):     GET /WebTours/home.html HTTP/1.1\r\n
+Action.c(44):     Referer: http://localhost:1080/cgi-bin/welcome.pl?signOff=true\r\n
+Action.c(44):     Priority: u=2\r\n
+Action.c(44):     Upgrade-Insecure-Requests: 1\r\n
+Action.c(44):     User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130
+Action.c(44):     .0\r\n
+Action.c(44):     Accept-Encoding: gzip, deflate\r\n
+Action.c(44):     Accept-Language: ru,en-US;q=0.7,en;q=0.3\r\n
+Action.c(44):     Accept: */*\r\n
+Action.c(44):     Connection: Keep-Alive\r\n
+Action.c(44):     Host: localhost:1080\r\n
+Action.c(44):     Cookie: MSO=SID&1728492839\r\n
+Action.c(44):     \r\n
+Action.c(44): t=711ms: 298-byte response headers for "http://localhost:1080/WebTours/home.html" (RelFrameId=1.2.2, Internal ID=7)
+Action.c(44):     HTTP/1.1 200 OK\r\n
+Action.c(44):     Date: Wed, 09 Oct 2024 16:53:59 GMT\r\n
+Action.c(44):     Server: Apache/2.2.21 (Win32)\r\n
+Action.c(44):     Last-Modified: Thu, 03 Oct 2024 17:04:47 GMT\r\n
+Action.c(44):     ETag: "10000000c00df-551-623958d452d56"\r\n
+Action.c(44):     Accept-Ranges: bytes\r\n
+Action.c(44):     Content-Length: 1361\r\n
+Action.c(44):     Keep-Alive: timeout=5, max=99\r\n
+Action.c(44):     Connection: Keep-Alive\r\n
+Action.c(44):     Content-Type: text/html\r\n
+Action.c(44):     \r\n
+Action.c(44): t=712ms: 1361-byte response body for "http://localhost:1080/WebTours/home.html" (RelFrameId=1.2.2, Internal ID=7)
+Action.c(44):     <HTML>\n
+Action.c(44):     <HEAD>\n
+Action.c(44):     \t<title>Web Tours</title>\n
+Action.c(44):     </HEAD>\n
+Action.c(44):     <style>\n
+Action.c(44):     \tblockquote {font-family: tahoma; font-size : 10pt}\n
+Action.c(44):     \tH1 {font-family: tahoma; font-size : 22pt; color: #003366}\n
+Action.c(44):     \tsmall {font-family: tahoma; font-size : 8pt}\n
+Action.c(44):     \tH3{font-family: tahoma; font-size : 10pt; color: black}\n
+Action.c(44):     \tA {FONT-WEIGHT: bold; FONT-SIZE: 10pt; COLOR: black; FONT-FAMILY: Tahoma; TEXT-DECORATIO
+Action.c(44):     N: none}\n
+Action.c(44):     \tA:hover{ FONT-WEIGHT: bold; FONT-SIZE: 10pt; COLOR: #993333; FONT-FAMILY: Tahoma;TEXT-DE
+Action.c(44):     CORATION: underline}\n
+Action.c(44):     \tTD {font-family: tahoma; font-size : 10pt; color: black}\n
+Action.c(44):     </style>\n
+Action.c(44):     <body bgcolor="#e0e7f1">\n
+Action.c(44):     <BR/>\n
+Action.c(44):     <BR/>\n
+Action.c(44):     <BR/>\n
+Action.c(44):     <br/>\n
+Action.c(44):     <table border="0">\n
+Action.c(44):     <tr><td></td></tr>\n
+Action.c(44):     <TR><TD></TD></TR>\n
+Action.c(44):     <TR><TD>\n
+Action.c(44):     <blockquote>\n
+Action.c(44):     <H1><b>Web Tours</b></H1>\n
+Action.c(44):     Welcome to the Web Tours site.\n
+Action.c(44):     <br/>\n
+Action.c(44):     To make reservations,please enter your account information to the left.\n
+Action.c(44):     <br/>\n
+Action.c(44):     If you haven't registered yet, <A href="/cgi-bin/login.pl?username=&amp;password=&amp;getI
+Action.c(44):     nfo=true" ><B>sign up now</B></A> to get access to all our resources.\n
+Action.c(44):     <br/>\n
+Action.c(44):     To configure the server options, use <A href="/cgi-bin/admin.pl" target="body" ><b>adminis
+Action.c(44):     tration</b></A> link.\n
+Action.c(44):     <br/><br/><br/><br/><br/><br/>\n
+Action.c(44):     <br/><small>\n
+Action.c(44):     This product uses parts of the SMT Kernel, Copyright (c) 1991-99 <A href="http://www.imati
+Action.c(44):     x.com" target="new"><B><small>iMatix Corporation</small></B></A> \n
+Action.c(44):     </small>\n
+Action.c(44):     </blockquote></TD>\n
+Action.c(44):     <TD></TD></TR>\n
+Action.c(44):     </table>\n
+Action.c(44):     </body>\n
+Action.c(44):     </HTML>\n
+Action.c(44): t=716ms: Request done "http://localhost:1080/WebTours/home.html"  	[MsgId: MMSG-26000]
+Action.c(44): t=774ms: 255-byte response headers for "http://localhost:1080/cgi-bin/nav.pl?in=home" (RelFrameId=1.2.1, Internal ID=6)
+Action.c(44):     HTTP/1.1 200 OK\r\n
+Action.c(44):     Date: Wed, 09 Oct 2024 16:53:59 GMT\r\n
+Action.c(44):     Server: Apache/2.2.21 (Win32)\r\n
+Action.c(44):     Expires: Tue, 08 Oct 2024 16:53:59 GMT\r\n
+Action.c(44):     Keep-Alive: timeout=5, max=98\r\n
+Action.c(44):     Connection: Keep-Alive\r\n
+Action.c(44):     Transfer-Encoding: chunked\r\n
+Action.c(44):     Content-Type: text/html; charset=ISO-8859-1\r\n
+Action.c(44):     \r\n
+Action.c(44): t=775ms: 5-byte chunked response overhead for "http://localhost:1080/cgi-bin/nav.pl?in=home" (RelFrameId=1.2.1, Internal ID=6)
+Action.c(44):     5d2\r\n
+Action.c(44): t=775ms: 7-byte chunked response overhead for "http://localhost:1080/cgi-bin/nav.pl?in=home" (RelFrameId=1.2.1, Internal ID=6)
+Action.c(44):     \r\n
+Action.c(44):     0\r\n
+Action.c(44):     \r\n
+Action.c(44): t=776ms: 1490-byte chunked response body for "http://localhost:1080/cgi-bin/nav.pl?in=home" (RelFrameId=1.2.1, Internal ID=6)
+Action.c(44):     <!DOCTYPE html\n
+Action.c(44):     \tPUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"\n
+Action.c(44):     \t "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">\n
+Action.c(44):     <html xmlns="http://www.w3.org/1999/xhtml" lang="en-US" xml:lang="en-US">\n
+Action.c(44):     <head>\n
+Action.c(44):     <title>Web Tours Navigation Bar</title>\n
+Action.c(44):     <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />\n
+Action.c(44):     </head>\n
+Action.c(44):     <body bgcolor="#E0E7F1">\n
+Action.c(44):     <style>\n
+Action.c(44):     blockquote {font-family: tahoma; font-size : 10pt}\n
+Action.c(44):     H1 {font-family: tahoma; font-size : 22pt; color: #993333}\n
+Action.c(44):     H3 {font-family: tahoma; font-size : 10pt; color: black}\n
+Action.c(44):     small {font-family: tahoma; font-size : 8pt}\n
+Action.c(44):     </style>\n
+Action.c(44):     <form method="post" action="/cgi-bin/login.pl" target="body">\n
+Action.c(44):     <input type="hidden" name="userSession" value="140015.620818145HcAcAfDptQfiDDDDtDcVcpDcAQH
+Action.c(44):     f"/>\n
+Action.c(44):     <table border="0"><tr><td>&nbsp;</td>\n
+Action.c(44):     <td>&nbsp;</td></tr>\n
+Action.c(44):     <tr><td>&nbsp;</td>\n
+Action.c(44):     <td>&nbsp;</td></tr>\n
+Action.c(44):     <tr><td>&nbsp;</td>\n
+Action.c(44):     <td><small>&nbsp;Username</small></td></tr>\n
+Action.c(44):     <tr><td>&nbsp;</td>\n
+Action.c(44):     <td><input type="text" name="username" value="" size="14" maxlength="14"/></td></tr>\n
+Action.c(44):     <tr><td>&nbsp;</td>\n
+Action.c(44):     <td><small>&nbsp;Password</small></td>\n
+Action.c(44):     <tr><td>&nbsp;</td>\n
+Action.c(44):     <td><input type="password" name="password" value="" size="14" maxlength="14"/></td></tr>\n
+Action.c(44):     <tr><td>&nbsp;</td>\n
+Action.c(44):     <td>&nbsp;</td></tr>\n
+Action.c(44):     <tr><td>&nbsp;</td>\n
+Action.c(44):     <td><input type="image" name="login" value="Login" alt="Login" border="1" \n
+Action.c(44):     src="/WebTours/images/mer_login.gif"/></td></tr>\n
+Action.c(44):     <tr><td>&nbsp;</td><td>&nbsp;</td></tr>\n
+Action.c(44):     </table><input type="hidden" name="JSFormSubmit" value="off"/>\n
+Action.c(44):     </form>\n
+Action.c(44):     \n
+Action.c(44):     </body>\n
+Action.c(44):     </html>\n
+Action.c(44): Notify: Saving Parameter "usSession = 140015.620818145HcAcAfDptQfiDDDDtDcVcpDcAQHf".
+Action.c(44): Found resource "http://localhost:1080/WebTours/images/mer_login.gif" in HTML "http://localhost:1080/cgi-bin/nav.pl?in=home"  	[MsgId: MMSG-26659]
+Action.c(44): t=778ms: Request done "http://localhost:1080/cgi-bin/nav.pl?in=home"  	[MsgId: MMSG-26000]
+Action.c(44): t=779ms: Already connected [1] to localhost:1080  	[MsgId: MMSG-26000]
+Action.c(44): t=779ms: 402-byte request headers for "http://localhost:1080/WebTours/images/mer_login.gif" (RelFrameId=, Internal ID=8)
+Action.c(44):     GET /WebTours/images/mer_login.gif HTTP/1.1\r\n
+Action.c(44):     Referer: http://localhost:1080/cgi-bin/nav.pl?in=home\r\n
+Action.c(44):     Priority: u=2\r\n
+Action.c(44):     Upgrade-Insecure-Requests: 1\r\n
+Action.c(44):     User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130
+Action.c(44):     .0\r\n
+Action.c(44):     Accept-Encoding: gzip, deflate\r\n
+Action.c(44):     Accept-Language: ru,en-US;q=0.7,en;q=0.3\r\n
+Action.c(44):     Accept: */*\r\n
+Action.c(44):     Connection: Keep-Alive\r\n
+Action.c(44):     Host: localhost:1080\r\n
+Action.c(44):     Cookie: MSO=SID&1728492839\r\n
+Action.c(44):     \r\n
+Action.c(44): t=783ms: 297-byte response headers for "http://localhost:1080/WebTours/images/mer_login.gif" (RelFrameId=, Internal ID=8)
+Action.c(44):     HTTP/1.1 200 OK\r\n
+Action.c(44):     Date: Wed, 09 Oct 2024 16:53:59 GMT\r\n
+Action.c(44):     Server: Apache/2.2.21 (Win32)\r\n
+Action.c(44):     Last-Modified: Thu, 03 Oct 2024 17:04:48 GMT\r\n
+Action.c(44):     ETag: "10000000c00ff-2a7-623958d51c22e"\r\n
+Action.c(44):     Accept-Ranges: bytes\r\n
+Action.c(44):     Content-Length: 679\r\n
+Action.c(44):     Keep-Alive: timeout=5, max=98\r\n
+Action.c(44):     Connection: Keep-Alive\r\n
+Action.c(44):     Content-Type: image/gif\r\n
+Action.c(44):     \r\n
+Action.c(44): t=785ms: 679-byte response body for "http://localhost:1080/WebTours/images/mer_login.gif" (RelFrameId=, Internal ID=8)
+Action.c(44): t=785ms: Request done "http://localhost:1080/WebTours/images/mer_login.gif"  	[MsgId: MMSG-26000]
+Action.c(44): Registered web_reg_find successful for "Text=Welcome to the Web Tours site." (count=1)  	[MsgId: MMSG-26364]
+Action.c(44): web_url("WebTours") was successful, 10080 body bytes, 2371 header bytes, 24 chunking overhead bytes  	[MsgId: MMSG-26385]
+Action.c(54): web_websocket_send started  	[MsgId: MMSG-26355]
+Action.c(54): Warning: The string '"remote-settings/monitor_changes":"\"1728403128973\""' with parameter delimiters is not a parameter.
+Action.c(54): Warning -35046: The WebSocket whose ID is "1" is not connected  	[MsgId: MWAR-35046]
+Action.c(54): web_websocket_send highest severity level was "warning"  	[MsgId: MMSG-26391]
+Action.c(61): Notify: Transaction "open_web_tours" ended with a "Pass" status (Duration: 0,4221 Wasted Time: 0,1124).
+Action.c(63): Notify: Transaction "sign_up" started.
+Action.c(65): web_reg_find started  	[MsgId: MMSG-26355]
+Action.c(65): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+Action.c(67): web_add_auto_header("Priority") started  	[MsgId: MMSG-26355]
+Action.c(67): An unrecognized header ("Priority") is being added  	[MsgId: MMSG-26595]
+Action.c(67): "Priority: u=4" header registered (superseding previous registration) for adding to requests from all following Action functions  	[MsgId: MMSG-26504]
+Action.c(67): web_add_auto_header("Priority") was successful  	[MsgId: MMSG-26392]
+Action.c(70): web_remove_auto_header("Upgrade-Insecure-Requests") started  	[MsgId: MMSG-26355]
+Action.c(70): Previous automatically added web header for "Upgrade-Insecure-Requests" removed  	[MsgId: MMSG-26587]
+Action.c(70): web_remove/revert_auto_header("Upgrade-Insecure-Requests") was successful  	[MsgId: MMSG-26392]
+Action.c(74): web_url("login.pl") started  	[MsgId: MMSG-26355]
+Action.c(74): t=987ms: Already connected [0] to localhost:1080  	[MsgId: MMSG-26000]
+Action.c(74): t=987ms: 388-byte request headers for "http://localhost:1080/cgi-bin/login.pl?username=&password=&getInfo=true" (RelFrameId=1, Internal ID=9)
+Action.c(74):     GET /cgi-bin/login.pl?username=&password=&getInfo=true HTTP/1.1\r\n
+Action.c(74):     Referer: http://localhost:1080/WebTours/home.html\r\n
+Action.c(74):     Priority: u=4\r\n
+Action.c(74):     User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130
+Action.c(74):     .0\r\n
+Action.c(74):     Accept-Encoding: gzip, deflate\r\n
+Action.c(74):     Accept-Language: ru,en-US;q=0.7,en;q=0.3\r\n
+Action.c(74):     Accept: */*\r\n
+Action.c(74):     Connection: Keep-Alive\r\n
+Action.c(74):     Host: localhost:1080\r\n
+Action.c(74):     Cookie: MSO=SID&1728492839\r\n
+Action.c(74):     \r\n
+Action.c(74): t=1059ms: 228-byte response headers for "http://localhost:1080/cgi-bin/login.pl?username=&password=&getInfo=true" (RelFrameId=1, Internal ID=9)
+Action.c(74):     HTTP/1.1 200 OK\r\n
+Action.c(74):     Date: Wed, 09 Oct 2024 16:53:59 GMT\r\n
+Action.c(74):     Server: Apache/2.2.21 (Win32)\r\n
+Action.c(74):     Expires: 5s\r\n
+Action.c(74):     Keep-Alive: timeout=5, max=97\r\n
+Action.c(74):     Connection: Keep-Alive\r\n
+Action.c(74):     Transfer-Encoding: chunked\r\n
+Action.c(74):     Content-Type: text/html; charset=ISO-8859-1\r\n
+Action.c(74):     \r\n
+Action.c(74): t=1060ms: 5-byte chunked response overhead for "http://localhost:1080/cgi-bin/login.pl?username=&password=&getInfo=true" (RelFrameId=1, Internal ID=9)
+Action.c(74):     97d\r\n
+Action.c(74): t=1061ms: 7-byte chunked response overhead for "http://localhost:1080/cgi-bin/login.pl?username=&password=&getInfo=true" (RelFrameId=1, Internal ID=9)
+Action.c(74):     \r\n
+Action.c(74):     0\r\n
+Action.c(74):     \r\n
+Action.c(74): t=1061ms: 2429-byte chunked response body for "http://localhost:1080/cgi-bin/login.pl?username=&password=&getInfo=true" (RelFrameId=1, Internal ID=9)
+Action.c(74):     <!DOCTYPE html\n
+Action.c(74):     \tPUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"\n
+Action.c(74):     \t "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">\n
+Action.c(74):     <html xmlns="http://www.w3.org/1999/xhtml" lang="en-US" xml:lang="en-US">\n
+Action.c(74):     <head>\n
+Action.c(74):     <title>User Information</title>\n
+Action.c(74):     <script src="/WebTours/profileValidate.js" type="text/JavaScript"></script>\n
+Action.c(74):     <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />\n
+Action.c(74):     </head>\n
+Action.c(74):     <body bgcolor="#E0E7F1">\n
+Action.c(74):     <style>blockquote {font-family: tahoma; font-size : 10pt}H1 {font-family: tahoma; font-siz
+Action.c(74):     e : 22pt; color: #993333}small {font-family: tahoma; font-size : 8pt}H3 {font-family: taho
+Action.c(74):     ma; font-size : 10pt; color: black}TD {font-family: tahoma; font-size : 10pt; color: black
+Action.c(74):     }</style><BR/><center><H1><b><font color="#003366">Customer Profile</font></b></H1></cente
+Action.c(74):     r><blockquote><tr><td><B>First time registering? Please complete the form below.</B><BR/>P
+Action.c(74):     lease choose a username and password combination for your account.<BR/>We'd also like some
+Action.c(74):      additional contact information for yourself. We'll use it as default shipping and billing
+Action.c(74):      information when making all your travel arrangements.<P><tr><td align=center><form method
+Action.c(74):     ="post" action="login.pl" enctype="application/x-www-form-urlencoded" target="info" onsubm
+Action.c(74):     it>\n
+Action.c(74):     <table><tr><td align="left"><blockquote>Username : </td> <td align="left"><input type="tex
+Action.c(74):     t" name="username"  size="20" /></td></tr> <tr><td align="left"><blockquote>Password : </t
+Action.c(74):     d> <td align="left"><input type="password" name="password"  size="20" /></td></tr> <tr><td
+Action.c(74):      align="left"><blockquote>Confirm : </td> <td align="left"><input type="password" name="pa
+Action.c(74):     sswordConfirm"  size="20" /></td></tr> <tr><td> </td></tr> <tr><td align="left"><blockquot
+Action.c(74):     e>First Name : </td> <td align="left"><input type="text" name="firstName"  size="20" /></t
+Action.c(74):     d></tr> <tr><td align="left"><blockquote>Last Name : </td> <td align="left"><input type="t
+Action.c(74):     ext" name="lastName"  size="20" /></td></tr> <tr><td align="left"><blockquote>Street Addre
+Action.c(74):     ss : </td> <td align="left"><input type="text" name="address1"  size="30" /></td></tr> <tr
+Action.c(74):     ><td align="left"><blockquote>City/State/Zip : </td> <td align="left"><input type="text" n
+Action.c(74):     ame="address2"  size="30" /></td></tr> <tr><td align="left">&nbsp;</td> <td align="right">
+Action.c(74):     &nbsp;</td></tr> <tr><td align="center" colspan="2"><input type="image" name="register" sr
+Action.c(74):     c="/WebTours/images/button_next.gif" border="0" /></td></tr></table></form></table></block
+Action.c(74):     quote>\n
+Action.c(74):     </body>\n
+Action.c(74):     </html>\n
+Action.c(74): Found resource "http://localhost:1080/WebTours/profileValidate.js" in HTML "http://localhost:1080/cgi-bin/login.pl?username=&password=&getInfo=true"  	[MsgId: MMSG-26659]
+Action.c(74): Found resource "http://localhost:1080/WebTours/images/button_next.gif" in HTML "http://localhost:1080/cgi-bin/login.pl?username=&password=&getInfo=true"  	[MsgId: MMSG-26659]
+Action.c(74): t=1065ms: Request done "http://localhost:1080/cgi-bin/login.pl?username=&password=&getInfo=true"  	[MsgId: MMSG-26000]
+Action.c(74): t=1065ms: Already connected [1] to localhost:1080  	[MsgId: MMSG-26000]
+Action.c(74): t=1065ms: 397-byte request headers for "http://localhost:1080/WebTours/profileValidate.js" (RelFrameId=, Internal ID=10)
+Action.c(74):     GET /WebTours/profileValidate.js HTTP/1.1\r\n
+Action.c(74):     Referer: http://localhost:1080/cgi-bin/login.pl?username=&password=&getInfo=true\r\n
+Action.c(74):     Priority: u=4\r\n
+Action.c(74):     User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130
+Action.c(74):     .0\r\n
+Action.c(74):     Accept-Encoding: gzip, deflate\r\n
+Action.c(74):     Accept-Language: ru,en-US;q=0.7,en;q=0.3\r\n
+Action.c(74):     Accept: */*\r\n
+Action.c(74):     Connection: Keep-Alive\r\n
+Action.c(74):     Host: localhost:1080\r\n
+Action.c(74):     Cookie: MSO=SID&1728492839\r\n
+Action.c(74):     \r\n
+Action.c(74): t=1067ms: Already connected [2] to localhost:1080  	[MsgId: MMSG-26000]
+Action.c(74): t=1067ms: 401-byte request headers for "http://localhost:1080/WebTours/images/button_next.gif" (RelFrameId=, Internal ID=11)
+Action.c(74):     GET /WebTours/images/button_next.gif HTTP/1.1\r\n
+Action.c(74):     Referer: http://localhost:1080/cgi-bin/login.pl?username=&password=&getInfo=true\r\n
+Action.c(74):     Priority: u=4\r\n
+Action.c(74):     User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130
+Action.c(74):     .0\r\n
+Action.c(74):     Accept-Encoding: gzip, deflate\r\n
+Action.c(74):     Accept-Language: ru,en-US;q=0.7,en;q=0.3\r\n
+Action.c(74):     Accept: */*\r\n
+Action.c(74):     Connection: Keep-Alive\r\n
+Action.c(74):     Host: localhost:1080\r\n
+Action.c(74):     Cookie: MSO=SID&1728492839\r\n
+Action.c(74):     \r\n
+Action.c(74): t=1071ms: 297-byte response headers for "http://localhost:1080/WebTours/images/button_next.gif" (RelFrameId=, Internal ID=11)
+Action.c(74):     HTTP/1.1 200 OK\r\n
+Action.c(74):     Date: Wed, 09 Oct 2024 16:53:59 GMT\r\n
+Action.c(74):     Server: Apache/2.2.21 (Win32)\r\n
+Action.c(74):     Last-Modified: Thu, 03 Oct 2024 17:04:47 GMT\r\n
+Action.c(74):     ETag: "10000000c00ef-2f6-623958d4b7961"\r\n
+Action.c(74):     Accept-Ranges: bytes\r\n
+Action.c(74):     Content-Length: 758\r\n
+Action.c(74):     Keep-Alive: timeout=5, max=99\r\n
+Action.c(74):     Connection: Keep-Alive\r\n
+Action.c(74):     Content-Type: image/gif\r\n
+Action.c(74):     \r\n
+Action.c(74): t=1073ms: 758-byte response body for "http://localhost:1080/WebTours/images/button_next.gif" (RelFrameId=, Internal ID=11)
+Action.c(74): t=1074ms: Request done "http://localhost:1080/WebTours/images/button_next.gif"  	[MsgId: MMSG-26000]
+Action.c(74): t=1074ms: 313-byte response headers for "http://localhost:1080/WebTours/profileValidate.js" (RelFrameId=, Internal ID=10)
+Action.c(74):     HTTP/1.1 200 OK\r\n
+Action.c(74):     Date: Wed, 09 Oct 2024 16:53:59 GMT\r\n
+Action.c(74):     Server: Apache/2.2.21 (Win32)\r\n
+Action.c(74):     Last-Modified: Thu, 03 Oct 2024 17:04:47 GMT\r\n
+Action.c(74):     ETag: "10000000c00e3-2c18-623958d47d3a1"\r\n
+Action.c(74):     Accept-Ranges: bytes\r\n
+Action.c(74):     Content-Length: 11288\r\n
+Action.c(74):     Keep-Alive: timeout=5, max=97\r\n
+Action.c(74):     Connection: Keep-Alive\r\n
+Action.c(74):     Content-Type: application/javascript\r\n
+Action.c(74):     \r\n
+Action.c(74): t=1076ms: 11288-byte response body for "http://localhost:1080/WebTours/profileValidate.js" (RelFrameId=, Internal ID=10)
+Action.c(74):     // check for IE3\n
+Action.c(74):     var isIE3 = (navigator.appVersion.indexOf('MSIE 3') != -1);\n
+Action.c(74):     \n
+Action.c(74):     \n
+Action.c(74):     /***************************************************************\n
+Action.c(74):     ** define and instantiate validation objects\n
+Action.c(74):     ** the validation object accepts the following parameters:\n
+Action.c(74):     **\n
+Action.c(74):     **   realName: name used in the alerts (same as label on the page)\n
+Action.c(74):     **\n
+Action.c(74):     **   formEltName: this must be the name of the corresponding\n
+Action.c(74):     **       HTML form element; make it the same as the object name\n
+Action.c(74):     **\n
+Action.c(74):     **   eltType: element type (we have to create this since IE3\n
+Action.c(74):     **       doesn't support the type property for for elements)\n
+Action.c(74):     **     text\n
+Action.c(74):     **     textarea\n
+Action.c(74):     **     checkbox\n
+Action.c(74):     **     radio\n
+Action.c(74):     **     select\n
+Action.c(74):     **\n
+Action.c(74):     **   uptoSnuff: function call that's evaluated during validation check\n
+Action.c(74):     **     isText(str)\n
+Action.c(74):     **     isSelect(formObj)\n
+Action.c(74):     **     isRadio(formObj)\n
+Action.c(74):     **     isCheck(formObj, form, [index of first checkbox in group],\n
+Action.c(74):     **         [number of checkboxes])\n
+Action.c(74):     **     isEmail(str)\n
+Action.c(74):     **     isState(str)\n
+Action.c(74):     **     isZipCode(str)\n
+Action.c(74):     **     isPhoneNum(str)\n
+Action.c(74):     **     isDate(str)\n
+Action.c(74):     **\n
+Action.c(74):     **   format: text representation of required format;\n
+Action.c(74):     **       pass 'null' if no required format;\n
+Action.c(74):     **       used in alert as an aid to user\n
+Action.c(74):     ***************************************************************/\n
+Action.c(74):     \n
+Action.c(74):     // object definition\n
+Action.c(74):     function validation(realName, formEltName, eltType, upToSnuff, format) {\n
+Action.c(74):       this.realName = realName;\n
+Action.c(74):       this.formEltName = formEltName;\n
+Action.c(74):       this.eltType = eltType;\n
+Action.c(74):       this.upToSnuff = upToSnuff;\n
+Action.c(74):       this.format = format;\n
+Action.c(74):     }\n
+Action.c(74):     \n
+Action.c(74):     /***************************************************************\n
+Action.c(74):     ** create a new object for each form element you need to validate\n
+Action.c(74):     ** for example:\n
+Action.c(74):     ** var lastName = new validation('last name', 'lastName', 'text', 'isText(str)', null);\n
+Action.c(74):     ** var phoneNum = new validation('phone number', 'phoneNum', 'text', 'isPhoneNum(str)', 'x
+Action.c(74):     xx-xxx-xxxx');\n
+Action.c(74):     ** var reason = new validation('reason for reading this', 'reason', 'checkbox', 'isCheck(f
+Action.c(74):     ormObj, form, 14, 3)', null);\n
+Action.c(74):     ***************************************************************/\n
+Action.c(74):     // create objects here:\n
+Action.c(74):     \n
+Action.c(74):     \n
+Action.c(74):     var username = new validation('a username', 'username', 'text', 'isText(str)', null);\n
+Action.c(74):     var password = new validation('a password', 'password', 'text', 'isText(str)', null);\n
+Action.c(74):     var passwordC = new validation('a password confirmation', 'passwordConfirm', 'text', 'isTe
+Action.c(74):     xt(str)', null);\n
+Action.c(74):     var firstN = new validation('your first name', 'firstName', 'text', 'isText(str)', null);\n
+Action.c(74):     var lastN = new validation('your last name', 'lastName', 'text', 'isText(str)', null);\n
+Action.c(74):     var address = new validation('your address', 'address1', 'text', 'isText(str)', null);\n
+Action.c(74):     var csz = new validation('your City/State/Zip', 'address2', 'text', 'isText(str)', null);\n
+Action.c(74):     \n
+Action.c(74):     \n
+Action.c(74):     \n
+Action.c(74):     \n
+Action.c(74):     /***************************************************************\n
+Action.c(74):     ** Define the elts array:\n
+Action.c(74):     ** Add a new item to the array for each object you create above\n
+Action.c(74):     ** Make sure the value of the array element is the same as\n
+Action.c(74):     ** the name of the object, and that the array elements are listed\n
+Action.c(74):     ** in the same order the corresponding objects appear in the form\n
+Action.c(74):     ** (it's more clear to the user that way)\n
+Action.c(74):     ** for example:\n
+Action.c(74):     ** var elts = new Array(lastName, phoneNum, reason)\n
+Action.c(74):     ***************************************************************/\n
+Action.c(74):     var elts = new Array(username, password, passwordC, firstN, lastN, address, csz);\n
+Action.c(74):     \n
+Action.c(74):     \n
+Action.c(74):     \n
+Action.c(74):     /***************************************************************\n
+Action.c(74):     ** The main function keeps track of which fields the user missed\n
+Action.c(74):     ** or filled in incorrectly, and alerts the user so they can go\n
+Action.c(74):     ** back and fix what's wrong.\n
+Action.c(74):     ** Set allAtOnce to true if you want this "validation help" to\n
+Action.c(74):     ** alert the user to all mistakes at once; set it to false if\n
+Action.c(74):     ** you want it to show one mistake at a time\n
+Action.c(74):     ***************************************************************/\n
+Action.c(74):     var allAtOnce = true;\n
+Action.c(74):     \n
+Action.c(74):     \n
+Action.c(74):     /***************************************************************\n
+Action.c(74):     ** change text for alerts here\n
+Action.c(74):     ** unspecified field (text): "Please include [field name]."\n
+Action.c(74):     ** unspecified field (other): "Please choose [field name]."\n
+Action.c(74):     ** invalid text field entries: "[field value] is an invalid [field name]!"\n
+Action.c(74):     ** help with format: "Use this format: "\n
+Action.c(74):     ***************************************************************/\n
+Action.c(74):     var beginRequestAlertForText = "Please include ";\n
+Action.c(74):     var beginRequestAlertGeneric = "Please choose ";\n
+Action.c(74):     var endRequestAlert = ".";\n
+Action.c(74):     var beginInvalidAlert = " is an invalid ";\n
+Action.c(74):     var endInvalidAlert = "!";\n
+Action.c(74):     var beginFormatAlert = "  Use this format: ";\n
+Action.c(74):     \n
+Action.c(74):     \n
+Action.c(74):     /***************************************************************\n
+Action.c(74):     ** these functions validate the string or form object passed in,\n
+Action.c(74):     ** and return true or false based on whether the test succeeds or fails\n
+Action.c(74):     **\n
+Action.c(74):     ** validate existence of input\n
+Action.c(74):     **   isText(str): verifies text input or textarea is not empty\n
+Action.c(74):     **   isSelect(formObj): verifies item from a select menu is chosen\n
+Action.c(74):     **   isRadio(formObj): verifies one of a group of radio buttons is chosen\n
+Action.c(74):     **   isCheck(formObj, form, [begin], [num]): verifies at least one\n
+Action.c(74):     **       of a group of checkboxes is checked\n
+Action.c(74):     **     for [begin], fill in the index number in the elements array\n
+Action.c(74):     **         of the first checkbox (remember to start counting from zero)\n
+Action.c(74):     **     for [num], fill in the number of checkboxes in the group\n
+Action.c(74):     **\n
+Action.c(74):     ** validate text in text input or textarea matches pattern\n
+Action.c(74):     **   isEmail(str): verifies email address (contains "@" and ".")\n
+Action.c(74):     **   isState(str): verifies U.S. State Code\n
+Action.c(74):     **   isZipCode(str): verifies zip code of form xxxxx or xxxxx-xxxx\n
+Action.c(74):     **   isPhoneNum(str): verifies phone number of form xxx-xxx-xxxx\n
+Action.c(74):     **   isDate(str): verifies date of form mm/dd/yyyy\n
+Action.c(74):     ***************************************************************/\n
+Action.c(74):     \n
+Action.c(74):     function isText(str) {\n
+Action.c(74):       return (str != "");\n
+Action.c(74):     }\n
+Action.c(74):     \n
+Action.c(74):     function isSelect(formObj) {\n
+Action.c(74):       return (formObj.selectedIndex != 0);\n
+Action.c(74):     }\n
+Action.c(74):     \n
+Action.c(74):     function isRadio(formObj) {\n
+Action.c(74):       for (j=0; j<formObj.length; j++) {\n
+Action.c(74):         if (formObj[j].checked) {\n
+Action.c(74):           return true;\n
+Action.c(74):         }\n
+Action.c(74):       }\n
+Action.c(74):       return false;\n
+Action.c(74):     }\n
+Action.c(74):     \n
+Action.c(74):     function isCheck(formObj, form, begin, num) {\n
+Action.c(74):       for (j=begin; j<begin+num; j++) {\n
+Action.c(74):         if (form.elements[j].checked) {\n
+Action.c(74):           return true;\n
+Action.c(74):         }\n
+Action.c(74):       }\n
+Action.c(74):       return false;\n
+Action.c(74):     }\n
+Action.c(74):     \n
+Action.c(74):     function isEmail(str) {\n
+Action.c(74):       return ((str != "") && (str.indexOf("@") != -1) && (str.indexOf(".") != -1));\n
+Action.c(74):     }\n
+Action.c(74):     \n
+Action.c(74):     function isState(str) {\n
+Action.c(74):       str = str.toUpperCase();\n
+Action.c(74):       return ( (str == "AK") || (str == "AL") || (str == "AR") || (str == "AZ") || (str == "CA
+Action.c(74):     ") || (str == "CO") || (str == "CT") || (str == "DC") || (str == "DE") || (str == "FL") ||
+Action.c(74):      (str == "GA") || (str == "HI") || (str == "IA") || (str == "ID") || (str == "IL") || (str
+Action.c(74):      == "IN") || (str == "KS") || (str == "KY") || (str == "LA") || (str == "MA") || (str == "
+Action.c(74):     MD") || (str == "ME") || (str == "MI") || (str == "MN") || (str == "MO") || (str == "MS") 
+Action.c(74):     || (str == "MT") || (str == "NB") || (str == "NC") || (str == "ND") || (str == "NH") || (s
+Action.c(74):     tr == "NJ") || (str == "NM") || (str == "NV") || (str == "NY") || (str == "OH") || (str ==
+Action.c(74):      "OK") || (str == "OR") || (str == "PA") || (str == "RI") || (str == "SC") || (str == "SD"
+Action.c(74):     ) || (str == "TN") || (str == "TX") || (str == "UT") || (str == "VA") || (str == "VT") || 
+Action.c(74):     (str == "WA") || (str == "WI") || (str == "WV") || (str == "WY") );\n
+Action.c(74):     }\n
+Action.c(74):     \n
+Action.c(74):     function isZipCode(str) {\n
+Action.c(74):       var l = str.length;\n
+Action.c(74):       if ((l != 5) && (l != 10)) { return false }\n
+Action.c(74):       for (j=0; j<l; j++) {\n
+Action.c(74):         if ((l == 10) && (j == 5)) {\n
+Action.c(74):           if (str.charAt(j) != "-") { return false }\n
+Action.c(74):         } else {\n
+Action.c(74):           if ((str.charAt(j) < "0") || (str.charAt(j) > "9")) { return false }\n
+Action.c(74):         }\n
+Action.c(74):       }\n
+Action.c(74):       return true;\n
+Action.c(74):     }\n
+Action.c(74):     \n
+Action.c(74):     function isPhoneNum(str) {\n
+Action.c(74):       if (str.length != 12) { return false }\n
+Action.c(74):       for (j=0; j<str.length; j++) {\n
+Action.c(74):         if ((j == 3) || (j == 7)) {\n
+Action.c(74):           if (str.charAt(j) != "-") { return false }\n
+Action.c(74):         } else {\n
+Action.c(74):           if ((str.charAt(j) < "0") || (str.charAt(j) > "9")) { return false }\n
+Action.c(74):         }\n
+Action.c(74):       }\n
+Action.c(74):       return true;\n
+Action.c(74):     }\n
+Action.c(74):     \n
+Action.c(74):     function isDate(str) {\n
+Action.c(74):       if (str.length != 10) { return false }\n
+Action.c(74):     \n
+Action.c(74):       for (j=0; j<str.length; j++) {\n
+Action.c(74):         if ((j == 2) || (j == 5)) {\n
+Action.c(74):           if (str.charAt(j) != "/") { return false }\n
+Action.c(74):         } else {\n
+Action.c(74):           if ((str.charAt(j) < "0") || (str.charAt(j) > "9")) { return false }\n
+Action.c(74):         }\n
+Action.c(74):       }\n
+Action.c(74):     \n
+Action.c(74):       var month = str.charAt(0) == "0" ? parseInt(str.substring(1,2)) : parseInt(str.substring
+Action.c(74):     (0,2));\n
+Action.c(74):       var day = str.charAt(3) == "0" ? parseInt(str.substring(4,5)) : parseInt(str.substring(3
+Action.c(74):     ,5));\n
+Action.c(74):       var begin = str.charAt(6) == "0" ? (str.charAt(7) == "0" ? (str.charAt(8) == "0" ? 9 : 8
+Action.c(74):     ) : 7) : 6;\n
+Action.c(74):       var year = parseInt(str.substring(begin, 10));\n
+Action.c(74):     \n
+Action.c(74):       if (day == 0) { return false }\n
+Action.c(74):       if (month == 0 || month > 12) { return false }\n
+Action.c(74):       if (month == 1 || month == 3 || month == 5 || month == 7 || month == 8 || month == 10 ||
+Action.c(74):      month == 12) {\n
+Action.c(74):         if (day > 31) { return false }\n
+Action.c(74):       } else {\n
+Action.c(74):         if (month == 4 || month == 6 || month == 9 || month == 11) {\n
+Action.c(74):           if (day > 30) { return false }\n
+Action.c(74):         } else {\n
+Action.c(74):           if (year%4 != 0) {\n
+Action.c(74):             if (day > 28) { return false }\n
+Action.c(74):           } else {\n
+Action.c(74):             if (day > 29) { return false }\n
+Action.c(74):           }\n
+Action.c(74):         }\n
+Action.c(74):       }\n
+Action.c(74):       return true;\n
+Action.c(74):     }\n
+Action.c(74):     \n
+Action.c(74):     \n
+Action.c(74):     /***************************************************************\n
+Action.c(74):     ** The validateForm() function validates the form elements\n
+Action.c(74):     ** previously defined as validation objects and as members of\n
+Action.c(74):     ** the elts array. We loop through the elts array, testing each\n
+Action.c(74):     ** element in turn, and alerting the user when they've missed\n
+Action.c(74):     ** a required field\n
+Action.c(74):     ***************************************************************/\n
+Action.c(74):     \n
+Action.c(74):     function validateForm(form) {\n
+Action.c(74):       var formEltName = "";\n
+Action.c(74):       var formObj = "";\n
+Action.c(74):       var str = "";\n
+Action.c(74):       var realName = "";\n
+Action.c(74):       var alertText = "";\n
+Action.c(74):       var firstMissingElt = null;\n
+Action.c(74):       var hardReturn = "\\r\\n";\n
+Action.c(74):     \n
+Action.c(74):       for (i=0; i<elts.length; i++) {\n
+Action.c(74):         formEltName = elts[i].formEltName;\n
+Action.c(74):         formObj = eval("form." + formEltName);\n
+Action.c(74):         realName = elts[i].realName;\n
+Action.c(74):     \n
+Action.c(74):         if (elts[i].eltType == "text") {\n
+Action.c(74):           str = formObj.value;\n
+Action.c(74):     \n
+Action.c(74):           if (eval(elts[i].upToSnuff)) continue;\n
+Action.c(74):     \n
+Action.c(74):           if (str == "") {\n
+Action.c(74):             if (allAtOnce) {\n
+Action.c(74):               alertText += beginRequestAlertForText + realName + endRequestAlert + hardReturn;
+Action.c(74):     \n
+Action.c(74):               if (firstMissingElt == null) {firstMissingElt = formObj};\n
+Action.c(74):             } else {\n
+Action.c(74):               alertText = beginRequestAlertForText + realName + endRequestAlert + hardReturn;\n
+Action.c(74):               alert(alertText);\n
+Action.c(74):             }\n
+Action.c(74):           } else {\n
+Action.c(74):             if (allAtOnce) {\n
+Action.c(74):               alertText += str + beginInvalidAlert + realName + endInvalidAlert + hardReturn;\n
+Action.c(74):             } else {\n
+Action.c(74):               alertText = str + beginInvalidAlert + realName + endInvalidAlert + hardReturn;\n
+Action.c(74):             }\n
+Action.c(74):             if (elts[i].format != null) {\n
+Action.c(74):               alertText += beginFormatAlert + elts[i].format + hardReturn;\n
+Action.c(74):             }\n
+Action.c(74):             if (allAtOnce) {\n
+Action.c(74):               if (firstMissingElt == null) {firstMissingElt = formObj};\n
+Action.c(74):             } else {\n
+Action.c(74):               alert(alertText);\n
+Action.c(74):             }\n
+Action.c(74):           }\n
+Action.c(74):         } else {\n
+Action.c(74):           if (eval(elts[i].upToSnuff)) continue;\n
+Action.c(74):           if (allAtOnce) {\n
+Action.c(74):             alertText += beginRequestAlertGeneric + realName + endRequestAlert + hardReturn;\n
+Action.c(74):             if (firstMissingElt == null) {firstMissingElt = formObj};\n
+Action.c(74):           } else {\n
+Action.c(74):             alertText = beginRequestAlertGeneric + realName + endRequestAlert + hardReturn;\n
+Action.c(74):             alert(alertText);\n
+Action.c(74):           }\n
+Action.c(74):         }\n
+Action.c(74):         if (!isIE3) {\n
+Action.c(74):           var goToObj = (allAtOnce) ? firstMissingElt : formObj;\n
+Action.c(74):           if (goToObj.select) goToObj.select();\n
+Action.c(74):           if (goToObj.focus) goToObj.focus();\n
+Action.c(74):         }\n
+Action.c(74):         if (!allAtOnce) {return false};\n
+Action.c(74):       }\n
+Action.c(74):       if (allAtOnce) {\n
+Action.c(74):         if (alertText != "") {\n
+Action.c(74):           alert(alertText);\n
+Action.c(74):           return false;\n
+Action.c(74):         }\n
+Action.c(74):       } \n
+Action.c(74):     //  alert("I am valid!"); //remove this line when you use the code\n
+Action.c(74):       return true; //change this to return true to make the form submit\n
+Action.c(74):     }\n
+Action.c(74): t=1097ms: Request done "http://localhost:1080/WebTours/profileValidate.js"  	[MsgId: MMSG-26000]
+Action.c(74): Registered web_reg_find successful for "Text=First time registering? Please complete the form below." (count=1)  	[MsgId: MMSG-26364]
+Action.c(74): web_url("login.pl") was successful, 14475 body bytes, 838 header bytes, 12 chunking overhead bytes  	[MsgId: MMSG-26385]
+Action.c(84): Notify: Transaction "sign_up" ended with a "Pass" status (Duration: 0,2021 Wasted Time: 0,0062).
+Action.c(86): Notify: Transaction "registration" started.
+Action.c(88): web_add_auto_header("Origin") started  	[MsgId: MMSG-26355]
+Action.c(88): An unrecognized header ("Origin") is being added  	[MsgId: MMSG-26595]
+Action.c(88): "Origin: http://localhost:1080" header registered for adding to requests from all following Action functions  	[MsgId: MMSG-26505]
+Action.c(88): web_add_auto_header("Origin") was successful  	[MsgId: MMSG-26392]
+Action.c(91): web_reg_find started  	[MsgId: MMSG-26355]
+Action.c(91): Notify: Parameter Substitution: parameter "login" =  "eTRkx9IQm"
+Action.c(91): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+Action.c(93): web_add_auto_header("Upgrade-Insecure-Requests") started  	[MsgId: MMSG-26355]
+Action.c(93): An unrecognized header ("Upgrade-Insecure-Requests") is being added  	[MsgId: MMSG-26595]
+Action.c(93): "Upgrade-Insecure-Requests: 1" header registered for adding to requests from all following Action functions  	[MsgId: MMSG-26505]
+Action.c(93): web_add_auto_header("Upgrade-Insecure-Requests") was successful  	[MsgId: MMSG-26392]
+Action.c(98): web_submit_data("login.pl_2") started  	[MsgId: MMSG-26355]
+Action.c(98): Notify: Parameter Substitution: parameter "login" =  "eTRkx9IQm"
+Action.c(98): Notify: Parameter Substitution: parameter "password" =  "Hk3bCqrjW"
+Action.c(98): Notify: Parameter Substitution: parameter "password" =  "Hk3bCqrjW"
+Action.c(98): Notify: Parameter Substitution: parameter "Firstname" =  "mp4Mm3X3F"
+Action.c(98): Notify: Parameter Substitution: parameter "LastName" =  "k0jvJ7942"
+Action.c(98): Notify: Parameter Substitution: parameter "Street" =  "Vdnc7LweVMjb6jjr"
+Action.c(98): Notify: Parameter Substitution: parameter "City" =  "uYUa7LK0vF115hOG"
+Action.c(98): t=1208ms: Already connected [0] to localhost:1080  	[MsgId: MMSG-26000]
+Action.c(98): t=1208ms: 485-byte request headers for "http://localhost:1080/cgi-bin/login.pl" (RelFrameId=1, Internal ID=12)
+Action.c(98):     POST /cgi-bin/login.pl HTTP/1.1\r\n
+Action.c(98):     Content-Type: application/x-www-form-urlencoded\r\n
+Action.c(98):     Referer: http://localhost:1080/cgi-bin/login.pl\r\n
+Action.c(98):     Priority: u=4\r\n
+Action.c(98):     Origin: http://localhost:1080\r\n
+Action.c(98):     Upgrade-Insecure-Requests: 1\r\n
+Action.c(98):     User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130
+Action.c(98):     .0\r\n
+Action.c(98):     Accept-Encoding: gzip, deflate\r\n
+Action.c(98):     Accept-Language: ru,en-US;q=0.7,en;q=0.3\r\n
+Action.c(98):     Accept: */*\r\n
+Action.c(98):     Connection: Keep-Alive\r\n
+Action.c(98):     Host: localhost:1080\r\n
+Action.c(98):     Cookie: MSO=SID&1728492839\r\n
+Action.c(98):     Content-Length: 182\r\n
+Action.c(98):     \r\n
+Action.c(98): t=1210ms: 182-byte request body for "http://localhost:1080/cgi-bin/login.pl" (RelFrameId=1, Internal ID=12)
+Action.c(98):     username=eTRkx9IQm&password=Hk3bCqrjW&passwordConfirm=Hk3bCqrjW&firstName=mp4Mm3X3F&lastNa
+Action.c(98):     me=k0jvJ7942&address1=Vdnc7LweVMjb6jjr&address2=uYUa7LK0vF115hOG&register.x=53&register.y=
+Action.c(98):     13
+Action.c(98): t=1340ms: 399-byte response headers for "http://localhost:1080/cgi-bin/login.pl" (RelFrameId=1, Internal ID=12)
+Action.c(98):     HTTP/1.1 200 OK\r\n
+Action.c(98):     Date: Wed, 09 Oct 2024 16:53:59 GMT\r\n
+Action.c(98):     Server: Apache/2.2.21 (Win32)\r\n
+Action.c(98):     Expires: 5s\r\n
+Action.c(98):     Set-Cookie: MTUserInfo=firstName&mp4Mm3X3F&address2&uYUa7LK0vF115hOG&username&eTRkx9IQm&ha
+Action.c(98):     sh&77&lastName&k0jvJ7942&address1&Vdnc7LweVMjb6jjr&creditCard&&expDate&; path=/\r\n
+Action.c(98):     Keep-Alive: timeout=5, max=96\r\n
+Action.c(98):     Connection: Keep-Alive\r\n
+Action.c(98):     Transfer-Encoding: chunked\r\n
+Action.c(98):     Content-Type: text/html; charset=ISO-8859-1\r\n
+Action.c(98):     \r\n
+Action.c(98): t=1341ms: 5-byte chunked response overhead for "http://localhost:1080/cgi-bin/login.pl" (RelFrameId=1, Internal ID=12)
+Action.c(98):     43a\r\n
+Action.c(98): t=1342ms: 7-byte chunked response overhead for "http://localhost:1080/cgi-bin/login.pl" (RelFrameId=1, Internal ID=12)
+Action.c(98):     \r\n
+Action.c(98):     0\r\n
+Action.c(98):     \r\n
+Action.c(98): t=1342ms: 1082-byte chunked response body for "http://localhost:1080/cgi-bin/login.pl" (RelFrameId=1, Internal ID=12)
+Action.c(98):     <!DOCTYPE html\n
+Action.c(98):     \tPUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"\n
+Action.c(98):     \t "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">\n
+Action.c(98):     <html xmlns="http://www.w3.org/1999/xhtml" lang="en-US" xml:lang="en-US">\n
+Action.c(98):     <head>\n
+Action.c(98):     <title>Welcome to Web Tours</title>\n
+Action.c(98):     <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />\n
+Action.c(98):     </head>\n
+Action.c(98):     <body bgcolor="#E0E7F1">\n
+Action.c(98):     \n
+Action.c(98):     <br/><br/><br/>\n
+Action.c(98):     \n
+Action.c(98):     \n
+Action.c(98):     <p /><style>blockquote {font-family: tahoma; font-size : 10pt}H1 {font-family: tahoma; fon
+Action.c(98):     t-size : 22pt; color: #993333}small {font-family: tahoma; font-size : 8pt}H3 {font-family:
+Action.c(98):      tahoma; font-size : 10pt; color: black}TD {font-family: tahoma; font-size : 10pt; color: 
+Action.c(98):     black}</style><blockquote>Thank you, <b>eTRkx9IQm</b>, for registering and welcome to the 
+Action.c(98):     Web Tours family.\n
+Action.c(98):     We hope we can meet all your current and future travel needs.  If you have any questions, 
+Action.c(98):     feel free \n
+Action.c(98):     to ask our support staff.   Click below when you're ready to plan your dream trip...<p /><
+Action.c(98):     center><a href=welcome.pl?page=menus target='body'><img src=/WebTours/images/button_next.g
+Action.c(98):     if border=0></a></center></blockquote>\n
+Action.c(98):     </body>\n
+Action.c(98):     </html>
+Action.c(98): Resource "http://localhost:1080/WebTours/images/button_next.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(98): t=1344ms: Request done "http://localhost:1080/cgi-bin/login.pl"  	[MsgId: MMSG-26000]
+Action.c(98): Registered web_reg_find successful for "Text=Thank you, <b>eTRkx9IQm</b>, for registering and welcome to the Web Tours family." (count=1)  	[MsgId: MMSG-26364]
+Action.c(98): web_submit_data("login.pl_2") was successful, 1082 body bytes, 399 header bytes, 12 chunking overhead bytes  	[MsgId: MMSG-26385]
+Action.c(118): Notify: Transaction "registration" ended with a "Pass" status (Duration: 0,2490 Wasted Time: 0,0043).
+Action.c(120): Notify: Transaction "login_reg" started.
+Action.c(122): web_reg_find started  	[MsgId: MMSG-26355]
+Action.c(122): Notify: Parameter Substitution: parameter "login" =  "eTRkx9IQm"
+Action.c(122): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+Action.c(124): web_remove_auto_header("Origin") started  	[MsgId: MMSG-26355]
+Action.c(124): Previous automatically added web header for "Origin" removed  	[MsgId: MMSG-26587]
+Action.c(124): web_remove/revert_auto_header("Origin") was successful  	[MsgId: MMSG-26392]
+Action.c(128): web_url("button_next.gif") started  	[MsgId: MMSG-26355]
+Action.c(128): t=1457ms: Already connected [0] to localhost:1080  	[MsgId: MMSG-26000]
+Action.c(128): t=1457ms: 547-byte request headers for "http://localhost:1080/cgi-bin/welcome.pl?page=menus" (RelFrameId=1, Internal ID=13)
+Action.c(128):     GET /cgi-bin/welcome.pl?page=menus HTTP/1.1\r\n
+Action.c(128):     Referer: http://localhost:1080/cgi-bin/login.pl\r\n
+Action.c(128):     Priority: u=4\r\n
+Action.c(128):     Upgrade-Insecure-Requests: 1\r\n
+Action.c(128):     User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130
+Action.c(128):     .0\r\n
+Action.c(128):     Accept-Encoding: gzip, deflate\r\n
+Action.c(128):     Accept-Language: ru,en-US;q=0.7,en;q=0.3\r\n
+Action.c(128):     Accept: */*\r\n
+Action.c(128):     Connection: Keep-Alive\r\n
+Action.c(128):     Host: localhost:1080\r\n
+Action.c(128):     Cookie: MSO=SID&1728492839; MTUserInfo=firstName&mp4Mm3X3F&address2&uYUa7LK0vF115hOG&usern
+Action.c(128):     ame&eTRkx9IQm&hash&77&lastName&k0jvJ7942&address1&Vdnc7LweVMjb6jjr&creditCard&&expDate&\r\n
+Action.c(128):     \r\n
+Action.c(128): t=1528ms: 215-byte response headers for "http://localhost:1080/cgi-bin/welcome.pl?page=menus" (RelFrameId=1, Internal ID=13)
+Action.c(128):     HTTP/1.1 200 OK\r\n
+Action.c(128):     Date: Wed, 09 Oct 2024 16:53:59 GMT\r\n
+Action.c(128):     Server: Apache/2.2.21 (Win32)\r\n
+Action.c(128):     Keep-Alive: timeout=5, max=95\r\n
+Action.c(128):     Connection: Keep-Alive\r\n
+Action.c(128):     Transfer-Encoding: chunked\r\n
+Action.c(128):     Content-Type: text/html; charset=ISO-8859-1\r\n
+Action.c(128):     \r\n
+Action.c(128): t=1530ms: 5-byte chunked response overhead for "http://localhost:1080/cgi-bin/welcome.pl?page=menus" (RelFrameId=1, Internal ID=13)
+Action.c(128):     254\r\n
+Action.c(128): t=1530ms: 7-byte chunked response overhead for "http://localhost:1080/cgi-bin/welcome.pl?page=menus" (RelFrameId=1, Internal ID=13)
+Action.c(128):     \r\n
+Action.c(128):     0\r\n
+Action.c(128):     \r\n
+Action.c(128): t=1531ms: 596-byte chunked response body for "http://localhost:1080/cgi-bin/welcome.pl?page=menus" (RelFrameId=1, Internal ID=13)
+Action.c(128):     <!-- \n
+Action.c(128):      User has returned to the home page.  Since user has already logged on,\n
+Action.c(128):      we can give them the menu in the navbar.\n
+Action.c(128):      --->\n
+Action.c(128):     \n
+Action.c(128):     <html>\n
+Action.c(128):     <title>Web Tours</title>\n
+Action.c(128):        <!-- Frame Set -->\n
+Action.c(128):        <frameset cols="160,*" border="1" frameborder="1">\n
+Action.c(128):           <!-- Navigation Frame -->\n
+Action.c(128):           <frame src="nav.pl?page=menu&in=home" name="navbar" \n
+Action.c(128):                 marginheight="2" marginwidth="2" noresize="noresize" scrolling="auto"/>\n
+Action.c(128):           <!-- Intro Frame -->\n
+Action.c(128):           <frame src="login.pl?intro=true" name="info" \n
+Action.c(128):                 marginheight="2" marginwidth="2" norseize="noresize" scrolling="auto"/>\n
+Action.c(128):        </frameset>\n
+Action.c(128):     </html>\n
+Action.c(128): Detected non-resource "http://localhost:1080/cgi-bin/nav.pl?page=menu&in=home" in "http://localhost:1080/cgi-bin/welcome.pl?page=menus"  	[MsgId: MMSG-26574]
+Action.c(128): Detected non-resource "http://localhost:1080/cgi-bin/login.pl?intro=true" in "http://localhost:1080/cgi-bin/welcome.pl?page=menus"  	[MsgId: MMSG-26574]
+Action.c(128): t=1533ms: Request done "http://localhost:1080/cgi-bin/welcome.pl?page=menus"  	[MsgId: MMSG-26000]
+Action.c(128): t=1533ms: Already connected [1] to localhost:1080  	[MsgId: MMSG-26000]
+Action.c(128): t=1534ms: 563-byte request headers for "http://localhost:1080/cgi-bin/nav.pl?page=menu&in=home" (RelFrameId=1.1, Internal ID=14)
+Action.c(128):     GET /cgi-bin/nav.pl?page=menu&in=home HTTP/1.1\r\n
+Action.c(128):     Referer: http://localhost:1080/cgi-bin/welcome.pl?page=menus\r\n
+Action.c(128):     Priority: u=4\r\n
+Action.c(128):     Upgrade-Insecure-Requests: 1\r\n
+Action.c(128):     User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130
+Action.c(128):     .0\r\n
+Action.c(128):     Accept-Encoding: gzip, deflate\r\n
+Action.c(128):     Accept-Language: ru,en-US;q=0.7,en;q=0.3\r\n
+Action.c(128):     Accept: */*\r\n
+Action.c(128):     Connection: Keep-Alive\r\n
+Action.c(128):     Host: localhost:1080\r\n
+Action.c(128):     Cookie: MSO=SID&1728492839; MTUserInfo=firstName&mp4Mm3X3F&address2&uYUa7LK0vF115hOG&usern
+Action.c(128):     ame&eTRkx9IQm&hash&77&lastName&k0jvJ7942&address1&Vdnc7LweVMjb6jjr&creditCard&&expDate&\r\n
+Action.c(128):     \r\n
+Action.c(128): t=1535ms: Already connected [2] to localhost:1080  	[MsgId: MMSG-26000]
+Action.c(128): t=1535ms: 558-byte request headers for "http://localhost:1080/cgi-bin/login.pl?intro=true" (RelFrameId=1.2, Internal ID=15)
+Action.c(128):     GET /cgi-bin/login.pl?intro=true HTTP/1.1\r\n
+Action.c(128):     Referer: http://localhost:1080/cgi-bin/welcome.pl?page=menus\r\n
+Action.c(128):     Priority: u=4\r\n
+Action.c(128):     Upgrade-Insecure-Requests: 1\r\n
+Action.c(128):     User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130
+Action.c(128):     .0\r\n
+Action.c(128):     Accept-Encoding: gzip, deflate\r\n
+Action.c(128):     Accept-Language: ru,en-US;q=0.7,en;q=0.3\r\n
+Action.c(128):     Accept: */*\r\n
+Action.c(128):     Connection: Keep-Alive\r\n
+Action.c(128):     Host: localhost:1080\r\n
+Action.c(128):     Cookie: MSO=SID&1728492839; MTUserInfo=firstName&mp4Mm3X3F&address2&uYUa7LK0vF115hOG&usern
+Action.c(128):     ame&eTRkx9IQm&hash&77&lastName&k0jvJ7942&address1&Vdnc7LweVMjb6jjr&creditCard&&expDate&\r\n
+Action.c(128):     \r\n
+Action.c(128): t=1615ms: 255-byte response headers for "http://localhost:1080/cgi-bin/nav.pl?page=menu&in=home" (RelFrameId=1.1, Internal ID=14)
+Action.c(128):     HTTP/1.1 200 OK\r\n
+Action.c(128):     Date: Wed, 09 Oct 2024 16:54:00 GMT\r\n
+Action.c(128):     Server: Apache/2.2.21 (Win32)\r\n
+Action.c(128):     Expires: Tue, 08 Oct 2024 16:54:00 GMT\r\n
+Action.c(128):     Keep-Alive: timeout=5, max=96\r\n
+Action.c(128):     Connection: Keep-Alive\r\n
+Action.c(128):     Transfer-Encoding: chunked\r\n
+Action.c(128):     Content-Type: text/html; charset=ISO-8859-1\r\n
+Action.c(128):     \r\n
+Action.c(128): t=1616ms: 5-byte chunked response overhead for "http://localhost:1080/cgi-bin/nav.pl?page=menu&in=home" (RelFrameId=1.1, Internal ID=14)
+Action.c(128):     5ca\r\n
+Action.c(128): t=1616ms: 7-byte chunked response overhead for "http://localhost:1080/cgi-bin/nav.pl?page=menu&in=home" (RelFrameId=1.1, Internal ID=14)
+Action.c(128):     \r\n
+Action.c(128):     0\r\n
+Action.c(128):     \r\n
+Action.c(128): t=1617ms: 1482-byte chunked response body for "http://localhost:1080/cgi-bin/nav.pl?page=menu&in=home" (RelFrameId=1.1, Internal ID=14)
+Action.c(128):     <!DOCTYPE html\n
+Action.c(128):     \tPUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"\n
+Action.c(128):     \t "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">\n
+Action.c(128):     <html xmlns="http://www.w3.org/1999/xhtml" lang="en-US" xml:lang="en-US">\n
+Action.c(128):     <head>\n
+Action.c(128):     <title>Web Tours Navigation Bar</title>\n
+Action.c(128):     <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />\n
+Action.c(128):     </head>\n
+Action.c(128):     <body bgcolor="#E0E7F1">\n
+Action.c(128):     \n
+Action.c(128):     <style>\n
+Action.c(128):     \tblockquote {font-family: tahoma; font-size : 10pt}\n
+Action.c(128):     \tH1 {font-family: tahoma; font-size : 22pt; color: #993333}\n
+Action.c(128):     \tsmall {font-family: tahoma; font-size : 8pt}\n
+Action.c(128):     \tH3{font-family: tahoma; font-size : 10pt; color: black}\n
+Action.c(128):     \tA {FONT-WEIGHT: bold; FONT-SIZE: 10pt; COLOR: black; FONT-FAMILY: Tahoma; TEXT-DECORATIO
+Action.c(128):     N: none}\n
+Action.c(128):     \tA:hover{ FONT-WEIGHT: bold; FONT-SIZE: 10pt; COLOR: #993333; FONT-FAMILY: Tahoma;TEXT-DE
+Action.c(128):     CORATION: underline}\n
+Action.c(128):     \tTD {font-family: tahoma; font-size : 10pt; color: black}\n
+Action.c(128):     </style>\n
+Action.c(128):     \n
+Action.c(128):     <BR><BR><center>\n
+Action.c(128):     \n
+Action.c(128):     <br clear="both"/><center><A HREF="welcome.pl?page=search" TARGET="body"><IMG BORDER="0" S
+Action.c(128):     RC="/WebTours/images/flights.gif" \n
+Action.c(128):     ALT="Search Flights Button"/></A>\n
+Action.c(128):     <br clear="both"/><A HREF="welcome.pl?page=itinerary" TARGET="body"><IMG BORDER="0" SRC="/
+Action.c(128):     WebTours/images/itinerary.gif" \n
+Action.c(128):     ALT="Itinerary Button"/></A>\n
+Action.c(128):     <br clear="both"/><A HREF="welcome.pl?page=menus" TARGET="body"><IMG BORDER="0" SRC="/WebT
+Action.c(128):     ours/images/in_home.gif" \n
+Action.c(128):     ALT="Home Button"/></A>\n
+Action.c(128):     <br clear><A HREF="welcome.pl?signOff=1" TARGET="body"><IMG BORDER="0" SRC="/WebTours/imag
+Action.c(128):     es/signoff.gif" \n
+Action.c(128):     ALT="SignOff Button"/></A></center>\n
+Action.c(128):     \n
+Action.c(128):     </body>\n
+Action.c(128):     </html>\n
+Action.c(128): Found resource "http://localhost:1080/WebTours/images/flights.gif" in HTML "http://localhost:1080/cgi-bin/nav.pl?page=menu&in=home"  	[MsgId: MMSG-26659]
+Action.c(128): Found resource "http://localhost:1080/WebTours/images/itinerary.gif" in HTML "http://localhost:1080/cgi-bin/nav.pl?page=menu&in=home"  	[MsgId: MMSG-26659]
+Action.c(128): Found resource "http://localhost:1080/WebTours/images/in_home.gif" in HTML "http://localhost:1080/cgi-bin/nav.pl?page=menu&in=home"  	[MsgId: MMSG-26659]
+Action.c(128): Found resource "http://localhost:1080/WebTours/images/signoff.gif" in HTML "http://localhost:1080/cgi-bin/nav.pl?page=menu&in=home"  	[MsgId: MMSG-26659]
+Action.c(128): t=1621ms: Request done "http://localhost:1080/cgi-bin/nav.pl?page=menu&in=home"  	[MsgId: MMSG-26000]
+Action.c(128): t=1621ms: Already connected [0] to localhost:1080  	[MsgId: MMSG-26000]
+Action.c(128): t=1622ms: 561-byte request headers for "http://localhost:1080/WebTours/images/flights.gif" (RelFrameId=, Internal ID=16)
+Action.c(128):     GET /WebTours/images/flights.gif HTTP/1.1\r\n
+Action.c(128):     Referer: http://localhost:1080/cgi-bin/nav.pl?page=menu&in=home\r\n
+Action.c(128):     Priority: u=4\r\n
+Action.c(128):     Upgrade-Insecure-Requests: 1\r\n
+Action.c(128):     User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130
+Action.c(128):     .0\r\n
+Action.c(128):     Accept-Encoding: gzip, deflate\r\n
+Action.c(128):     Accept-Language: ru,en-US;q=0.7,en;q=0.3\r\n
+Action.c(128):     Accept: */*\r\n
+Action.c(128):     Connection: Keep-Alive\r\n
+Action.c(128):     Host: localhost:1080\r\n
+Action.c(128):     Cookie: MSO=SID&1728492839; MTUserInfo=firstName&mp4Mm3X3F&address2&uYUa7LK0vF115hOG&usern
+Action.c(128):     ame&eTRkx9IQm&hash&77&lastName&k0jvJ7942&address1&Vdnc7LweVMjb6jjr&creditCard&&expDate&\r\n
+Action.c(128):     \r\n
+Action.c(128): t=1623ms: Already connected [3] to localhost:1080  	[MsgId: MMSG-26000]
+Action.c(128): t=1623ms: 563-byte request headers for "http://localhost:1080/WebTours/images/itinerary.gif" (RelFrameId=, Internal ID=17)
+Action.c(128):     GET /WebTours/images/itinerary.gif HTTP/1.1\r\n
+Action.c(128):     Referer: http://localhost:1080/cgi-bin/nav.pl?page=menu&in=home\r\n
+Action.c(128):     Priority: u=4\r\n
+Action.c(128):     Upgrade-Insecure-Requests: 1\r\n
+Action.c(128):     User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130
+Action.c(128):     .0\r\n
+Action.c(128):     Accept-Encoding: gzip, deflate\r\n
+Action.c(128):     Accept-Language: ru,en-US;q=0.7,en;q=0.3\r\n
+Action.c(128):     Accept: */*\r\n
+Action.c(128):     Connection: Keep-Alive\r\n
+Action.c(128):     Host: localhost:1080\r\n
+Action.c(128):     Cookie: MSO=SID&1728492839; MTUserInfo=firstName&mp4Mm3X3F&address2&uYUa7LK0vF115hOG&usern
+Action.c(128):     ame&eTRkx9IQm&hash&77&lastName&k0jvJ7942&address1&Vdnc7LweVMjb6jjr&creditCard&&expDate&\r\n
+Action.c(128):     \r\n
+Action.c(128): t=1625ms: Connecting [4] to host 127.0.0.1:1080  	[MsgId: MMSG-26000]
+Action.c(128): t=1626ms: Connecting [5] to host 127.0.0.1:1080  	[MsgId: MMSG-26000]
+Action.c(128): t=1626ms: 297-byte response headers for "http://localhost:1080/WebTours/images/flights.gif" (RelFrameId=, Internal ID=16)
+Action.c(128):     HTTP/1.1 200 OK\r\n
+Action.c(128):     Date: Wed, 09 Oct 2024 16:54:00 GMT\r\n
+Action.c(128):     Server: Apache/2.2.21 (Win32)\r\n
+Action.c(128):     Last-Modified: Thu, 03 Oct 2024 17:04:47 GMT\r\n
+Action.c(128):     ETag: "10000000c00f2-2d6-623958d4c7df7"\r\n
+Action.c(128):     Accept-Ranges: bytes\r\n
+Action.c(128):     Content-Length: 726\r\n
+Action.c(128):     Keep-Alive: timeout=5, max=94\r\n
+Action.c(128):     Connection: Keep-Alive\r\n
+Action.c(128):     Content-Type: image/gif\r\n
+Action.c(128):     \r\n
+Action.c(128): t=1628ms: 726-byte response body for "http://localhost:1080/WebTours/images/flights.gif" (RelFrameId=, Internal ID=16)
+Action.c(128): t=1628ms: Request done "http://localhost:1080/WebTours/images/flights.gif"  	[MsgId: MMSG-26000]
+Action.c(128): t=1629ms: 297-byte response headers for "http://localhost:1080/WebTours/images/itinerary.gif" (RelFrameId=, Internal ID=17)
+Action.c(128):     HTTP/1.1 200 OK\r\n
+Action.c(128):     Date: Wed, 09 Oct 2024 16:54:00 GMT\r\n
+Action.c(128):     Server: Apache/2.2.21 (Win32)\r\n
+Action.c(128):     Last-Modified: Thu, 03 Oct 2024 17:04:48 GMT\r\n
+Action.c(128):     ETag: "10000000c00fc-2dd-623958d507b1e"\r\n
+Action.c(128):     Accept-Ranges: bytes\r\n
+Action.c(128):     Content-Length: 733\r\n
+Action.c(128):     Keep-Alive: timeout=5, max=99\r\n
+Action.c(128):     Connection: Keep-Alive\r\n
+Action.c(128):     Content-Type: image/gif\r\n
+Action.c(128):     \r\n
+Action.c(128): t=1630ms: 733-byte response body for "http://localhost:1080/WebTours/images/itinerary.gif" (RelFrameId=, Internal ID=17)
+Action.c(128): t=1631ms: Request done "http://localhost:1080/WebTours/images/itinerary.gif"  	[MsgId: MMSG-26000]
+Action.c(128): t=1631ms: 228-byte response headers for "http://localhost:1080/cgi-bin/login.pl?intro=true" (RelFrameId=1.2, Internal ID=15)
+Action.c(128):     HTTP/1.1 200 OK\r\n
+Action.c(128):     Date: Wed, 09 Oct 2024 16:54:00 GMT\r\n
+Action.c(128):     Server: Apache/2.2.21 (Win32)\r\n
+Action.c(128):     Expires: 5s\r\n
+Action.c(128):     Keep-Alive: timeout=5, max=98\r\n
+Action.c(128):     Connection: Keep-Alive\r\n
+Action.c(128):     Transfer-Encoding: chunked\r\n
+Action.c(128):     Content-Type: text/html; charset=ISO-8859-1\r\n
+Action.c(128):     \r\n
+Action.c(128): t=1633ms: 5-byte chunked response overhead for "http://localhost:1080/cgi-bin/login.pl?intro=true" (RelFrameId=1.2, Internal ID=15)
+Action.c(128):     39b\r\n
+Action.c(128): t=1633ms: 7-byte chunked response overhead for "http://localhost:1080/cgi-bin/login.pl?intro=true" (RelFrameId=1.2, Internal ID=15)
+Action.c(128):     \r\n
+Action.c(128):     0\r\n
+Action.c(128):     \r\n
+Action.c(128): t=1633ms: 923-byte chunked response body for "http://localhost:1080/cgi-bin/login.pl?intro=true" (RelFrameId=1.2, Internal ID=15)
+Action.c(128):     <!DOCTYPE html\n
+Action.c(128):     \tPUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"\n
+Action.c(128):     \t "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">\n
+Action.c(128):     <html xmlns="http://www.w3.org/1999/xhtml" lang="en-US" xml:lang="en-US">\n
+Action.c(128):     <head>\n
+Action.c(128):     <title>Welcome to Web Tours</title>\n
+Action.c(128):     <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />\n
+Action.c(128):     </head>\n
+Action.c(128):     <body bgcolor="#E0E7F1">\n
+Action.c(128):     <p /><style>blockquote {font-family: tahoma; font-size : 10pt}H1 {font-family: tahoma; fon
+Action.c(128):     t-size : 22pt; color: #993333}small {font-family: tahoma; font-size : 8pt}H3 {font-family:
+Action.c(128):      tahoma; font-size : 10pt; color: black}TD {font-family: tahoma; font-size : 10pt; color: 
+Action.c(128):     black}</style><BR/><BR/><BR/><BR/><BR/><blockquote>Welcome, <b>eTRkx9IQm</b>, to the Web T
+Action.c(128):     ours reservation pages.<BR/>Using the menu to the left, you can search for new flights to 
+Action.c(128):     book, \n
+Action.c(128):     or review/edit the flights already booked.  Don't forget to sign off when\n
+Action.c(128):     you're done!\n
+Action.c(128):     </blockquote>\n
+Action.c(128):     </body>\n
+Action.c(128):     </html>
+Action.c(128): t=1635ms: Request done "http://localhost:1080/cgi-bin/login.pl?intro=true"  	[MsgId: MMSG-26000]
+Action.c(128): t=1636ms: Connected socket [4] from 127.0.0.1:56478 to 127.0.0.1:1080 in 11 ms  	[MsgId: MMSG-26000]
+Action.c(128): t=1636ms: 561-byte request headers for "http://localhost:1080/WebTours/images/in_home.gif" (RelFrameId=, Internal ID=18)
+Action.c(128):     GET /WebTours/images/in_home.gif HTTP/1.1\r\n
+Action.c(128):     Referer: http://localhost:1080/cgi-bin/nav.pl?page=menu&in=home\r\n
+Action.c(128):     Priority: u=4\r\n
+Action.c(128):     Upgrade-Insecure-Requests: 1\r\n
+Action.c(128):     User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130
+Action.c(128):     .0\r\n
+Action.c(128):     Accept-Encoding: gzip, deflate\r\n
+Action.c(128):     Accept-Language: ru,en-US;q=0.7,en;q=0.3\r\n
+Action.c(128):     Accept: */*\r\n
+Action.c(128):     Connection: Keep-Alive\r\n
+Action.c(128):     Host: localhost:1080\r\n
+Action.c(128):     Cookie: MSO=SID&1728492839; MTUserInfo=firstName&mp4Mm3X3F&address2&uYUa7LK0vF115hOG&usern
+Action.c(128):     ame&eTRkx9IQm&hash&77&lastName&k0jvJ7942&address1&Vdnc7LweVMjb6jjr&creditCard&&expDate&\r\n
+Action.c(128):     \r\n
+Action.c(128): t=1637ms: Connected socket [5] from 127.0.0.1:56479 to 127.0.0.1:1080 in 11 ms  	[MsgId: MMSG-26000]
+Action.c(128): t=1637ms: 561-byte request headers for "http://localhost:1080/WebTours/images/signoff.gif" (RelFrameId=, Internal ID=19)
+Action.c(128):     GET /WebTours/images/signoff.gif HTTP/1.1\r\n
+Action.c(128):     Referer: http://localhost:1080/cgi-bin/nav.pl?page=menu&in=home\r\n
+Action.c(128):     Priority: u=4\r\n
+Action.c(128):     Upgrade-Insecure-Requests: 1\r\n
+Action.c(128):     User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130
+Action.c(128):     .0\r\n
+Action.c(128):     Accept-Encoding: gzip, deflate\r\n
+Action.c(128):     Accept-Language: ru,en-US;q=0.7,en;q=0.3\r\n
+Action.c(128):     Accept: */*\r\n
+Action.c(128):     Connection: Keep-Alive\r\n
+Action.c(128):     Host: localhost:1080\r\n
+Action.c(128):     Cookie: MSO=SID&1728492839; MTUserInfo=firstName&mp4Mm3X3F&address2&uYUa7LK0vF115hOG&usern
+Action.c(128):     ame&eTRkx9IQm&hash&77&lastName&k0jvJ7942&address1&Vdnc7LweVMjb6jjr&creditCard&&expDate&\r\n
+Action.c(128):     \r\n
+Action.c(128): t=1640ms: 298-byte response headers for "http://localhost:1080/WebTours/images/in_home.gif" (RelFrameId=, Internal ID=18)
+Action.c(128):     HTTP/1.1 200 OK\r\n
+Action.c(128):     Date: Wed, 09 Oct 2024 16:54:00 GMT\r\n
+Action.c(128):     Server: Apache/2.2.21 (Win32)\r\n
+Action.c(128):     Last-Modified: Thu, 03 Oct 2024 17:04:48 GMT\r\n
+Action.c(128):     ETag: "10000000c00f9-2b0-623958d4f34c2"\r\n
+Action.c(128):     Accept-Ranges: bytes\r\n
+Action.c(128):     Content-Length: 688\r\n
+Action.c(128):     Keep-Alive: timeout=5, max=100\r\n
+Action.c(128):     Connection: Keep-Alive\r\n
+Action.c(128):     Content-Type: image/gif\r\n
+Action.c(128):     \r\n
+Action.c(128): t=1641ms: 688-byte response body for "http://localhost:1080/WebTours/images/in_home.gif" (RelFrameId=, Internal ID=18)
+Action.c(128): t=1641ms: Request done "http://localhost:1080/WebTours/images/in_home.gif"  	[MsgId: MMSG-26000]
+Action.c(128): t=1642ms: 298-byte response headers for "http://localhost:1080/WebTours/images/signoff.gif" (RelFrameId=, Internal ID=19)
+Action.c(128):     HTTP/1.1 200 OK\r\n
+Action.c(128):     Date: Wed, 09 Oct 2024 16:54:00 GMT\r\n
+Action.c(128):     Server: Apache/2.2.21 (Win32)\r\n
+Action.c(128):     Last-Modified: Thu, 03 Oct 2024 17:04:48 GMT\r\n
+Action.c(128):     ETag: "10000000c0102-2ef-623958d531dd9"\r\n
+Action.c(128):     Accept-Ranges: bytes\r\n
+Action.c(128):     Content-Length: 751\r\n
+Action.c(128):     Keep-Alive: timeout=5, max=100\r\n
+Action.c(128):     Connection: Keep-Alive\r\n
+Action.c(128):     Content-Type: image/gif\r\n
+Action.c(128):     \r\n
+Action.c(128): t=1643ms: 751-byte response body for "http://localhost:1080/WebTours/images/signoff.gif" (RelFrameId=, Internal ID=19)
+Action.c(128): t=1644ms: Request done "http://localhost:1080/WebTours/images/signoff.gif"  	[MsgId: MMSG-26000]
+Action.c(128): Registered web_reg_find successful for "Text=Welcome, <b>eTRkx9IQm</b>, to the Web Tours reservation pages." (count=1)  	[MsgId: MMSG-26364]
+Action.c(128): web_url("button_next.gif") was successful, 5899 body bytes, 1888 header bytes, 36 chunking overhead bytes  	[MsgId: MMSG-26385]
+Action.c(138): Notify: Transaction "login_reg" ended with a "Pass" status (Duration: 0,2834 Wasted Time: 0,0094).
+Action.c(142): Notify: Transaction "logout" started.
+Action.c(144): web_reg_find started  	[MsgId: MMSG-26355]
+Action.c(144): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+Action.c(146): web_url("SignOff Button") started  	[MsgId: MMSG-26355]
+Action.c(146): t=1737ms: Already connected [0] to localhost:1080  	[MsgId: MMSG-26000]
+Action.c(146): t=1737ms: 562-byte request headers for "http://localhost:1080/cgi-bin/welcome.pl?signOff=1" (RelFrameId=1, Internal ID=20)
+Action.c(146):     GET /cgi-bin/welcome.pl?signOff=1 HTTP/1.1\r\n
+Action.c(146):     Referer: http://localhost:1080/cgi-bin/nav.pl?page=menu&in=home\r\n
+Action.c(146):     Priority: u=4\r\n
+Action.c(146):     Upgrade-Insecure-Requests: 1\r\n
+Action.c(146):     User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130
+Action.c(146):     .0\r\n
+Action.c(146):     Accept-Encoding: gzip, deflate\r\n
+Action.c(146):     Accept-Language: ru,en-US;q=0.7,en;q=0.3\r\n
+Action.c(146):     Accept: */*\r\n
+Action.c(146):     Connection: Keep-Alive\r\n
+Action.c(146):     Host: localhost:1080\r\n
+Action.c(146):     Cookie: MSO=SID&1728492839; MTUserInfo=firstName&mp4Mm3X3F&address2&uYUa7LK0vF115hOG&usern
+Action.c(146):     ame&eTRkx9IQm&hash&77&lastName&k0jvJ7942&address1&Vdnc7LweVMjb6jjr&creditCard&&expDate&\r\n
+Action.c(146):     \r\n
+Action.c(146): t=1847ms: 327-byte response headers for "http://localhost:1080/cgi-bin/welcome.pl?signOff=1" (RelFrameId=1, Internal ID=20)
+Action.c(146):     HTTP/1.1 200 OK\r\n
+Action.c(146):     Date: Wed, 09 Oct 2024 16:54:00 GMT\r\n
+Action.c(146):     Server: Apache/2.2.21 (Win32)\r\n
+Action.c(146):     Set-Cookie: MSO=SID&1728492840; path=/\r\n
+Action.c(146):     Set-Cookie: MTUserInfo=; path=/; expires=Tue, 08-Oct-2024 16:54:00 GMT\r\n
+Action.c(146):     Keep-Alive: timeout=5, max=93\r\n
+Action.c(146):     Connection: Keep-Alive\r\n
+Action.c(146):     Transfer-Encoding: chunked\r\n
+Action.c(146):     Content-Type: text/html; charset=ISO-8859-1\r\n
+Action.c(146):     \r\n
+Action.c(146): t=1861ms: 5-byte chunked response overhead for "http://localhost:1080/cgi-bin/welcome.pl?signOff=1" (RelFrameId=1, Internal ID=20)
+Action.c(146):     2ae\r\n
+Action.c(146): t=1861ms: 7-byte chunked response overhead for "http://localhost:1080/cgi-bin/welcome.pl?signOff=1" (RelFrameId=1, Internal ID=20)
+Action.c(146):     \r\n
+Action.c(146):     0\r\n
+Action.c(146):     \r\n
+Action.c(146): t=1862ms: 686-byte chunked response body for "http://localhost:1080/cgi-bin/welcome.pl?signOff=1" (RelFrameId=1, Internal ID=20)
+Action.c(146):     <!-- \n
+Action.c(146):      A Session ID has been created and loaded into a cookie called MSO.\n
+Action.c(146):      Also, the server options have been loaded into the cookie called\n
+Action.c(146):      MSO as well.  The server options can be set via the Admin page.\n
+Action.c(146):      --->\n
+Action.c(146):     \n
+Action.c(146):     <html>\n
+Action.c(146):     <title>Web Tours</title>\n
+Action.c(146):        <!-- Frame Set -->\n
+Action.c(146):        <frameset cols="160,*" border="1" frameborder="1">\n
+Action.c(146):           <!-- Navigation Frame -->\n
+Action.c(146):           <frame src="nav.pl?in=home" name="navbar" marginheight="2" marginwidth="2" \n
+Action.c(146):                 noresize="noresize" scrolling="auto"/>\n
+Action.c(146):           <!-- Home Frame -->\n
+Action.c(146):           <frame src="/WebTours/home.html" name="info" marginheight="2" marginwidth="2" \n
+Action.c(146):                 noresize="noresize" scrolling="auto"/>\n
+Action.c(146):        </frameset>\n
+Action.c(146):     </html>\n
+Action.c(146):     \n
+Action.c(146):     </body>\n
+Action.c(146):     </html>
+Action.c(146): Detected non-resource "http://localhost:1080/cgi-bin/nav.pl?in=home" in "http://localhost:1080/cgi-bin/welcome.pl?signOff=1"  	[MsgId: MMSG-26574]
+Action.c(146): Detected non-resource "http://localhost:1080/WebTours/home.html" in "http://localhost:1080/cgi-bin/welcome.pl?signOff=1"  	[MsgId: MMSG-26574]
+Action.c(146): Retrieving data from cache for "http://localhost:1080/WebTours/home.html"  	[MsgId: MMSG-26558]
+Action.c(146): t=1865ms: 1361-byte response body retrieved from cache for "http://localhost:1080/WebTours/home.html" (RelFrameId=1.2, Internal ID=22)
+Action.c(146):     <HTML>\n
+Action.c(146):     <HEAD>\n
+Action.c(146):     \t<title>Web Tours</title>\n
+Action.c(146):     </HEAD>\n
+Action.c(146):     <style>\n
+Action.c(146):     \tblockquote {font-family: tahoma; font-size : 10pt}\n
+Action.c(146):     \tH1 {font-family: tahoma; font-size : 22pt; color: #003366}\n
+Action.c(146):     \tsmall {font-family: tahoma; font-size : 8pt}\n
+Action.c(146):     \tH3{font-family: tahoma; font-size : 10pt; color: black}\n
+Action.c(146):     \tA {FONT-WEIGHT: bold; FONT-SIZE: 10pt; COLOR: black; FONT-FAMILY: Tahoma; TEXT-DECORATIO
+Action.c(146):     N: none}\n
+Action.c(146):     \tA:hover{ FONT-WEIGHT: bold; FONT-SIZE: 10pt; COLOR: #993333; FONT-FAMILY: Tahoma;TEXT-DE
+Action.c(146):     CORATION: underline}\n
+Action.c(146):     \tTD {font-family: tahoma; font-size : 10pt; color: black}\n
+Action.c(146):     </style>\n
+Action.c(146):     <body bgcolor="#e0e7f1">\n
+Action.c(146):     <BR/>\n
+Action.c(146):     <BR/>\n
+Action.c(146):     <BR/>\n
+Action.c(146):     <br/>\n
+Action.c(146):     <table border="0">\n
+Action.c(146):     <tr><td></td></tr>\n
+Action.c(146):     <TR><TD></TD></TR>\n
+Action.c(146):     <TR><TD>\n
+Action.c(146):     <blockquote>\n
+Action.c(146):     <H1><b>Web Tours</b></H1>\n
+Action.c(146):     Welcome to the Web Tours site.\n
+Action.c(146):     <br/>\n
+Action.c(146):     To make reservations,please enter your account information to the left.\n
+Action.c(146):     <br/>\n
+Action.c(146):     If you haven't registered yet, <A href="/cgi-bin/login.pl?username=&amp;password=&amp;getI
+Action.c(146):     nfo=true" ><B>sign up now</B></A> to get access to all our resources.\n
+Action.c(146):     <br/>\n
+Action.c(146):     To configure the server options, use <A href="/cgi-bin/admin.pl" target="body" ><b>adminis
+Action.c(146):     tration</b></A> link.\n
+Action.c(146):     <br/><br/><br/><br/><br/><br/>\n
+Action.c(146):     <br/><small>\n
+Action.c(146):     This product uses parts of the SMT Kernel, Copyright (c) 1991-99 <A href="http://www.imati
+Action.c(146):     x.com" target="new"><B><small>iMatix Corporation</small></B></A> \n
+Action.c(146):     </small>\n
+Action.c(146):     </blockquote></TD>\n
+Action.c(146):     <TD></TD></TR>\n
+Action.c(146):     </table>\n
+Action.c(146):     </body>\n
+Action.c(146):     </HTML>\n
+Action.c(146): t=1870ms: Request done "http://localhost:1080/cgi-bin/welcome.pl?signOff=1"  	[MsgId: MMSG-26000]
+Action.c(146): t=1870ms: Already connected [1] to localhost:1080  	[MsgId: MMSG-26000]
+Action.c(146): t=1870ms: 401-byte request headers for "http://localhost:1080/cgi-bin/nav.pl?in=home" (RelFrameId=1.1, Internal ID=21)
+Action.c(146):     GET /cgi-bin/nav.pl?in=home HTTP/1.1\r\n
+Action.c(146):     Referer: http://localhost:1080/cgi-bin/welcome.pl?signOff=1\r\n
+Action.c(146):     Priority: u=4\r\n
+Action.c(146):     Upgrade-Insecure-Requests: 1\r\n
+Action.c(146):     User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130
+Action.c(146):     .0\r\n
+Action.c(146):     Accept-Encoding: gzip, deflate\r\n
+Action.c(146):     Accept-Language: ru,en-US;q=0.7,en;q=0.3\r\n
+Action.c(146):     Accept: */*\r\n
+Action.c(146):     Connection: Keep-Alive\r\n
+Action.c(146):     Host: localhost:1080\r\n
+Action.c(146):     Cookie: MSO=SID&1728492840\r\n
+Action.c(146):     \r\n
+Action.c(146): t=2003ms: 255-byte response headers for "http://localhost:1080/cgi-bin/nav.pl?in=home" (RelFrameId=1.1, Internal ID=21)
+Action.c(146):     HTTP/1.1 200 OK\r\n
+Action.c(146):     Date: Wed, 09 Oct 2024 16:54:00 GMT\r\n
+Action.c(146):     Server: Apache/2.2.21 (Win32)\r\n
+Action.c(146):     Expires: Tue, 08 Oct 2024 16:54:00 GMT\r\n
+Action.c(146):     Keep-Alive: timeout=5, max=95\r\n
+Action.c(146):     Connection: Keep-Alive\r\n
+Action.c(146):     Transfer-Encoding: chunked\r\n
+Action.c(146):     Content-Type: text/html; charset=ISO-8859-1\r\n
+Action.c(146):     \r\n
+Action.c(146): t=2004ms: 5-byte chunked response overhead for "http://localhost:1080/cgi-bin/nav.pl?in=home" (RelFrameId=1.1, Internal ID=21)
+Action.c(146):     5c8\r\n
+Action.c(146): t=2005ms: 7-byte chunked response overhead for "http://localhost:1080/cgi-bin/nav.pl?in=home" (RelFrameId=1.1, Internal ID=21)
+Action.c(146):     \r\n
+Action.c(146):     0\r\n
+Action.c(146):     \r\n
+Action.c(146): t=2006ms: 1480-byte chunked response body for "http://localhost:1080/cgi-bin/nav.pl?in=home" (RelFrameId=1.1, Internal ID=21)
+Action.c(146):     <!DOCTYPE html\n
+Action.c(146):     \tPUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"\n
+Action.c(146):     \t "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">\n
+Action.c(146):     <html xmlns="http://www.w3.org/1999/xhtml" lang="en-US" xml:lang="en-US">\n
+Action.c(146):     <head>\n
+Action.c(146):     <title>Web Tours Navigation Bar</title>\n
+Action.c(146):     <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />\n
+Action.c(146):     </head>\n
+Action.c(146):     <body bgcolor="#E0E7F1">\n
+Action.c(146):     <style>\n
+Action.c(146):     blockquote {font-family: tahoma; font-size : 10pt}\n
+Action.c(146):     H1 {font-family: tahoma; font-size : 22pt; color: #993333}\n
+Action.c(146):     H3 {font-family: tahoma; font-size : 10pt; color: black}\n
+Action.c(146):     small {font-family: tahoma; font-size : 8pt}\n
+Action.c(146):     </style>\n
+Action.c(146):     <form method="post" action="/cgi-bin/login.pl" target="body">\n
+Action.c(146):     <input type="hidden" name="userSession" value="140015.620899149HcAcAfDpftDcVcpDcV"/>\n
+Action.c(146):     <table border="0"><tr><td>&nbsp;</td>\n
+Action.c(146):     <td>&nbsp;</td></tr>\n
+Action.c(146):     <tr><td>&nbsp;</td>\n
+Action.c(146):     <td>&nbsp;</td></tr>\n
+Action.c(146):     <tr><td>&nbsp;</td>\n
+Action.c(146):     <td><small>&nbsp;Username</small></td></tr>\n
+Action.c(146):     <tr><td>&nbsp;</td>\n
+Action.c(146):     <td><input type="text" name="username" value="" size="14" maxlength="14"/></td></tr>\n
+Action.c(146):     <tr><td>&nbsp;</td>\n
+Action.c(146):     <td><small>&nbsp;Password</small></td>\n
+Action.c(146):     <tr><td>&nbsp;</td>\n
+Action.c(146):     <td><input type="password" name="password" value="" size="14" maxlength="14"/></td></tr>\n
+Action.c(146):     <tr><td>&nbsp;</td>\n
+Action.c(146):     <td>&nbsp;</td></tr>\n
+Action.c(146):     <tr><td>&nbsp;</td>\n
+Action.c(146):     <td><input type="image" name="login" value="Login" alt="Login" border="1" \n
+Action.c(146):     src="/WebTours/images/mer_login.gif"/></td></tr>\n
+Action.c(146):     <tr><td>&nbsp;</td><td>&nbsp;</td></tr>\n
+Action.c(146):     </table><input type="hidden" name="JSFormSubmit" value="off"/>\n
+Action.c(146):     </form>\n
+Action.c(146):     \n
+Action.c(146):     </body>\n
+Action.c(146):     </html>\n
+Action.c(146): Resource "http://localhost:1080/WebTours/images/mer_login.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(146): t=2011ms: Request done "http://localhost:1080/cgi-bin/nav.pl?in=home"  	[MsgId: MMSG-26000]
+Action.c(146): Registered web_reg_find successful for "Text=Welcome to the Web Tours site." (count=1)  	[MsgId: MMSG-26364]
+Action.c(146): web_url("SignOff Button") was successful, 2166 body bytes, 582 header bytes, 24 chunking overhead bytes  	[MsgId: MMSG-26385]
+Action.c(156): Notify: Transaction "logout" ended with a "Pass" status (Duration: 0,3280 Wasted Time: 0,0098).
+Action.c(158): Notify: Transaction "UC6_Register" ended with a "Pass" status (Duration: 1,6261 Wasted Time: 0,1422).
+Ending action Action.
+Ending iteration 1.
+Ending Vuser...
+Starting action vuser_end.
+Ending action vuser_end.
+Vuser Terminated.
+t=2079ms: Closed connection [0] to localhost:1080 after completing 8 request(s)  	[MsgId: MMSG-26000]
+t=2080ms: Closed connection [1] to localhost:1080 after completing 6 request(s)  	[MsgId: MMSG-26000]
+t=2080ms: Closed connection [2] to localhost:1080 after completing 3 request(s)  	[MsgId: MMSG-26000]
+t=2080ms: Closed connection [3] to localhost:1080 after completing 2 request(s)  	[MsgId: MMSG-26000]
+t=2080ms: Closed connection [4] to localhost:1080 after completing 1 request(s)  	[MsgId: MMSG-26000]
+t=2080ms: Closed connection [5] to localhost:1080 after completing 1 request(s)  	[MsgId: MMSG-26000]
+HTML-Mode memory management statistics: Reusable=6, NonReusable=0, CsMemBlockSize=4096, checks disabled  	[MsgId: MMSG-26000]
+Vuser 0 (thread 8724), ended OK."

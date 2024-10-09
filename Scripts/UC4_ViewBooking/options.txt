@@ -1,0 +1,9 @@
+-+
+-DCCI
+-D_IDA_XL
+-DWINNT
+-IC:\Users\obori\Personal\VuGen\Scripts\UC4_ViewBooking
+-IC:\Program Files (x86)\Micro Focus\LoadRunner\include
+-ec:\users\obori\personal\vugen\scripts\uc4_viewbooking\\logfile.log
+c:\users\obori\personal\vugen\scripts\uc4_viewbooking\\combined_UC4_ViewBooking.c
+c:\users\obori\personal\vugen\scripts\uc4_viewbooking\\pre_cci.c

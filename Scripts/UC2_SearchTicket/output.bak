@@ -1,0 +1,65 @@
+Error: Parameter 'login': Invalid column name 'login' for table '..\data\users.dat'.
+Error: Parameter 'password': Cannot find the line number from which to take the next value. This parameter is defined to use the same line as parameter 'login'.
+Virtual User Script started at: 09.10.2024 17:37:53
+Starting action vuser_init.
+Web Turbo Replay of LoadRunner 2020.0.0 for Windows 10; build 793 (ноя 27 2019 19:51:20)  	[MsgId: MMSG-26983]
+Run mode: HTML  	[MsgId: MMSG-26993]
+Replay user agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0  	[MsgId: MMSG-26988]
+Runtime Settings file: "C:\Users\obori\Personal\VuGen\Scripts\UC2_SearchTicket\\default.cfg"  	[MsgId: MMSG-27141]
+Ending action vuser_init.
+Running Vuser...
+Starting iteration 1.
+Maximum number of concurrent connections per server: 6  	[MsgId: MMSG-26989]
+Starting action Action.
+Action.c(4): Notify: Transaction "UC2_SearchTicket" started.
+Action.c(6): Notify: Transaction "open_web_tours" started.
+Action.c(8): web_set_sockets_option started  	[MsgId: MMSG-26355]
+Action.c(8): web_set_sockets_option was successful  	[MsgId: MMSG-26392]
+Action.c(10): web_add_auto_header("Priority") started  	[MsgId: MMSG-26355]
+Action.c(10): web_add_auto_header("Priority") was successful  	[MsgId: MMSG-26392]
+Action.c(13): web_add_auto_header("Upgrade-Insecure-Requests") started  	[MsgId: MMSG-26355]
+Action.c(13): web_add_auto_header("Upgrade-Insecure-Requests") was successful  	[MsgId: MMSG-26392]
+Action.c(16): web_reg_save_param_ex started  	[MsgId: MMSG-26355]
+Action.c(16): Registering web_reg_save_param_ex was successful  	[MsgId: MMSG-26390]
+Action.c(17): web_reg_find started  	[MsgId: MMSG-26355]
+Action.c(17): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+Action.c(19): web_url("WebTours") started  	[MsgId: MMSG-26355]
+Action.c(19): Detected non-resource "http://localhost:1080/WebTours/header.html" in "http://localhost:1080/WebTours/"  	[MsgId: MMSG-26574]
+Action.c(19): Detected non-resource "http://localhost:1080/cgi-bin/welcome.pl?signOff=true" in "http://localhost:1080/WebTours/"  	[MsgId: MMSG-26574]
+Action.c(19): Found resource "http://localhost:1080/WebTours/images/hp_logo.png" in HTML "http://localhost:1080/WebTours/header.html"  	[MsgId: MMSG-26659]
+Action.c(19): Found resource "http://localhost:1080/WebTours/images/webtours.png" in HTML "http://localhost:1080/WebTours/header.html"  	[MsgId: MMSG-26659]
+Action.c(19): Detected non-resource "http://localhost:1080/cgi-bin/nav.pl?in=home" in "http://localhost:1080/cgi-bin/welcome.pl?signOff=true"  	[MsgId: MMSG-26574]
+Action.c(19): Detected non-resource "http://localhost:1080/WebTours/home.html" in "http://localhost:1080/cgi-bin/welcome.pl?signOff=true"  	[MsgId: MMSG-26574]
+Action.c(19): Found resource "http://localhost:1080/WebTours/images/mer_login.gif" in HTML "http://localhost:1080/cgi-bin/nav.pl?in=home"  	[MsgId: MMSG-26659]
+Action.c(19): Registered web_reg_find successful for "Text=Welcome to the Web Tours site." (count=1)  	[MsgId: MMSG-26364]
+Action.c(19): web_url("WebTours") was successful, 10073 body bytes, 2371 header bytes, 24 chunking overhead bytes  	[MsgId: MMSG-26385]
+Action.c(29): web_websocket_send started  	[MsgId: MMSG-26355]
+Action.c(29): Warning -35046: The WebSocket whose ID is "1" is not connected  	[MsgId: MWAR-35046]
+Action.c(29): web_websocket_send highest severity level was "warning"  	[MsgId: MMSG-26391]
+Action.c(36): Notify: Transaction "open_web_tours" ended with a "Pass" status (Duration: 0,6283 Wasted Time: 0,2193).
+Action.c(38): Notify: Transaction "login" started.
+Action.c(40): web_reg_find started  	[MsgId: MMSG-26355]
+Action.c(40): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+Action.c(42): web_add_header("Origin") started  	[MsgId: MMSG-26355]
+Action.c(42): web_add_header("Origin") was successful  	[MsgId: MMSG-26392]
+Action.c(45): web_add_auto_header("Priority") started  	[MsgId: MMSG-26355]
+Action.c(45): web_add_auto_header("Priority") was successful  	[MsgId: MMSG-26392]
+Action.c(50): web_submit_data("login.pl") started  	[MsgId: MMSG-26355]
+Action.c(50): Error: Parameter 'password': Cannot find the line number from which to take the next value. This parameter is defined to use the same line as parameter 'login'.
+Action.c(50): Detected non-resource "http://localhost:1080/cgi-bin/nav.pl?username=login&password=cheese123" in "http://localhost:1080/cgi-bin/login.pl"  	[MsgId: MMSG-26574]
+Action.c(50): Detected non-resource "http://localhost:1080/cgi-bin/error.pl?error=badPassword" in "http://localhost:1080/cgi-bin/login.pl"  	[MsgId: MMSG-26574]
+Action.c(50): Resource "http://localhost:1080/WebTours/images/mer_login.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(50): Error -26366: "Text=Welcome, <b>{login}</b>, to the Web Tours reservation pages." not found for web_reg_find  	[MsgId: MERR-26366]
+Action.c(50): web_submit_data("login.pl") highest severity level was "ERROR", 2985 body bytes, 698 header bytes, 36 chunking overhead bytes  	[MsgId: MMSG-26387]
+Action.c(50): Notify: Transaction "login" ended with a "Fail" status (Duration: 0,2614 Wasted Time: 0,0064).
+Action.c(50): Notify: Transaction "login" has 1 error message(s).
+Action.c(50): Notify: The 1st error message associated with transaction "login" is "Error -26366: "Text=Welcome, <b>{login}</b>, to the Web Tours reservation pages." not found for web_reg_find"
+Action.c(50): Notify: Transaction "UC2_SearchTicket" ended with a "Fail" status (Duration: 0,9213 Wasted Time: 0,2257).
+Action.c(50): Notify: Transaction "UC2_SearchTicket" has 1 error message(s).
+Action.c(50): Notify: The 1st error message associated with transaction "UC2_SearchTicket" is "Error -26366: "Text=Welcome, <b>{login}</b>, to the Web Tours reservation pages." not found for web_reg_find"
+Ending action Action.
+Ending iteration 1.
+Ending Vuser...
+Starting action vuser_end.
+Ending action vuser_end.
+Vuser Terminated.

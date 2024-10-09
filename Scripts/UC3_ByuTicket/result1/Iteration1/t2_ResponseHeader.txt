@@ -1,0 +1,10 @@
+HTTP/1.1 200 OK
+Date: Wed, 09 Oct 2024 13:57:34 GMT
+Server: Apache/2.2.21 (Win32)
+Expires: 5s
+Set-Cookie: MTUserInfo=firstName&Mickey&address2&Anaheim&username&mickeyMouse&hash&5&lastName&Mouse%0A&address1&123%20Disney%20St&creditCard&&expDate&%0A; path=/
+Keep-Alive: timeout=5, max=97
+Connection: Keep-Alive
+Transfer-Encoding: chunked
+Content-Type: text/html; charset=ISO-8859-1
+

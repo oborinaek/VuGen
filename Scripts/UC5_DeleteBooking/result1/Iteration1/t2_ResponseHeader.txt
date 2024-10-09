@@ -1,0 +1,10 @@
+HTTP/1.1 200 OK
+Date: Wed, 09 Oct 2024 16:07:55 GMT
+Server: Apache/2.2.21 (Win32)
+Expires: 5s
+Set-Cookie: MTUserInfo=firstName&Bugs&address2&Acme%20City&username&bugsBunny&hash&57&lastName&Bunny%0A&address1&606%20Looney%20Tunes%20St&creditCard&&expDate&%0A; path=/
+Keep-Alive: timeout=5, max=97
+Connection: Keep-Alive
+Transfer-Encoding: chunked
+Content-Type: text/html; charset=ISO-8859-1
+

@@ -1,0 +1,10 @@
+HTTP/1.1 200 OK
+Date: Wed, 09 Oct 2024 12:39:05 GMT
+Server: Apache/2.2.21 (Win32)
+Expires: 5s
+Set-Cookie: MTUserInfo=firstName&Stitch&address2&Hawaii&username&stitchAlien&hash&78&lastName&Lilo%27s%20Friend%0A&address1&11%20Ohana%20Way&creditCard&&expDate&%0A; path=/
+Keep-Alive: timeout=5, max=97
+Connection: Keep-Alive
+Transfer-Encoding: chunked
+Content-Type: text/html; charset=ISO-8859-1
+
